@@ -1,0 +1,57 @@
+[
+  {
+    "id": "mem_3f1e5dbd67",
+    "userId": "test_contributor_rahul",
+    "type": "EPISODIC_MEMORY",
+    "summary": "User celebrated their birthday.",
+    "importance": 0.85,
+    "source": "user_conversation",
+    "createdAt": "2026-08-12T05:37:33.286303",
+    "lastAccessedAt": "2026-08-13T13:20:54.871874",
+    "accessCount": 9
+  },
+  {
+    "id": "mem_8bc3a572bd",
+    "userId": "test_contributor_rahul",
+    "type": "EPISODIC_MEMORY",
+    "summary": "User's grandfather practiced heritage crop rotation using neem leaves.",
+    "importance": 0.9,
+    "source": "user_conversation",
+    "createdAt": "2026-08-12T05:38:12.567189",
+    "lastAccessedAt": "2026-08-12T08:41:23.211946",
+    "accessCount": 6
+  },
+  {
+    "id": "mem_2a56fe862a",
+    "userId": "test_contributor_rahul",
+    "type": "EPISODIC_MEMORY",
+    "summary": "User shared family heritage lore: \"Do you remember what I told you about my grandfather?\"",
+    "importance": 0.88,
+    "source": "user_conversation",
+    "createdAt": "2026-08-12T05:38:14.774042",
+    "lastAccessedAt": "2026-08-12T08:41:25.421244",
+    "accessCount": 6
+  },
+  {
+    "id": "mem_bf2e86b0c4",
+    "userId": "test_contributor_rahul",
+    "type": "EPISODIC_MEMORY",
+    "summary": "User shared family heritage lore: \"My grandfather taught me a traditional seed preservation technique using wood ash and dry neem leaves in clay pots.\"",
+    "importance": 0.88,
+    "source": "user_conversation",
+    "createdAt": "2026-08-12T05:38:24.803620",
+    "lastAccessedAt": "2026-08-12T08:41:36.056129",
+    "accessCount": 6
+  },
+  {
+    "id": "mem_317e92b830",
+    "userId": "guest_user",
+    "type": "EPISODIC_MEMORY",
+    "summary": "User shared family heritage lore: \"how to make a banana shake\"",
+    "importance": 0.88,
+    "source": "user_conversation",
+    "createdAt": "2026-08-12T11:01:55.383207",
+    "lastAccessedAt": "2026-08-12T11:02:00.266725",
+    "accessCount": 2
+  }
+]

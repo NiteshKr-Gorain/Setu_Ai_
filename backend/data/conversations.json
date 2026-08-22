@@ -1,0 +1,2171 @@
+{
+  "conv_test_suite_001": {
+    "id": "conv_test_suite_001",
+    "userId": "test_contributor_rahul",
+    "messages": [
+      {
+        "id": "515221a8-8915-414d-979a-f6372657d92f",
+        "role": "user",
+        "content": "Hello Setu Avatar",
+        "timestamp": "2026-08-12T05:37:31.080814"
+      },
+      {
+        "id": "3b38f447-a567-4b80-95b8-bedf2bee7e24",
+        "role": "avatar",
+        "content": "Greetings, my friend! I am Sensei Genji, your Setu AI Knowledge Bridge. I am here to share traditional wisdom and modern discoveries.",
+        "timestamp": "2026-08-12T05:37:31.107242"
+      },
+      {
+        "id": "8b2cf4b5-729d-41ed-9071-79bf1bad816e",
+        "role": "user",
+        "content": "It's my birthday today.",
+        "timestamp": "2026-08-12T05:37:32.475159"
+      },
+      {
+        "id": "3e2f198d-5f97-49ce-a57f-0fbe933fd92e",
+        "role": "avatar",
+        "content": "A very happy birthday to you, my friend! May your year ahead be blessed with health, happiness, and profound wisdom.",
+        "timestamp": "2026-08-12T05:37:32.512718"
+      },
+      {
+        "id": "6a9fe16e-2ec1-4276-84c8-d9b05ea248c8",
+        "role": "user",
+        "content": "What traditional farming knowledge is stored in Setu?",
+        "timestamp": "2026-08-12T05:37:36.263312"
+      },
+      {
+        "id": "47d3c84a-20d5-43f6-95f4-803f2bb5d25c",
+        "role": "avatar",
+        "content": "Setu's preserved knowledge records that Neemastra Organic Pest Control Formulation. Category: Farming. Location: Maharashtra.",
+        "timestamp": "2026-08-12T05:37:36.295741"
+      },
+      {
+        "id": "106315a9-b3cd-4cfc-861a-ba536cea76de",
+        "role": "user",
+        "content": "What are the latest government schemes for farmers?",
+        "timestamp": "2026-08-12T05:37:41.594660"
+      },
+      {
+        "id": "a37c71a8-fde0-4476-8778-e0b8dd8ea24b",
+        "role": "avatar",
+        "content": "According to current public reports, Current public information regarding What are the latest government schemes for farmers?..",
+        "timestamp": "2026-08-12T05:37:41.620614"
+      },
+      {
+        "id": "d1ccd0c0-94de-447b-9c73-216d51bc45da",
+        "role": "user",
+        "content": "Hello Setu Avatar",
+        "timestamp": "2026-08-12T05:38:03.138288"
+      },
+      {
+        "id": "4e2a1625-b98c-4188-9a13-0a2ae3147fd9",
+        "role": "avatar",
+        "content": "Greetings, my friend! I am Sensei Genji, your Setu AI Knowledge Bridge. I am here to share traditional wisdom and modern discoveries.",
+        "timestamp": "2026-08-12T05:38:03.159047"
+      },
+      {
+        "id": "276779e7-b4a5-4b09-a4a1-28bab51afa8d",
+        "role": "user",
+        "content": "It's my birthday today.",
+        "timestamp": "2026-08-12T05:38:04.777227"
+      },
+      {
+        "id": "c791754e-a815-4b84-b151-550688a25d74",
+        "role": "avatar",
+        "content": "A very happy birthday to you, my friend! May your year ahead be blessed with health, happiness, and profound wisdom.",
+        "timestamp": "2026-08-12T05:38:04.798250"
+      },
+      {
+        "id": "642376a9-255c-491c-ae7f-d79ada6aa7f8",
+        "role": "user",
+        "content": "What traditional farming knowledge is stored in Setu?",
+        "timestamp": "2026-08-12T05:38:07.803539"
+      },
+      {
+        "id": "c1dfe0c9-9111-4394-a9b0-e5537098e3d3",
+        "role": "avatar",
+        "content": "Setu's preserved knowledge records that Neemastra Organic Pest Control Formulation. Category: Farming. Location: Maharashtra.",
+        "timestamp": "2026-08-12T05:38:07.825033"
+      },
+      {
+        "id": "ddaa5ca7-2567-4d47-b494-4a3c7ae681b3",
+        "role": "user",
+        "content": "What are the latest government schemes for farmers?",
+        "timestamp": "2026-08-12T05:38:11.708817"
+      },
+      {
+        "id": "c8f35477-aab3-4e05-b903-e01f44ef18b6",
+        "role": "avatar",
+        "content": "According to current public reports, Current public information regarding What are the latest government schemes for farmers?..",
+        "timestamp": "2026-08-12T05:38:11.739500"
+      },
+      {
+        "id": "22394fe4-352b-4422-a09b-083f103eb7ec",
+        "role": "user",
+        "content": "Do you remember what I told you about my grandfather?",
+        "timestamp": "2026-08-12T05:38:14.011006"
+      },
+      {
+        "id": "32f2f710-920c-4ab4-8aa6-4e94745d9f95",
+        "role": "avatar",
+        "content": "Yes, I remember well. User's grandfather practiced heritage crop rotation using neem leaves.. User celebrated their birthday.",
+        "timestamp": "2026-08-12T05:38:14.035203"
+      },
+      {
+        "id": "aaac9c5a-5f47-4616-9e9a-35cfba0d1cf0",
+        "role": "user",
+        "content": "Compare the traditional farming method stored in Setu with the latest government recommendation.",
+        "timestamp": "2026-08-12T05:38:20.432456"
+      },
+      {
+        "id": "da7ac534-1710-4cb2-bb0f-6966fcacfacd",
+        "role": "avatar",
+        "content": "Traditional Setu knowledge highlights that Sprouted Finger Millet Porridge (Ragi Ambali). Category: Ayurvedic Health & Food. Location: Karnataka & Tamil Nadu.",
+        "timestamp": "2026-08-12T05:38:20.469225"
+      },
+      {
+        "id": "172afda6-e933-4c49-b613-f7cd77085b64",
+        "role": "user",
+        "content": "My grandfather taught me a traditional seed preservation technique using wood ash and dry neem leaves in clay pots.",
+        "timestamp": "2026-08-12T05:38:24.099969"
+      },
+      {
+        "id": "1d618ddc-7651-4f02-8cd6-21ab89c2aaf6",
+        "role": "avatar",
+        "content": "Setu's preserved knowledge records that Natural Indigo Dyeing & Handloom Mordanting. Category: Artisan Craft. Location: Rajasthan.",
+        "timestamp": "2026-08-12T05:38:24.127184"
+      },
+      {
+        "id": "fc9fab54-8a91-4113-a978-ff202ad3bbd3",
+        "role": "user",
+        "content": "Yes, preserve this knowledge.",
+        "timestamp": "2026-08-12T05:38:29.593890"
+      },
+      {
+        "id": "3b267989-e8eb-4cfb-8993-f13695fb994a",
+        "role": "avatar",
+        "content": "According to current public reports, Current public information regarding Yes, preserve this knowledge...",
+        "timestamp": "2026-08-12T05:38:29.615353"
+      },
+      {
+        "id": "5f524405-0f81-40a4-9a08-567540e2a583",
+        "role": "user",
+        "content": "Hello Setu Avatar",
+        "timestamp": "2026-08-12T05:38:31.056349"
+      },
+      {
+        "id": "4b9242d4-79a9-4cf8-8320-25e9cef25fb0",
+        "role": "avatar",
+        "content": "Greetings, my friend! I am Sensei Genji, your Setu AI Knowledge Bridge. I am here to share traditional wisdom and modern discoveries.",
+        "timestamp": "2026-08-12T05:38:31.087372"
+      },
+      {
+        "id": "d594d703-066e-4e72-9267-4d7148a80aa1",
+        "role": "user",
+        "content": "It's my birthday today.",
+        "timestamp": "2026-08-12T05:38:33.039464"
+      },
+      {
+        "id": "404bc38d-79fa-4887-be68-6583c43cb32d",
+        "role": "avatar",
+        "content": "A very happy birthday to you, my friend! May your year ahead be blessed with health, happiness, and profound wisdom.",
+        "timestamp": "2026-08-12T05:38:33.056554"
+      },
+      {
+        "id": "83f30595-35b5-416e-b7a5-1318ed06a7b0",
+        "role": "user",
+        "content": "What traditional farming knowledge is stored in Setu?",
+        "timestamp": "2026-08-12T05:38:36.267451"
+      },
+      {
+        "id": "8691244c-5090-41a3-97ec-d1af565f7edd",
+        "role": "avatar",
+        "content": "Setu's preserved knowledge records that Traditional Wheat Farming & Heirloom Seed Preservation. Category: Farming. Location: Punjab & Haryana.",
+        "timestamp": "2026-08-12T05:38:36.282162"
+      },
+      {
+        "id": "045631e5-dceb-44cd-9634-f2aab65ed639",
+        "role": "user",
+        "content": "What are the latest government schemes for farmers?",
+        "timestamp": "2026-08-12T05:38:40.260894"
+      },
+      {
+        "id": "fc8ee266-0645-47e6-8c85-e0919b767666",
+        "role": "avatar",
+        "content": "According to current public reports, Current public information regarding What are the latest government schemes for farmers?..",
+        "timestamp": "2026-08-12T05:38:40.280319"
+      },
+      {
+        "id": "bad58302-7892-453e-8cf4-c8982ad164bc",
+        "role": "user",
+        "content": "Do you remember what I told you about my grandfather?",
+        "timestamp": "2026-08-12T05:38:42.496137"
+      },
+      {
+        "id": "9e2e0299-ec53-41b0-9bab-c05215c2efa5",
+        "role": "avatar",
+        "content": "Yes, I remember well. User's grandfather practiced heritage crop rotation using neem leaves.. User shared family heritage lore: \"Do you remember what I told you about my grandfather?\"",
+        "timestamp": "2026-08-12T05:38:42.511697"
+      },
+      {
+        "id": "d1175de5-36b0-4468-8713-65c7bc7ab39f",
+        "role": "user",
+        "content": "Compare the traditional farming method stored in Setu with the latest government recommendation.",
+        "timestamp": "2026-08-12T05:38:46.740718"
+      },
+      {
+        "id": "b4369479-fb39-489e-a883-22bccdbe9cd6",
+        "role": "avatar",
+        "content": "Traditional Setu knowledge highlights that Traditional Wheat Farming & Heirloom Seed Preservation. Category: Farming. Location: Punjab & Haryana.",
+        "timestamp": "2026-08-12T05:38:46.775699"
+      },
+      {
+        "id": "53e5c353-78a4-4aaf-ae6c-2304c5e76a44",
+        "role": "user",
+        "content": "My grandfather taught me a traditional seed preservation technique using wood ash and dry neem leaves in clay pots.",
+        "timestamp": "2026-08-12T05:38:50.838645"
+      },
+      {
+        "id": "cfc95c14-5451-4057-b9a7-fc3e4f4732b6",
+        "role": "avatar",
+        "content": "Setu's preserved knowledge records that Traditional Wheat Farming & Heirloom Seed Preservation. Category: Farming. Location: Punjab & Haryana.",
+        "timestamp": "2026-08-12T05:38:50.871660"
+      },
+      {
+        "id": "944dcc12-906f-43db-b9fc-e94e7864978c",
+        "role": "user",
+        "content": "Yes, preserve this knowledge.",
+        "timestamp": "2026-08-12T05:38:55.622179"
+      },
+      {
+        "id": "084c836b-2f14-4086-b4b1-ed40bf207654",
+        "role": "avatar",
+        "content": "According to current public reports, Current public information regarding Yes, preserve this knowledge...",
+        "timestamp": "2026-08-12T05:38:55.656708"
+      },
+      {
+        "id": "e67436b7-f82e-4458-a3e8-98c61423ebe8",
+        "role": "user",
+        "content": "Hello Setu Avatar",
+        "timestamp": "2026-08-12T05:39:01.691656"
+      },
+      {
+        "id": "4d8ab073-77cb-473a-a6d1-e772beca6b1f",
+        "role": "avatar",
+        "content": "Greetings, my friend! I am Sensei Genji, your Setu AI Knowledge Bridge. I am here to share traditional wisdom and modern discoveries.",
+        "timestamp": "2026-08-12T05:39:01.727428"
+      },
+      {
+        "id": "68be2ad2-3b19-43cd-b546-853190576d15",
+        "role": "user",
+        "content": "It's my birthday today.",
+        "timestamp": "2026-08-12T05:39:03.329336"
+      },
+      {
+        "id": "32a355b8-75fe-431e-b07e-1a3600cb1a87",
+        "role": "avatar",
+        "content": "A very happy birthday to you, my friend! May your year ahead be blessed with health, happiness, and profound wisdom.",
+        "timestamp": "2026-08-12T05:39:03.367614"
+      },
+      {
+        "id": "ca93eefb-1ae3-447d-b0e3-ceba8c45fc52",
+        "role": "user",
+        "content": "Hello Setu Avatar",
+        "timestamp": "2026-08-12T05:39:21.025435"
+      },
+      {
+        "id": "ef4a2853-0fa6-4a5a-90ed-a373e5ba68c9",
+        "role": "avatar",
+        "content": "Greetings, my friend! I am Sensei Genji, your Setu AI Knowledge Bridge. I am here to share traditional wisdom and modern discoveries.",
+        "timestamp": "2026-08-12T05:39:21.059375"
+      },
+      {
+        "id": "405c58f2-101a-4f3c-af4d-4076f9417be4",
+        "role": "user",
+        "content": "It's my birthday today.",
+        "timestamp": "2026-08-12T05:39:22.884569"
+      },
+      {
+        "id": "b721f52d-4edd-4b82-a8ad-c43c128ab512",
+        "role": "avatar",
+        "content": "A very happy birthday to you, my friend! May your year ahead be blessed with health, happiness, and profound wisdom.",
+        "timestamp": "2026-08-12T05:39:22.917216"
+      },
+      {
+        "id": "595d544d-84b9-425c-b330-bff74cef6409",
+        "role": "user",
+        "content": "What traditional farming knowledge is stored in Setu?",
+        "timestamp": "2026-08-12T05:39:25.986242"
+      },
+      {
+        "id": "a932785f-1945-4b5b-b790-ca66e04a3528",
+        "role": "avatar",
+        "content": "Setu's preserved knowledge records that Preserved Heritage: My grandfather taught me a traditional s.... Category: Farming & Traditional Knowledge. Location: India.",
+        "timestamp": "2026-08-12T05:39:26.023414"
+      },
+      {
+        "id": "f3d5febc-662a-4e90-9ed1-22686d371060",
+        "role": "user",
+        "content": "What are the latest government schemes for farmers?",
+        "timestamp": "2026-08-12T05:39:30.110500"
+      },
+      {
+        "id": "9eb31c9f-a2b2-46a4-9197-ae64a17efbc4",
+        "role": "avatar",
+        "content": "According to current public reports, Current public information regarding What are the latest government schemes for farmers?..",
+        "timestamp": "2026-08-12T05:39:30.141154"
+      },
+      {
+        "id": "206ca286-3279-415f-8d18-29946049b0dd",
+        "role": "user",
+        "content": "Do you remember what I told you about my grandfather?",
+        "timestamp": "2026-08-12T05:39:32.357673"
+      },
+      {
+        "id": "57e01095-413c-444f-afb1-498ccc2b9a2f",
+        "role": "avatar",
+        "content": "Yes, I remember well. User's grandfather practiced heritage crop rotation using neem leaves.. User shared family heritage lore: \"Do you remember what I told you about my grandfather?\"",
+        "timestamp": "2026-08-12T05:39:32.392112"
+      },
+      {
+        "id": "97127ef3-6c97-4b61-b6d1-82a552f187b6",
+        "role": "user",
+        "content": "Hello Setu Avatar",
+        "timestamp": "2026-08-12T05:39:35.837262"
+      },
+      {
+        "id": "c487c0f2-9908-4092-87a3-229010a08b21",
+        "role": "avatar",
+        "content": "Greetings, my friend! I am Sensei Genji, your Setu AI Knowledge Bridge. I am here to share traditional wisdom and modern discoveries.",
+        "timestamp": "2026-08-12T05:39:35.855914"
+      },
+      {
+        "id": "948b000b-3c5b-4683-a1a6-9e81a00a8a2c",
+        "role": "user",
+        "content": "It's my birthday today.",
+        "timestamp": "2026-08-12T05:39:37.269136"
+      },
+      {
+        "id": "3178e2f1-e930-45ab-868f-4750c49f512d",
+        "role": "avatar",
+        "content": "A very happy birthday to you, my friend! May your year ahead be blessed with health, happiness, and profound wisdom.",
+        "timestamp": "2026-08-12T05:39:37.298513"
+      },
+      {
+        "id": "29f928ee-950a-4890-b172-3387e3e37da9",
+        "role": "user",
+        "content": "Compare the traditional farming method stored in Setu with the latest government recommendation.",
+        "timestamp": "2026-08-12T05:39:38.659293"
+      },
+      {
+        "id": "491a145f-8747-4de7-9091-e3fd6b4fa999",
+        "role": "avatar",
+        "content": "Traditional Setu knowledge highlights that Sprouted Finger Millet Porridge (Ragi Ambali). Category: Ayurvedic Health & Food. Location: Karnataka & Tamil Nadu.",
+        "timestamp": "2026-08-12T05:39:38.687324"
+      },
+      {
+        "id": "eda35136-74a8-4dd8-a4de-a1be032c0888",
+        "role": "user",
+        "content": "What traditional farming knowledge is stored in Setu?",
+        "timestamp": "2026-08-12T05:39:40.447713"
+      },
+      {
+        "id": "b2a48a82-826d-421e-8e47-609c9bd2a1c1",
+        "role": "avatar",
+        "content": "Setu's preserved knowledge records that Preserved Heritage: My grandfather taught me a traditional s.... Category: Farming & Traditional Knowledge. Location: India.",
+        "timestamp": "2026-08-12T05:39:40.468221"
+      },
+      {
+        "id": "bc92e20e-a7f6-45fa-85e2-2c644347840d",
+        "role": "user",
+        "content": "My grandfather taught me a traditional seed preservation technique using wood ash and dry neem leaves in clay pots.",
+        "timestamp": "2026-08-12T05:39:43.615698"
+      },
+      {
+        "id": "43b604ca-2e3e-4bc0-90ef-5c97b4fb74f2",
+        "role": "avatar",
+        "content": "Setu's preserved knowledge records that Preserved Heritage: My grandfather taught me a traditional s.... Category: Farming & Traditional Knowledge. Location: India.",
+        "timestamp": "2026-08-12T05:39:43.643637"
+      },
+      {
+        "id": "9b7684fd-19ad-4c12-b97e-07e5b62fcf3f",
+        "role": "user",
+        "content": "What are the latest government schemes for farmers?",
+        "timestamp": "2026-08-12T05:39:44.671067"
+      },
+      {
+        "id": "c03cea6d-78d4-4e0d-a932-35296225f342",
+        "role": "avatar",
+        "content": "According to current public reports, Current public information regarding What are the latest government schemes for farmers?..",
+        "timestamp": "2026-08-12T05:39:44.704422"
+      },
+      {
+        "id": "316e0572-b740-4d03-a763-a86989b756e3",
+        "role": "user",
+        "content": "Do you remember what I told you about my grandfather?",
+        "timestamp": "2026-08-12T05:39:47.232275"
+      },
+      {
+        "id": "20a829a3-6feb-4acd-94ca-1f7dd7a47551",
+        "role": "avatar",
+        "content": "Yes, I remember well. User's grandfather practiced heritage crop rotation using neem leaves.. User shared family heritage lore: \"Do you remember what I told you about my grandfather?\"",
+        "timestamp": "2026-08-12T05:39:47.265233"
+      },
+      {
+        "id": "5385bec5-b2de-4eaa-9c42-98644e6c4904",
+        "role": "user",
+        "content": "Yes, preserve this knowledge.",
+        "timestamp": "2026-08-12T05:39:48.709414"
+      },
+      {
+        "id": "676e6873-d47d-4ff0-a0fb-89b1967c982b",
+        "role": "avatar",
+        "content": "According to current public reports, Current public information regarding Yes, preserve this knowledge...",
+        "timestamp": "2026-08-12T05:39:48.725386"
+      },
+      {
+        "id": "4b0419d0-6fe7-44ef-b4dc-4f2152664600",
+        "role": "user",
+        "content": "Hello Setu Avatar",
+        "timestamp": "2026-08-12T05:39:51.309152"
+      },
+      {
+        "id": "6b7d1ad0-77d4-4807-a632-2635ce543510",
+        "role": "avatar",
+        "content": "Greetings, my friend! I am Sensei Genji, your Setu AI Knowledge Bridge. I am here to share traditional wisdom and modern discoveries.",
+        "timestamp": "2026-08-12T05:39:51.326937"
+      },
+      {
+        "id": "84014de3-01c2-4a5d-9b6d-df7d465a5f1a",
+        "role": "user",
+        "content": "Compare the traditional farming method stored in Setu with the latest government recommendation.",
+        "timestamp": "2026-08-12T05:39:52.147060"
+      },
+      {
+        "id": "f1763437-61c1-40da-b6d4-acf8594f9d79",
+        "role": "avatar",
+        "content": "Traditional Setu knowledge highlights that Traditional Wheat Farming & Heirloom Seed Preservation. Category: Farming. Location: Punjab & Haryana.",
+        "timestamp": "2026-08-12T05:39:52.167704"
+      },
+      {
+        "id": "62235df5-da29-4596-827a-f48d4a20aa98",
+        "role": "user",
+        "content": "It's my birthday today.",
+        "timestamp": "2026-08-12T05:39:53.073127"
+      },
+      {
+        "id": "328db67f-1d4b-49ab-acd7-ced32776b064",
+        "role": "avatar",
+        "content": "A very happy birthday to you, my friend! May your year ahead be blessed with health, happiness, and profound wisdom.",
+        "timestamp": "2026-08-12T05:39:53.106184"
+      },
+      {
+        "id": "14d4e774-9452-490a-860a-afdecd7a7e6c",
+        "role": "user",
+        "content": "My grandfather taught me a traditional seed preservation technique using wood ash and dry neem leaves in clay pots.",
+        "timestamp": "2026-08-12T05:39:57.067313"
+      },
+      {
+        "id": "d87ccebc-b2c5-4015-81b5-fa22a7eec745",
+        "role": "avatar",
+        "content": "Setu's preserved knowledge records that Preserved Heritage: My grandfather taught me a traditional s.... Category: Farming & Traditional Knowledge. Location: India.",
+        "timestamp": "2026-08-12T05:39:57.105285"
+      },
+      {
+        "id": "5fdeddc3-27cc-49bd-bc37-44f5b83bdb27",
+        "role": "avatar",
+        "content": "Setu's preserved knowledge records that Preserved Heritage: My grandfather taught me a traditional s.... Category: Farming & Traditional Knowledge. Location: India.",
+        "timestamp": "2026-08-12T05:39:57.145806"
+      },
+      {
+        "id": "a8fa49fa-17b3-4ec3-8a26-e73e1b53e989",
+        "role": "user",
+        "content": "What are the latest government schemes for farmers?",
+        "timestamp": "2026-08-12T05:40:01.451889"
+      },
+      {
+        "id": "7e0b83a9-e1df-404b-9b3b-ce4a52ba31c0",
+        "role": "avatar",
+        "content": "According to current public reports, Current public information regarding What are the latest government schemes for farmers?..",
+        "timestamp": "2026-08-12T05:40:01.469867"
+      },
+      {
+        "id": "a0b1f51b-4981-4d60-937f-e111c5ef65e7",
+        "role": "user",
+        "content": "Yes, preserve this knowledge.",
+        "timestamp": "2026-08-12T05:40:02.411066"
+      },
+      {
+        "id": "b192af0c-42bc-4c1d-8439-9b4ad6cb6187",
+        "role": "avatar",
+        "content": "According to current public reports, Current public information regarding Yes, preserve this knowledge...",
+        "timestamp": "2026-08-12T05:40:02.444123"
+      },
+      {
+        "id": "04fad069-560e-449d-bca9-c89a947dcb9f",
+        "role": "user",
+        "content": "Do you remember what I told you about my grandfather?",
+        "timestamp": "2026-08-12T05:40:03.919217"
+      },
+      {
+        "id": "512c550a-d633-4faf-8d33-8cff34f3b26e",
+        "role": "avatar",
+        "content": "Yes, I remember well. User's grandfather practiced heritage crop rotation using neem leaves.. User shared family heritage lore: \"Do you remember what I told you about my grandfather?\"",
+        "timestamp": "2026-08-12T05:40:03.956728"
+      },
+      {
+        "id": "f33c3c40-a8af-4de0-b185-40029e2bdd84",
+        "role": "user",
+        "content": "Compare the traditional farming method stored in Setu with the latest government recommendation.",
+        "timestamp": "2026-08-12T05:40:08.885219"
+      },
+      {
+        "id": "c2b0f3f0-223b-478d-9c28-9c269cf5017e",
+        "role": "avatar",
+        "content": "Traditional Setu knowledge highlights that Preserved Heritage: My grandfather taught me a traditional s.... Category: Farming & Traditional Knowledge. Location: In, while modern recommendations focus on Current public information regarding Compare the traditional farming method stored in Setu with the latest government re.",
+        "timestamp": "2026-08-12T05:40:08.913513"
+      },
+      {
+        "id": "91997da3-d1e4-4e38-bd8f-dc30e5593b0d",
+        "role": "user",
+        "content": "My grandfather taught me a traditional seed preservation technique using wood ash and dry neem leaves in clay pots.",
+        "timestamp": "2026-08-12T05:40:12.844732"
+      },
+      {
+        "id": "98965ece-7f39-4262-9dd0-38f284e0f8f7",
+        "role": "avatar",
+        "content": "Setu's preserved knowledge records that Traditional Wheat Farming & Heirloom Seed Preservation. Category: Farming. Location: Punjab & Haryana.",
+        "timestamp": "2026-08-12T05:40:12.859494"
+      },
+      {
+        "id": "408ed92e-b36f-42f6-989b-05ba40d4e358",
+        "role": "user",
+        "content": "Yes, preserve this knowledge.",
+        "timestamp": "2026-08-12T05:40:17.443808"
+      },
+      {
+        "id": "88a833ec-35da-42cb-8482-bb2e6b865fa0",
+        "role": "avatar",
+        "content": "According to current public reports, Current public information regarding Yes, preserve this knowledge...",
+        "timestamp": "2026-08-12T05:40:17.459579"
+      },
+      {
+        "id": "7a7f1351-29af-446d-b28b-3878b267202f",
+        "role": "user",
+        "content": "Hello Setu Avatar",
+        "timestamp": "2026-08-12T08:41:09.450720"
+      },
+      {
+        "id": "6e7b876a-ca62-4903-99d3-b362e7be8a89",
+        "role": "avatar",
+        "content": "Greetings, my friend! I am Sensei Genji, your Setu AI Knowledge Bridge. I am here to share traditional wisdom and modern discoveries.",
+        "timestamp": "2026-08-12T08:41:09.484184"
+      },
+      {
+        "id": "26c7298d-cd28-4b30-a122-c7e1406b4987",
+        "role": "user",
+        "content": "It's my birthday today.",
+        "timestamp": "2026-08-12T08:41:12.094092"
+      },
+      {
+        "id": "c59989aa-6e49-4860-9bcb-82dd01545851",
+        "role": "avatar",
+        "content": "A very happy birthday to you, my friend! May your year ahead be blessed with health, happiness, and profound wisdom.",
+        "timestamp": "2026-08-12T08:41:12.118016"
+      },
+      {
+        "id": "91d899bb-0acf-42c8-ad5a-65230ba9cbed",
+        "role": "user",
+        "content": "What traditional farming knowledge is stored in Setu?",
+        "timestamp": "2026-08-12T08:41:17.453910"
+      },
+      {
+        "id": "36d12846-51df-4238-8036-9fd62ba1032c",
+        "role": "avatar",
+        "content": "Setu's preserved knowledge records that Preserved Heritage: My grandfather taught me a traditional s.... Category: Farming & Traditional Knowledge. Location: India.",
+        "timestamp": "2026-08-12T08:41:17.482927"
+      },
+      {
+        "id": "989fee8d-dd10-43de-a9ba-87b335f6d486",
+        "role": "user",
+        "content": "What are the latest government schemes for farmers?",
+        "timestamp": "2026-08-12T08:41:22.592772"
+      },
+      {
+        "id": "9736f218-7368-44cf-8679-9d8696283d37",
+        "role": "avatar",
+        "content": "According to current public reports, Current public information regarding What are the latest government schemes for farmers?..",
+        "timestamp": "2026-08-12T08:41:22.614598"
+      },
+      {
+        "id": "0b3b6f24-a1e8-4927-b7a4-4795b0fa0288",
+        "role": "user",
+        "content": "Do you remember what I told you about my grandfather?",
+        "timestamp": "2026-08-12T08:41:24.816073"
+      },
+      {
+        "id": "58d17244-2566-4d02-9f46-0190d4681946",
+        "role": "avatar",
+        "content": "Yes, I remember well. User's grandfather practiced heritage crop rotation using neem leaves.. User shared family heritage lore: \"Do you remember what I told you about my grandfather?\"",
+        "timestamp": "2026-08-12T08:41:24.844514"
+      },
+      {
+        "id": "d8de7333-c3a8-46f8-864f-b43f9da735d9",
+        "role": "user",
+        "content": "Compare the traditional farming method stored in Setu with the latest government recommendation.",
+        "timestamp": "2026-08-12T08:41:30.297950"
+      },
+      {
+        "id": "426efad3-c0fb-4369-9199-40cc85d1bce3",
+        "role": "avatar",
+        "content": "Traditional Setu knowledge highlights that Preserved Heritage: My grandfather taught me a traditional s.... Category: Farming & Traditional Knowledge. Location: In, while modern recommendations focus on Current public information regarding Compare the traditional farming method stored in Setu with the latest government re.",
+        "timestamp": "2026-08-12T08:41:30.334389"
+      },
+      {
+        "id": "c2dfaf08-143e-4867-84c7-7d9177e1c6a3",
+        "role": "user",
+        "content": "My grandfather taught me a traditional seed preservation technique using wood ash and dry neem leaves in clay pots.",
+        "timestamp": "2026-08-12T08:41:35.142613"
+      },
+      {
+        "id": "04000717-5068-4d23-963c-cfe279199995",
+        "role": "avatar",
+        "content": "Setu's preserved knowledge records that Preserved Heritage: My grandfather taught me a traditional s.... Category: Farming & Traditional Knowledge. Location: India.",
+        "timestamp": "2026-08-12T08:41:35.173201"
+      },
+      {
+        "id": "6ad5f76c-91ac-4942-a8ff-91dc9c9dd8bf",
+        "role": "user",
+        "content": "Yes, preserve this knowledge.",
+        "timestamp": "2026-08-12T08:41:42.666131"
+      },
+      {
+        "id": "87f78366-b06d-4b9c-9639-45424bb3bc07",
+        "role": "avatar",
+        "content": "According to current public reports, Current public information regarding Yes, preserve this knowledge...",
+        "timestamp": "2026-08-12T08:41:42.709243"
+      },
+      {
+        "id": "c2cc6be7-5900-4af7-a6a1-373efa7aeb72",
+        "role": "user",
+        "content": "Hello Setu Avatar",
+        "timestamp": "2026-08-13T13:20:17.604072"
+      },
+      {
+        "id": "885339a9-0205-47b7-8d7f-37dc45a0f5c0",
+        "role": "avatar",
+        "content": "My child, it's wonderful to connect with you! When you say \"Hello Setu Avatar,\" you're initiating a conversation that bridges knowledge, wisdom, and mentorship. Let’s break this down thoughtfully. To start with the big picture, this greeting is more than just a casual hello; it’s an invitation to share insights, learn, and grow together. It sets the tone for an engaging exchange of ideas. The reason this matters so much is that greetings are the foundation of communication. They establish rapport and create a welcoming environment for sharing knowledge. In our fast-paced world, taking a moment to acknowledge someone can foster connection and understanding, which are essential in both personal and professional relationships. Now, let’s look at how it works step-by-step. First, you initiate the conversation with a greeting. This signals your openness to engage. Next, I respond with warmth and readiness to share insights. This back-and-forth creates a flow of dialogue where ideas can be exchanged freely. Finally, as we converse, we build upon each other’s thoughts, leading to deeper understanding and learning. Think of it like planting a seed in a garden. Your greeting is the seed, and my response is the nurturing soil. Together, with care and attention, we cultivate a fruitful conversation that can blossom into valuable insights and knowledge. A common mistake people make is rushing through greetings or treating them as mere formalities. This can lead to missed opportunities for connection. Instead, take a moment to genuinely engage, as this can enrich the interaction significantly. To wrap it up, remember that a simple \"Hello\" is the first step in fostering meaningful connections. It’s an invitation to explore, learn, and grow together. So, cherish those moments, for they lay the groundwork for deeper understanding and collaboration.",
+        "timestamp": "2026-08-13T13:20:17.646455"
+      },
+      {
+        "id": "35f4f79c-6db2-41f5-bb4e-2ca592adb6d0",
+        "role": "user",
+        "content": "It's my birthday today.",
+        "timestamp": "2026-08-13T13:20:52.254169"
+      },
+      {
+        "id": "fa79ae6d-d33e-4b0d-b581-e96d65e373bb",
+        "role": "avatar",
+        "content": "My child, happy birthday to you! Celebrating your birthday is not just about cake and gifts; it’s a meaningful occasion that marks the passage of time and the journey of your life. To start with the big picture, a birthday is a personal milestone that allows us to reflect on the past year, celebrate achievements, and set intentions for the year ahead. It’s a time for gratitude and connection with loved ones. The reason this matters so much is that birthdays remind us of our growth and the relationships we cherish. They provide an opportunity to pause, appreciate where we are, and envision where we want to go. It’s a chance to celebrate not just the day you were born but all the experiences that have shaped you. Under the hood, here’s how it works: typically, a birthday celebration involves gathering friends and family, sharing meals, and perhaps enjoying some traditions like blowing out candles or receiving gifts. The steps usually include planning the event, choosing a theme or activities, inviting guests, and preparing for the celebration. Think of it like building a small project. First, you lay the foundation by deciding what you want to celebrate. Next, you gather your materials—like cake, decorations, and guest lists—just as you would gather tools and resources for a project. Then, you assemble everything on the day, ensuring that all elements come together harmoniously to create a joyful experience. A common mistake people make is to focus too much on the logistics and forget the essence of the celebration. It’s easy to get caught up in planning the perfect party and lose sight of the joy of simply being with loved ones. Another pitfall is not taking a moment to reflect on personal growth; it’s important to acknowledge your journey and set meaningful intentions for the year ahead. To wrap it up, a birthday is a beautiful opportunity to celebrate life, reflect on your journey, and connect with those who matter most. Embrace this day with joy and gratitude, and remember that it’s not just about the celebration but also about the memories you create and the intentions you set for the future. Enjoy your special day!",
+        "timestamp": "2026-08-13T13:20:52.289005"
+      }
+    ],
+    "createdAt": "2026-08-12T05:36:37.338428",
+    "updatedAt": "2026-08-13T13:20:52.289051"
+  },
+  "conv_guest_user_20260812": {
+    "id": "conv_guest_user_20260812",
+    "userId": "guest_user",
+    "messages": [
+      {
+        "id": "83ce9cf8-f62c-4c66-b446-70136e5d6477",
+        "role": "user",
+        "content": "Hello Setu Avatar",
+        "timestamp": "2026-08-12T05:41:08.204311"
+      },
+      {
+        "id": "2d3f8d69-abc8-4a95-915a-986feb286712",
+        "role": "avatar",
+        "content": "Greetings, my friend! I am Sensei Genji, your Setu AI Knowledge Bridge. I am here to share traditional wisdom and modern discoveries.",
+        "timestamp": "2026-08-12T05:41:08.266590"
+      },
+      {
+        "id": "d4e38fff-806b-4549-9d99-095c9d9fd52b",
+        "role": "user",
+        "content": "What traditional farming knowledge is stored in Setu?",
+        "timestamp": "2026-08-12T05:41:15.029049"
+      },
+      {
+        "id": "dcb9a3a4-bc9f-4d05-a190-199f30a4deee",
+        "role": "avatar",
+        "content": "Setu's preserved knowledge records that Preserved Heritage: My grandfather taught me a traditional s.... Category: Farming & Traditional Knowledge. Location: India.",
+        "timestamp": "2026-08-12T05:41:15.105855"
+      },
+      {
+        "id": "aa981726-220d-47cc-bf5f-fb66e61a0ea7",
+        "role": "user",
+        "content": "Hello Setu Avatar",
+        "timestamp": "2026-08-12T05:42:37.070621"
+      },
+      {
+        "id": "fef2874d-26b6-4e31-82c6-1d6bec75557a",
+        "role": "avatar",
+        "content": "Greetings, my friend! I am Sensei Genji, your Setu AI Knowledge Bridge. I am here to share traditional wisdom and modern discoveries.",
+        "timestamp": "2026-08-12T05:42:37.167467"
+      },
+      {
+        "id": "af737d59-5e55-47e8-9ffd-931345b4115b",
+        "role": "user",
+        "content": "What traditional farming knowledge is stored in Setu?",
+        "timestamp": "2026-08-12T05:42:43.131244"
+      },
+      {
+        "id": "0ed95db3-257a-489e-9d1a-3b52bbd3bf77",
+        "role": "avatar",
+        "content": "Setu's preserved knowledge records that Traditional Wheat Farming & Heirloom Seed Preservation. Category: Farming. Location: Punjab & Haryana.",
+        "timestamp": "2026-08-12T05:42:43.223435"
+      },
+      {
+        "id": "e682201f-2e26-42ac-b604-6368a5bc0580",
+        "role": "user",
+        "content": "Hello Setu Avatar",
+        "timestamp": "2026-08-12T08:41:38.630358"
+      },
+      {
+        "id": "9e55397a-ba6f-4fe0-aa94-fc59bff906e6",
+        "role": "avatar",
+        "content": "Greetings, my friend! I am Sensei Genji, your Setu AI Knowledge Bridge. I am here to share traditional wisdom and modern discoveries.",
+        "timestamp": "2026-08-12T08:41:38.653243"
+      },
+      {
+        "id": "25c44627-3e2c-488d-876d-e88bb496a9ec",
+        "role": "user",
+        "content": "What traditional farming knowledge is stored in Setu?",
+        "timestamp": "2026-08-12T08:41:41.815768"
+      },
+      {
+        "id": "5c2155e7-1ff7-4ebe-a4e6-9a0763dcac78",
+        "role": "avatar",
+        "content": "Setu's preserved knowledge records that Preserved Heritage: My grandfather taught me a traditional s.... Category: Farming & Traditional Knowledge. Location: India.",
+        "timestamp": "2026-08-12T08:41:41.848638"
+      },
+      {
+        "id": "6ce76fe2-6cdb-47c6-95c3-60fc67af4ec7",
+        "role": "user",
+        "content": "Why is the sky blue? Explain logically.",
+        "timestamp": "2026-08-12T10:20:23.907493"
+      },
+      {
+        "id": "3ccf5b16-c2fd-4c70-83e8-15ff921b9775",
+        "role": "avatar",
+        "content": "According to current public reports, Current public information regarding Why is the sky blue? Explain logically...",
+        "timestamp": "2026-08-12T10:20:23.920547"
+      },
+      {
+        "id": "03c3e1a2-5aff-4a79-beb7-bc792f6bfaf9",
+        "role": "user",
+        "content": "Why is the sky blue? Explain logically.",
+        "timestamp": "2026-08-12T10:23:40.558016"
+      },
+      {
+        "id": "29b1df31-fe0f-4374-9c2b-b9f955689478",
+        "role": "avatar",
+        "content": "The sky appears blue due to Rayleigh scattering. Sunlight consists of all colors, but air molecules scatter the shorter blue wavelengths much more than other colors in all directions across the atmosphere.",
+        "timestamp": "2026-08-12T10:23:40.567715"
+      },
+      {
+        "id": "8986c236-fb2f-49c2-8a8b-b890fcb37ba1",
+        "role": "user",
+        "content": "प्रकाश संश्लेषण क्या है और यह क्यों जरूरी है?",
+        "timestamp": "2026-08-12T10:23:45.071703"
+      },
+      {
+        "id": "df1a69f9-f05f-4dbc-a549-db2186db3932",
+        "role": "avatar",
+        "content": "Fundamental factual knowledge regarding प्रकाश संश्लेषण क्या है और यह क्यों जरूरी है.",
+        "timestamp": "2026-08-12T10:23:45.088073"
+      },
+      {
+        "id": "db147b35-fe69-49f4-bf20-182309be276f",
+        "role": "user",
+        "content": "ਕੁਆਂਟਮ ਕੰਪਿਊਟਿੰਗ ਕੀ ਹੈ?",
+        "timestamp": "2026-08-12T10:23:49.985100"
+      },
+      {
+        "id": "d431f634-4421-43bf-a9bd-4de3d0711a3e",
+        "role": "avatar",
+        "content": "Fundamental factual knowledge regarding ਕੁਆਂਟਮ ਕੰਪਿਊਟਿੰਗ ਕੀ ਹੈ.",
+        "timestamp": "2026-08-12T10:23:49.999180"
+      },
+      {
+        "id": "c7a5d19b-350a-4f33-bf80-a2f4f3265cbd",
+        "role": "user",
+        "content": "কৃত্রিম বুদ্ধিমত্তা কী?",
+        "timestamp": "2026-08-12T10:23:52.023556"
+      },
+      {
+        "id": "dc4366d3-5b3a-4c81-ae3c-2a07db9c91df",
+        "role": "avatar",
+        "content": "এটি একটি অত্যন্ত অর্থপূর্ণ প্রশ্ন। বৈজ্ঞানিক গবেষণা এবং যুক্তির আলোকে কৃত্রিম বুদ্ধিমত্তা কী প্রাকৃতিক নিয়মের মাধ্যমে পরিচালিত হয়।",
+        "timestamp": "2026-08-12T10:23:52.035498"
+      },
+      {
+        "id": "769ecbb3-e78c-4ac0-a5c8-2fd45255d62e",
+        "role": "user",
+        "content": "ஒளிச்சேர்க்கை என்றால் என்ன?",
+        "timestamp": "2026-08-12T10:23:54.101040"
+      },
+      {
+        "id": "18a58fde-1e91-46fa-aa6e-379566523735",
+        "role": "avatar",
+        "content": "இது ஒரு மிகச் சிறந்த கேள்வி. அறிவியல் கோட்பாடுகளின்படி ஒளிச்சேர்க்கை என்றால் என்ன இயற்கை விதிகளின் அடிப்படையில் சீராக இயங்குகிறது.",
+        "timestamp": "2026-08-12T10:23:54.113594"
+      },
+      {
+        "id": "88a33349-b905-4560-a5ec-9789277bae0c",
+        "role": "user",
+        "content": "Why is the sky blue? Explain logically.",
+        "timestamp": "2026-08-12T10:24:35.932197"
+      },
+      {
+        "id": "889dcc42-9ba7-4546-a21e-1a6317262253",
+        "role": "avatar",
+        "content": "The sky appears blue due to Rayleigh scattering. Sunlight consists of all colors, but air molecules in the atmosphere scatter the shorter blue wavelengths much more than other colors in all directions.",
+        "timestamp": "2026-08-12T10:24:35.942312"
+      },
+      {
+        "id": "7782be75-9508-4d9d-9479-1e2464304871",
+        "role": "user",
+        "content": "प्रकाश संश्लेषण क्या है और यह क्यों जरूरी है?",
+        "timestamp": "2026-08-12T10:24:39.816508"
+      },
+      {
+        "id": "7213bf5d-1dd8-49e3-a243-3151c519cec5",
+        "role": "avatar",
+        "content": "प्रकाश संश्लेषण वह प्राकृतिक जैविक प्रक्रिया है जिसमें पौधे सूर्य के प्रकाश, जल और कार्बन डाइऑक्साइड से ऊर्जा तथा ऑक्सीजन का निर्माण करते हैं। यह पृथ्वी पर समस्त जीवन और खाद्य श्रृंखला का मुख्य आधार है।",
+        "timestamp": "2026-08-12T10:24:39.835157"
+      },
+      {
+        "id": "c058b0bc-3cb0-4e8f-968a-69625c5107f9",
+        "role": "user",
+        "content": "ਕੁਆਂਟਮ ਕੰਪਿਊਟਿੰਗ ਕੀ ਹੈ?",
+        "timestamp": "2026-08-12T10:24:43.464133"
+      },
+      {
+        "id": "2d48bdc6-4d3a-4841-a8ea-8e84259f79c5",
+        "role": "avatar",
+        "content": "ਕੁਆਂਟਮ ਕੰਪਿਊਟਿੰਗ ਕੁਆਂਟਮ ਭੌਤਿਕ ਵਿਗਿਆਨ ਦੇ ਸਿਧਾਂਤਾਂ 'ਤੇ ਕੰਮ ਕਰਦੀ ਹੈ ਅਤੇ ਰਵਾਇਤੀ ਕੰਪਿਊਟਰਾਂ ਨਾਲੋਂ ਲੱਖਾਂ ਗੁਣਾ ਤੇਜ਼ ਗਣਨਾਵਾਂ ਕਰ ਸਕਦੀ ਹੈ।",
+        "timestamp": "2026-08-12T10:24:43.480618"
+      },
+      {
+        "id": "ddbfa117-fced-420e-872a-10e421496f98",
+        "role": "user",
+        "content": "কৃত্রিম বুদ্ধিমত্তা কী?",
+        "timestamp": "2026-08-12T10:24:45.015155"
+      },
+      {
+        "id": "d0a703b1-f904-40f8-8809-65f87e0e058a",
+        "role": "avatar",
+        "content": "কৃত্রিম বুদ্ধিমত্তা হলো কম্পিউটার বিজ্ঞানের একটি ক্ষেত্র যা যন্ত্রকে মানুষের মতো চিন্তাভাবনা, বিশ্লেষণ এবং সিদ্ধান্ত নেওয়ার ক্ষমতা দেয়।",
+        "timestamp": "2026-08-12T10:24:45.026517"
+      },
+      {
+        "id": "f0e47f52-151b-40e9-8a6d-e6a2c2beed9f",
+        "role": "user",
+        "content": "ஒளிச்சேர்க்கை என்றால் என்ன?",
+        "timestamp": "2026-08-12T10:24:46.788940"
+      },
+      {
+        "id": "8bcf540e-dbdc-45f0-bdfa-c3da3d0b4f03",
+        "role": "avatar",
+        "content": "ஒளிச்சேர்க்கை என்பது பசுமையான தாவரங்கள் சூரிய ஒளி, நீர் மற்றும் கார்பன் டை ஆக்சைடைப் பயன்படுத்தி ஆக்ஸிஜன் மற்றும் உணவை உருவாக்கும் அத்தியாவசிய செயல்முறையாகும். இது பூமியில் உள்ள அனைத்து உயிர்களுக்கும் இன்றியமையாதது.",
+        "timestamp": "2026-08-12T10:24:46.798136"
+      },
+      {
+        "id": "909b443d-945e-4be8-b478-9d889c6b4b26",
+        "role": "user",
+        "content": "Why is the sky blue? Explain logically.",
+        "timestamp": "2026-08-12T10:28:17.521479"
+      },
+      {
+        "id": "49d7d4a1-cdd6-4655-9895-2038ead9538d",
+        "role": "avatar",
+        "content": "The sky appears blue due to Rayleigh scattering. Sunlight consists of all colors, but air molecules in the atmosphere scatter the shorter blue wavelengths much more than other colors in all directions.",
+        "timestamp": "2026-08-12T10:28:17.534315"
+      },
+      {
+        "id": "3969b665-4001-4d06-96a0-e9f412cf319e",
+        "role": "user",
+        "content": "प्रकाश संश्लेषण क्या है और पौधे भोजन कैसे बनाते हैं?",
+        "timestamp": "2026-08-12T10:28:21.185978"
+      },
+      {
+        "id": "2c01e4cd-5893-4a24-addf-acb81c0d93f1",
+        "role": "avatar",
+        "content": "प्रकाश संश्लेषण वह प्राकृतिक जैविक प्रक्रिया है जिसमें पौधे सूर्य के प्रकाश, जल और कार्बन डाइऑक्साइड से ऊर्जा तथा ऑक्सीजन का निर्माण करते हैं। यह पृथ्वी पर समस्त जीवन और खाद्य श्रृंखला का मुख्य आधार है।",
+        "timestamp": "2026-08-12T10:28:21.196923"
+      },
+      {
+        "id": "b9de5196-9ea0-496b-b88f-801b493cf297",
+        "role": "user",
+        "content": "ਕੁਆਂਟਮ ਕੰਪਿਊਟਿੰਗ ਕੀ ਹੈ ਅਤੇ ਇਹ ਕਿਵੇਂ ਕੰਮ ਕਰਦੀ ਹੈ?",
+        "timestamp": "2026-08-12T10:28:24.537766"
+      },
+      {
+        "id": "c4afaa61-5334-46b4-b330-1f5591e8a907",
+        "role": "avatar",
+        "content": "ਕੁਆਂਟਮ ਕੰਪਿਊਟਿੰਗ ਕੁਆਂਟਮ ਭੌਤਿਕ ਵਿਗਿਆਨ ਦੇ ਸਿਧਾਂਤਾਂ 'ਤੇ ਕੰਮ ਕਰਦੀ ਹੈ ਅਤੇ ਰਵਾਇਤੀ ਕੰਪਿਊਟਰਾਂ ਨਾਲੋਂ ਲੱਖਾਂ ਗੁਣਾ ਤੇਜ਼ ਗਣਨਾਵਾਂ ਕਰ ਸਕਦੀ ਹੈ।",
+        "timestamp": "2026-08-12T10:28:24.560590"
+      },
+      {
+        "id": "2a668a52-3749-40c5-ab9f-b5aed1db2ba2",
+        "role": "user",
+        "content": "কৃত্রিম বুদ্ধিমত্তা কী এবং এটি কীভাবে কাজ করে?",
+        "timestamp": "2026-08-12T10:28:29.796788"
+      },
+      {
+        "id": "b841f29e-efaf-48be-88bd-ef589a3a33f0",
+        "role": "avatar",
+        "content": "কৃত্রিম বুদ্ধিমত্তা হলো কম্পিউটার বিজ্ঞানের একটি ক্ষেত্র যা যন্ত্রকে মানুষের মতো চিন্তাভাবনা, বিশ্লেষণ এবং সিদ্ধান্ত নেওয়ার ক্ষমতা দেয়।",
+        "timestamp": "2026-08-12T10:28:29.825829"
+      },
+      {
+        "id": "c5ec58f4-24df-478c-ae7a-049d4ae01d3b",
+        "role": "user",
+        "content": "ஒளிச்சேர்க்கை என்றால் என்ன மற்றும் தாவரங்கள் எவ்வாறு உணவு தயாரிக்கின்றன?",
+        "timestamp": "2026-08-12T10:28:35.713381"
+      },
+      {
+        "id": "0cc4afb6-34da-444b-9955-f9e2a29e3e38",
+        "role": "avatar",
+        "content": "ஒளிச்சேர்க்கை என்பது பசுமையான தாவரங்கள் சூரிய ஒளி, நீர் மற்றும் கார்பன் டை ஆக்சைடைப் பயன்படுத்தி ஆக்ஸிஜன் மற்றும் உணவை உருவாக்கும் அத்தியாவசிய செயல்முறையாகும். இது பூமியில் உள்ள அனைத்து உயிர்களுக்கும் இன்றியமையாதது.",
+        "timestamp": "2026-08-12T10:28:35.741628"
+      },
+      {
+        "id": "bcd6c76b-4df2-4b35-8b6c-9a5d2b7840c0",
+        "role": "user",
+        "content": "Why does ice float on water?",
+        "timestamp": "2026-08-12T10:28:40.357847"
+      },
+      {
+        "id": "a2a6ac1e-6c39-43ff-b141-db6a5c6445d6",
+        "role": "avatar",
+        "content": "Ice floats on water because water expands and becomes less dense when it freezes into a crystalline lattice. Its lower density allows it to float on the surface, insulating the liquid water and marine life below.",
+        "timestamp": "2026-08-12T10:28:40.378469"
+      },
+      {
+        "id": "838f0615-5839-43c1-8137-695f8aea2b16",
+        "role": "user",
+        "content": "नीमास्त्र प्राकृतिक कीटनाशक कैसे बनाया जाता है?",
+        "timestamp": "2026-08-12T10:28:45.088068"
+      },
+      {
+        "id": "d7d51250-d6c6-43a9-a06e-dc2a615af385",
+        "role": "avatar",
+        "content": "नीमास्त्र नीम की पत्तियों और गोमूत्र से निर्मित एक प्राकृतिक जैविक कीटनाशक है। यह फसलों को कीटों से सुरक्षित रखता है और मिट्टी की उर्वरता बनाए रखता है।",
+        "timestamp": "2026-08-12T10:28:45.107636"
+      },
+      {
+        "id": "5537d788-568c-4255-804e-055fe9358213",
+        "role": "user",
+        "content": "Why is the sky blue? Explain logically.",
+        "timestamp": "2026-08-12T10:29:10.715142"
+      },
+      {
+        "id": "5bb32e9e-de63-455f-9c5d-f235058d73ae",
+        "role": "avatar",
+        "content": "The sky appears blue due to Rayleigh scattering. Sunlight consists of all colors, but air molecules in the atmosphere scatter the shorter blue wavelengths much more than other colors in all directions.",
+        "timestamp": "2026-08-12T10:29:10.728919"
+      },
+      {
+        "id": "ddadf99f-3087-45b3-a3e9-27372f13abd1",
+        "role": "user",
+        "content": "How does photosynthesis work in plants?",
+        "timestamp": "2026-08-12T10:32:20.391697"
+      },
+      {
+        "id": "558e4fd0-ed00-4a84-9663-d98d42ac6a6c",
+        "role": "avatar",
+        "content": "Photosynthesis is the essential biological process where green plants convert sunlight, water, and carbon dioxide into oxygen and energy-rich glucose. It sustains all life on Earth by generating oxygen and nourishing ecosystems.",
+        "timestamp": "2026-08-12T10:32:20.409884"
+      },
+      {
+        "id": "b1957ca6-dced-4379-a706-9693d55bc2bc",
+        "role": "user",
+        "content": "Why is the sky blue?",
+        "timestamp": "2026-08-12T10:36:03.990908"
+      },
+      {
+        "id": "e7cd8b13-15ef-413a-8548-0b884e7a83f8",
+        "role": "avatar",
+        "content": "The sky appears blue due to Rayleigh scattering. Sunlight consists of all colors, but air molecules in the atmosphere scatter the shorter blue wavelengths much more than other colors in all directions.",
+        "timestamp": "2026-08-12T10:36:04.004588"
+      },
+      {
+        "id": "c47537d4-65d2-4709-8283-b77e1145652b",
+        "role": "user",
+        "content": "आकाश का रंग नीला क्यों दिखाई देता है?",
+        "timestamp": "2026-08-12T10:38:03.439804"
+      },
+      {
+        "id": "f3a8309d-316f-47ee-8b59-c3faf2d94af7",
+        "role": "avatar",
+        "content": "यह एक अत्यंत महत्वपूर्ण और ज्ञानवर्धक विषय है। वैज्ञानिक सिद्धांतों के अनुसार आकाश का रंग नीला क्यों दिखाई देता है प्राकृतिक नियमों और स्पष्ट तार्किक कारणों से संचालित होती है।",
+        "timestamp": "2026-08-12T10:38:03.454391"
+      },
+      {
+        "id": "b29a67b5-1950-44ba-9cfb-0b50afe25a43",
+        "role": "user",
+        "content": "Why is the sky blue?",
+        "timestamp": "2026-08-12T10:54:34.042427"
+      },
+      {
+        "id": "2559b7ff-7183-4d6f-ae52-3b42786f1268",
+        "role": "avatar",
+        "content": "The sky appears blue due to Rayleigh scattering. Sunlight consists of all colors, but air molecules in the atmosphere scatter the shorter blue wavelengths much more than other colors in all directions.",
+        "timestamp": "2026-08-12T10:54:34.055701"
+      },
+      {
+        "id": "c5f9255c-be7c-49d5-a459-8909c9d364ea",
+        "role": "user",
+        "content": "how to make a banana shake",
+        "timestamp": "2026-08-12T11:01:54.639097"
+      },
+      {
+        "id": "c28fe294-0093-4b7b-8131-5b1989710a9c",
+        "role": "avatar",
+        "content": "A milkshake is a sweet beverage made by blending milk, ice cream, and flavorings or sweeteners such as butterscotch, caramel sauce, chocolate syrup, or fruit syrup into a thick, sweet, cold mixture.",
+        "timestamp": "2026-08-12T11:01:54.659979"
+      },
+      {
+        "id": "6b4e1e5e-35b6-45a0-9071-3ff5d2415b08",
+        "role": "user",
+        "content": "how to make a banana shake",
+        "timestamp": "2026-08-12T11:01:59.674701"
+      },
+      {
+        "id": "09615ab0-21c9-417e-8a9f-f187d7e2ca61",
+        "role": "avatar",
+        "content": "A milkshake is a sweet beverage made by blending milk, ice cream, and flavorings or sweeteners such as butterscotch, caramel sauce, chocolate syrup, or fruit syrup into a thick, sweet, cold mixture.",
+        "timestamp": "2026-08-12T11:01:59.699384"
+      },
+      {
+        "id": "b75d34ac-cc84-4d92-8701-6b5647293ed3",
+        "role": "user",
+        "content": "मुझे बुखार हुआ है इसका उपचार बताओ",
+        "timestamp": "2026-08-12T11:28:45.233230"
+      },
+      {
+        "id": "82aa50fa-7d73-4b67-85fd-83ee9809f4de",
+        "role": "avatar",
+        "content": "यह एक अत्यंत महत्वपूर्ण और ज्ञानवर्धक विषय है। वैज्ञानिक सिद्धांतों के अनुसार मुझे बुखार हुआ है इसका उपचार बताओ प्राकृतिक नियमों और स्पष्ट तार्किक कारणों से संचालित होती है।",
+        "timestamp": "2026-08-12T11:28:45.250612"
+      },
+      {
+        "id": "6bbe0288-5de5-4c95-82c2-397928e8139b",
+        "role": "user",
+        "content": "good morning",
+        "timestamp": "2026-08-12T12:04:38.743309"
+      },
+      {
+        "id": "c862a047-b127-47f9-bd90-ad507677f0c0",
+        "role": "avatar",
+        "content": "Greetings and a warm welcome, my friend. I am your Setu knowledge avatar. Please ask me any question, and I will explain with warmth and clarity.",
+        "timestamp": "2026-08-12T12:04:38.793497"
+      },
+      {
+        "id": "43258ef0-ccc6-48cd-b1e1-4df09a82af2c",
+        "role": "user",
+        "content": "मुझे बुखार हुआ है मैं क्या करूं",
+        "timestamp": "2026-08-12T12:10:55.232580"
+      },
+      {
+        "id": "a98633a9-d4f9-41eb-8d8a-27fc5ec7fd06",
+        "role": "avatar",
+        "content": "बुखार शरीर की एक प्राकृतिक सुरक्षा प्रणाली है। जब कोई बाहरी संक्रमण शरीर में आता है, तो शरीर तापमान बढ़ाकर कीटाणुओं को कमजोर करता है और रोग प्रतिरोधक कोशिकाओं को तेजी से सक्रिय करता है।",
+        "timestamp": "2026-08-12T12:10:55.275335"
+      },
+      {
+        "id": "2ba66044-16a5-485e-b952-ee7d5ac6c835",
+        "role": "user",
+        "content": "इसका इलाज क्या है",
+        "timestamp": "2026-08-12T12:11:26.318366"
+      },
+      {
+        "id": "039abece-44b8-4b52-8c5b-1150f6458705",
+        "role": "avatar",
+        "content": "सीधी बात यह है कि इसका इलाज क्या है अपने आप में अत्यंत महत्वपूर्ण और स्पष्ट सिद्धांतों पर आधारित है। इसे गहराई से समझने पर जीवन और ज्ञान में स्पष्टता आती है।",
+        "timestamp": "2026-08-12T12:11:26.396884"
+      },
+      {
+        "id": "85c73537-4d49-491b-934b-9a6868377b59",
+        "role": "user",
+        "content": "इसका इलाज क्या है मुझे अत्यंत पीड़ा हो रहीहै",
+        "timestamp": "2026-08-12T12:12:04.280777"
+      },
+      {
+        "id": "f07a3460-26d0-4fef-8d90-99fcc1da4fad",
+        "role": "avatar",
+        "content": "सीधी बात यह है कि इसका इलाज क्या है मुझे अत्यंत पीड़ा हो रहीहै अपने आप में अत्यंत महत्वपूर्ण और स्पष्ट सिद्धांतों पर आधारित है। इसे गहराई से समझने पर जीवन और ज्ञान में स्पष्टता आती है।",
+        "timestamp": "2026-08-12T12:12:04.306664"
+      },
+      {
+        "id": "a2d2f219-aaa3-412b-9df0-2071e8fd644b",
+        "role": "user",
+        "content": "वह जीवन और ज्ञान किस प्रकार क्या है",
+        "timestamp": "2026-08-12T12:12:34.800971"
+      },
+      {
+        "id": "8ea5cce3-39d3-44ef-830f-017461be9649",
+        "role": "avatar",
+        "content": "सीधी बात यह है कि वह जीवन और ज्ञान किस प्रकार क्या है अपने आप में अत्यंत महत्वपूर्ण और स्पष्ट सिद्धांतों पर आधारित है। इसे गहराई से समझने पर जीवन और ज्ञान में स्पष्टता आती है।",
+        "timestamp": "2026-08-12T12:12:34.864103"
+      },
+      {
+        "id": "368bd601-38af-48c8-b299-b14fe3d2ef62",
+        "role": "user",
+        "content": "Explain quantum computing simply",
+        "timestamp": "2026-08-12T12:49:56.100110"
+      },
+      {
+        "id": "db0b308d-4ac8-4782-8e6f-8fa9825d4acd",
+        "role": "avatar",
+        "content": "Quantum computing uses the principles of quantum superposition and entanglement to process information. Unlike classical bits that are either zero or one, quantum qubits compute immense multi-variable calculations simultaneously.",
+        "timestamp": "2026-08-12T12:49:56.122585"
+      },
+      {
+        "id": "2b29a853-e4a7-4143-99ea-fd14579fbf7f",
+        "role": "user",
+        "content": "What is the recipe for biryani?",
+        "timestamp": "2026-08-12T12:54:30.212369"
+      },
+      {
+        "id": "7a973519-7d57-4322-9fb1-c7be79868d6d",
+        "role": "avatar",
+        "content": "To make authentic aromatic Biryani, my friend, soak basmati rice and parboil with whole cardamom, cloves, and bay leaf until 70% cooked. In a heavy pot, layer spiced marinated ingredients with golden fried onions, fresh mint, saffron warm milk, and pure ghee.",
+        "timestamp": "2026-08-12T12:54:30.237831"
+      },
+      {
+        "id": "96d66f88-423b-4f25-8736-49b099e97ec4",
+        "role": "user",
+        "content": "मुझे बुखार हो गया है क्या करूं",
+        "timestamp": "2026-08-12T12:56:03.355099"
+      },
+      {
+        "id": "16757aa6-7923-4f7a-93af-8566a9635c27",
+        "role": "avatar",
+        "content": "बुखार शरीर की एक प्राकृतिक सुरक्षा प्रणाली है। जब कोई बाहरी संक्रमण शरीर में आता है, तो शरीर तापमान बढ़ाकर कीटाणुओं को कमजोर करता है और रोग प्रतिरोधक कोशिकाओं को तेजी से सक्रिय करता है।",
+        "timestamp": "2026-08-12T12:56:03.408905"
+      },
+      {
+        "id": "e5e65025-4fca-4204-bda3-54e6257362d5",
+        "role": "user",
+        "content": "दूध पीने से क्या फायदे होते हैं",
+        "timestamp": "2026-08-12T12:58:03.580475"
+      },
+      {
+        "id": "0a8e9659-1a1d-4d01-9fe0-b056eb7c46cb",
+        "role": "avatar",
+        "content": "सीधी बात यह है कि दूध पीने से क्या फायदे होते हैं अपने आप में अत्यंत महत्वपूर्ण और स्पष्ट सिद्धांतों पर आधारित है। इसे गहराई से समझने पर जीवन और ज्ञान में स्पष्टता आती है।",
+        "timestamp": "2026-08-12T12:58:03.644649"
+      },
+      {
+        "id": "6ea1c92a-22d2-42a4-80b0-d1a5094c28ca",
+        "role": "user",
+        "content": "What is the recipe for biryani?",
+        "timestamp": "2026-08-12T12:59:46.638853"
+      },
+      {
+        "id": "0c006dfc-f082-4a04-a9fe-962280a5cc48",
+        "role": "avatar",
+        "content": "Thalassery cuisine refers to the distinct cuisine from Thalassery city of northern Kerala, which has incorporated Indian, Persian, Arabian and European styles of cooking as a result of its long history as a maritime trading post.",
+        "timestamp": "2026-08-12T12:59:46.661427"
+      },
+      {
+        "id": "18df800d-e647-4d53-8007-0770829cfbee",
+        "role": "user",
+        "content": "What is the recipe for biryani?",
+        "timestamp": "2026-08-12T13:02:35.903906"
+      },
+      {
+        "id": "4bdb9e57-dfdc-4d5c-84ef-8838b8303a98",
+        "role": "avatar",
+        "content": "Thalassery cuisine refers to the distinct cuisine from Thalassery city of northern Kerala, which has incorporated Indian, Persian, Arabian and European styles of cooking as a result of its long history as a maritime trading post.",
+        "timestamp": "2026-08-12T13:02:35.941306"
+      },
+      {
+        "id": "3fb28d84-7782-4dfc-a80e-4c374a1dc6ac",
+        "role": "user",
+        "content": "मुझे बुखार है मुझे क्या करना चाहिए",
+        "timestamp": "2026-08-12T13:03:54.405477"
+      },
+      {
+        "id": "086c89fe-c632-4848-ac7e-70f9863519bc",
+        "role": "avatar",
+        "content": "is an important subject governed by clear principles and verified facts.",
+        "timestamp": "2026-08-12T13:03:54.464946"
+      },
+      {
+        "id": "31b025be-0aaf-44ee-8399-fbf999235c0e",
+        "role": "user",
+        "content": "What is the recipe for biryani?",
+        "timestamp": "2026-08-12T13:05:36.127201"
+      },
+      {
+        "id": "fd5f7074-b4fc-4196-90b2-111a6b324572",
+        "role": "avatar",
+        "content": "Thalassery cuisine refers to the distinct cuisine from Thalassery city of northern Kerala, which has incorporated Indian, Persian, Arabian and European styles of cooking as a result of its long history as a maritime trading post.",
+        "timestamp": "2026-08-12T13:05:36.166820"
+      },
+      {
+        "id": "a493c789-6fb1-4b85-a86b-37b69c67ec56",
+        "role": "user",
+        "content": "मुझे बुखार है तो क्या करना चाहिए",
+        "timestamp": "2026-08-12T13:06:35.996392"
+      },
+      {
+        "id": "2829c505-666d-4c27-9c92-3d461cdc5f61",
+        "role": "avatar",
+        "content": "In understanding मुझे बुखार है तो क्या करना चाहिए, my friend, it represents a vital concept grounded in verified principles and practical application. By examining its core foundations and operational mechanics, we gain a comprehensive understanding of how it shapes modern knowledge and everyday life.",
+        "timestamp": "2026-08-12T13:06:36.055280"
+      },
+      {
+        "id": "b5f8b8f9-f35f-4f3c-89f1-b080369653fc",
+        "role": "user",
+        "content": "What is the recipe for biryani?",
+        "timestamp": "2026-08-12T13:10:50.735440"
+      },
+      {
+        "id": "eb01fb78-cf9b-40da-941c-1a2761121bb0",
+        "role": "avatar",
+        "content": "To prepare authentic and delicious What Is The Recipe For Biryani with perfection, my friend, here is the master technique. First, heat ghee or oil in a heavy pot and temper whole aromatic spices with finely sliced onions, ginger, and garlic until fragrant and golden. Next, add freshly pureed tomatoes with ground coriander, turmeric, cumin, and garam masala, sautéing gently until the rich aromatic oil separates. Then incorporate your main fresh ingredients with warm water, cover tightly, and simmer on low heat until tender and deeply infused with flavor. Finally, garnish with crushed kasuri methi, fresh cilantro, and a spoonful of butter, letting it rest covered for two minutes before serving hot.",
+        "timestamp": "2026-08-12T13:10:50.761459"
+      },
+      {
+        "id": "16da11e7-5824-41da-8421-ce6db3b782ac",
+        "role": "user",
+        "content": "व्हाट द कांसेप्ट",
+        "timestamp": "2026-08-12T13:11:25.380808"
+      },
+      {
+        "id": "99a067cd-b6f1-46c1-b2f7-b3c662a76f7b",
+        "role": "avatar",
+        "content": "To solve the challenge regarding व्हाट द कांसेप्ट, my friend, here is a practical, grounded approach. First, clearly identify the specific hurdle and break it into two smaller, manageable tasks. Second, focus solely on taking the first actionable step today rather than worrying about the complete outcome. Taking steady daily action with a calm and focused mind is how every real-world problem is successfully mastered.",
+        "timestamp": "2026-08-12T13:11:25.432060"
+      },
+      {
+        "id": "091f349a-8505-46de-ad70-605e34d2802b",
+        "role": "user",
+        "content": "दूध पीने से क्या-क्या फायदे होते हैं",
+        "timestamp": "2026-08-12T13:12:30.624761"
+      },
+      {
+        "id": "05f2869d-b751-4caa-93dc-2dd80e111e9c",
+        "role": "avatar",
+        "content": "To solve the challenge regarding दूध पीने से क्या-क्या फायदे होते हैं, my friend, here is a practical, grounded approach. First, clearly identify the specific hurdle and break it into two smaller, manageable tasks. Second, focus solely on taking the first actionable step today rather than worrying about the complete outcome. Taking steady daily action with a calm and focused mind is how every real-world problem is successfully mastered.",
+        "timestamp": "2026-08-12T13:12:30.674256"
+      },
+      {
+        "id": "04224714-1f68-4e77-a46d-8d9e312231e4",
+        "role": "user",
+        "content": "How can I save money and reduce my expenses?",
+        "timestamp": "2026-08-12T13:31:17.974091"
+      },
+      {
+        "id": "c8943e77-8965-4731-bb4b-c273597ed36a",
+        "role": "avatar",
+        "content": "ਤੁਸੀਂ ਆਪਣੇ ਖਰਚਿਆਂ ਨੂੰ ਘਟਾਉਣ ਲਈ ਪਹਿਲਾਂ ਆਪਣੀ ਆਮਦਨ ਅਤੇ ਖਰਚਿਆਂ ਦਾ ਹਿਸਾਬ ਰੱਖੋ, ਇਸ ਨਾਲ ਤੁਸੀਂ ਉਹਨਾਂ ਖੇਤਰਾਂ ਨੂੰ ਲੱਭ ਸਕੋਗੇ ਜਿੱਥੇ ਤੁਸੀਂ ਖਰਚ ਘਟਾ ਸਕਦੇ ਹੋ। ਸਬਸਕ੍ਰਾਈਬ ਸੇਵਾਵਾਂ ਰੱਦ ਕਰਨਾ ਜਾਂ ਸੇਵਾ ਪ੍ਰਦਾਤਾਵਾਂ ਨਾਲ ਘੱਟ ਦਰਾਂ 'ਤੇ ਗੱਲਬਾਤ ਕਰਨਾ ਇਸ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋ ਸਕਦਾ ਹੈ। ਘਰ 'ਚ ਖਾਣਾ ਪਕਾਉਣ ਦੀ ਥਾਂ ਬਾਹਰ ਖਾਣ ਨੂੰ ਛੱਡਣਾ ਅਤੇ ਅਣ-ਲੋੜੀਂਦੇ ਖਰਚਿਆਂ ਨੂੰ ਰੱਦ ਕਰਨਾ ਵੀ ਬਹੁਤ ਫਾਇਦੇਮੰਦ ਹੋ ਸਕਦਾ ਹੈ। ਇਸ ਤੋਂ ਇਲਾਵਾ, ਸੀਮਤ ਬਜਟ ਦੀ ਵ.",
+        "timestamp": "2026-08-12T13:31:18.016040"
+      },
+      {
+        "id": "aa8bf9d9-8998-4400-b06f-cefe8f5ba734",
+        "role": "user",
+        "content": "What should I do if I cannot sleep because of stress?",
+        "timestamp": "2026-08-12T13:31:50.211551"
+      },
+      {
+        "id": "2027f026-bb84-4839-87d0-9c4ddc68683f",
+        "role": "avatar",
+        "content": "तुम्हारी नींद न आने की समस्या को समझता हूँ, यह बहुत ही आम समस्या है जो तनाव के कारण होती है। सबसे पहले, तुम्हें अपने सोने के समय को नियमित करना चाहिए और एक आरामदायक शयनकक्ष बनाना चाहिए। रात को सोने से पहले ध्यान या गहरी सांस लेने के व्यायाम करने से तुम्हारे मन को शांति मिल सकती है और नींद आने में मदद मिल सकती है। इसके अलावा, सोने से कम से कम एक घंटे पहले स्क्रीन और इलेक्ट्रॉनिक उपकरणों से दूर रहना और एक अंधेरे, शांत वातावरण में सोने से तुम्हारी नींद की गुणवत्ता में सुधार हो सकता है।",
+        "timestamp": "2026-08-12T13:31:50.245514"
+      },
+      {
+        "id": "5ff06f92-a245-42e6-af76-1bee8342ef44",
+        "role": "user",
+        "content": "How to overcome laziness and stop procrastinating?",
+        "timestamp": "2026-08-12T13:32:35.196096"
+      },
+      {
+        "id": "e97281a0-f0df-4e33-b5f8-1aea674efa2e",
+        "role": "avatar",
+        "content": "আপনার অলসতা ও সময় নষ্ট করা থেকে মুক্তি পেতে, আপনাকে প্রথমে ছোট ছোট লক্ষ্য নির্ধারণ করতে হবে এবং সেগুলি অর্জনের জন্য নির্দিষ্ট সময়সীমা ঠিক করতে হবে। এছাড়াও, একটি নিয়মিত দৈনিক রুটিন তৈরি করা এবং একটি পরিবেশ তৈরি করা যা উত্পাদনশীলতাকে উৎসাহিত করে, যেমন বিঘ্ন দূর করা এবং একাধিক কাজ করা কমিয়ে আনা, খুবই কার্যকর হতে পারে। পমোদোরো কৌশলটি ব্যবহার করা, যার মধ্যে ২৫ মিনিটের ফোকাসড কাজ এবং ৫ মিনিটের বিরতি জড়িত, আপনাকে অনুপ্রাণিত রাখতে এবং সময় নষ্ট করা এড়াতে সাহায্য করতে পারে। আপনি যদি এ.",
+        "timestamp": "2026-08-12T13:32:35.233756"
+      },
+      {
+        "id": "5f66e5ce-02c0-4490-beff-a8be56e8dd22",
+        "role": "user",
+        "content": "My boss is very demanding and I feel burned out.",
+        "timestamp": "2026-08-12T13:33:22.605617"
+      },
+      {
+        "id": "04a89ea5-d683-42f3-b46e-05864e5b0f7d",
+        "role": "avatar",
+        "content": "உங்கள் பிரச்சனையை புரிந்து கொள்கிறேன், உங்கள் மேலாளர் மிகவும் கடினமாக இருப்பதால் நீங்கள் எரிச்சல் அடைந்து உள்ளீர்கள். முதலில், உங்கள் வேலை நேரத்தை நிர்வகிக்க ஒரு திட்டத்தை உருவாக்குங்கள், அதன் மூலம் நீங்கள் சிறந்த முறையில் பணியை செய்ய முடியும். பின்னர், உங்களுக்கு ஓய்வு எடுக்கும் நேரத்தை ஒதுக்குங்கள், அப்போது நீங்கள் உங்கள் மனதை அமைதிப்படுத்த முடியும். இறுதியாக, ஒவ்வொரு நாளும் ஒரு சிறிய நேரத்தை எடுத்துக் கொள்ளுங்கள், அதன் மூலம் நீங்கள் உங்கள் மனத.",
+        "timestamp": "2026-08-12T13:33:22.649244"
+      },
+      {
+        "id": "a7f68a7a-d663-4bc0-b177-9e5daa4ddf9d",
+        "role": "user",
+        "content": "ਮੈਨੂੰ ਪੈਸੇ ਬਚਾਉਣ ਦਾ ਤਰੀਕਾ ਦੱਸੋ",
+        "timestamp": "2026-08-12T13:33:40.487349"
+      },
+      {
+        "id": "c68662ae-d398-4852-b2c4-efe7aef7516e",
+        "role": "avatar",
+        "content": "I completely understand your concern about saving money, beta, it's a great worry to have, and I'm happy to help. To start saving effectively, try allocating a fixed portion of your income, say 20%, into a separate savings account as soon as you receive your salary. Next, make a conscious effort to track your daily expenses and cut back on unnecessary spending, like dining out or subscription services you don't use. By doing so, you'll be able to identify areas where you can save more and make adjustments accordingly. Remember, the key is to be consistent and patient, and you'll see your savings grow over time, giving you a sense of security and peace of mind.",
+        "timestamp": "2026-08-12T13:33:40.525527"
+      },
+      {
+        "id": "2794d151-40e9-4af3-8a21-4fc18ca61e91",
+        "role": "user",
+        "content": "How can I save money and reduce my expenses?",
+        "timestamp": "2026-08-12T13:36:36.221990"
+      },
+      {
+        "id": "9a725f49-2650-4622-99ff-81df800a8c35",
+        "role": "avatar",
+        "content": "ਤੁਸੀਂ ਆਪਣੇ ਖਰਚਿਆਂ ਨੂੰ ਘਟਾਉਣ ਅਤੇ ਪੈਸੇ ਬਚਾਉਣ ਲਈ ਇੱਕ ਬਜਟ ਬਣਾਓ ਅਤੇ ਆਪਣੇ ਖਰਚਿਆਂ ਨੂੰ ਟਰੈਕ ਕਰੋ। ਤੁਸੀਂ ਸਬਸਕ੍ਰਿਪਸ਼ਨ ਸੇਵਾਵਾਂ ਨੂੰ ਰੱਦ ਕਰਕੇ, ਊਰਜਾ ਦੀ ਵਰਤੋਂ ਘਟਾ ਕੇ ਅਤੇ ਘਰ ਵਿੱਚ ਖਾਣਾ ਪਕਾ ਕੇ ਬਾਹਰ ਖਾਣ ਦੀ ਬਜਾਏ ਖਰਚਿਆਂ ਵਿੱਚ ਕਾਫ਼ੀ ਕਮੀ ਲਿਆ ਸਕਦੇ ਹੋ। ਤੁਸੀਂ ਆਪਣੀਆਂ ਬਚਤਾਂ ਨੂੰ ਸਵੈ-ਸੇਵੀ ਕਰਕੇ ਇੱਕ ਨਿਸ਼ਚਿਤ ਰਾਸ਼ੀ ਨੂੰ ਨਿਯਮਿਤ ਤੌਰ 'ਤੇ ਅਲੱਗ ਕਰ ਸਕਦੇ ਹੋ। ਇਸ ਤਰ੍ਹਾਂ ਤੁਸੀਂ ਇੱਕ ਆਰਥਿਕ ਫੰਡ ਬਣਾ ਸਕਦੇ ਹੋ ਅਤੇ ਲੰਬੀ ਮਿਆਦ ਦੇ ਵਿੱ.",
+        "timestamp": "2026-08-12T13:36:36.260798"
+      },
+      {
+        "id": "bb87ff27-a861-4518-b07b-b10a5033a692",
+        "role": "user",
+        "content": "What should I do if I cannot sleep because of stress?",
+        "timestamp": "2026-08-12T13:36:58.713470"
+      },
+      {
+        "id": "2d3b2a7a-fcdb-4dea-8a5d-a275b99ca5f9",
+        "role": "avatar",
+        "content": "मैं समझता हूँ कि तनाव के कारण नींद न आना कितना परेशान करने वाला हो सकता है। सबसे पहले, तुम्हें अपने सोने के समय को नियमित करना चाहिए और एक आरामदायक नींद की दिनचर्या बनानी चाहिए। इससे तुम्हारे दिमाग को यह संकेत मिलेगा कि अब सोने का समय है। सोने से पहले ध्यान या गहरी सांस लेने के व्यायाम जैसी तनाव कम करने वाली गतिविधियों में शामिल होना भी मददगार हो सकता है। सोने से कम से कम एक घंटे पहले स्क्रीन और इलेक्ट्रॉनिक उपकरणों से दूर रहना और एक अंधेरे, शांत नींद के वातावरण का निर्माण करना भी नींद की गुणवत्ता में सुधार कर सकता है और तनाव से संबंधित नींद विकारों को कम कर सकता है।",
+        "timestamp": "2026-08-12T13:36:58.754221"
+      },
+      {
+        "id": "ccf38b06-973e-4ed6-867c-9e4d8082f83c",
+        "role": "user",
+        "content": "How to overcome laziness and stop procrastinating?",
+        "timestamp": "2026-08-12T13:37:16.286509"
+      },
+      {
+        "id": "ad2c603b-6115-4c90-a31e-8ee06fc6babe",
+        "role": "avatar",
+        "content": "আপনি যে সমস্যাটির সম্মুখীন হচ্ছেন তা আমি বুঝতে পারছি, এবং আমি আপনাকে নিশ্চিত করতে চাই যে এটি অত্যন্ত সাধারণ। প্রথমে, আপনাকে অবশ্যই একটি স্পষ্ট লক্ষ্য নির্ধারণ করতে হবে এবং তা ছোট, পরিচালনাযোগ্য ধাপে ভাগ করতে হবে। তারপর, একটি সময়সূচী তৈরি করুন এবং আপনার প্রগতি ট্র্যাক করুন, যা আপনাকে আরও অনুপ্রাণিত এবং দায়বদ্ধ করে তুলবে। সবশেষে, নিয়মিত রুটিন বজায় রাখার চেষ্টা করুন এবং একটি পরিবেশ তৈরি করুন যা ফোকাসকে উত্সাহিত করে, যেমন বিঘ্নগুলি দূর করা। এইভাবে, আপনি আলস্য এবং প্রক্রিয়াকরণকে জয.",
+        "timestamp": "2026-08-12T13:37:16.329488"
+      },
+      {
+        "id": "53fdbb73-ea6f-47bd-88d4-085b07849ca6",
+        "role": "user",
+        "content": "My boss is very demanding and I feel burned out.",
+        "timestamp": "2026-08-12T13:37:35.039522"
+      },
+      {
+        "id": "62496991-9167-4406-91a9-cc8af2098f97",
+        "role": "avatar",
+        "content": "உங்கள் பிரச்சனையை புரிந்து கொள்கிறேன், உங்கள் மேலாளர் மிகவும் கோரமாக இருப்பதால் நீங்கள் எரிச்சலை அடைந்துள்ளீர்கள். முதலில், உங்கள் வேலை மற்றும் தனிப்பட்ட வாழ்க்கையை பிரித்து பார்க்க முயற்சிக்கவும். இரண்டாவதாக, உங்கள் மேலாளரிடம் உங்கள் கவலைகளை தெரிவிக்கவும், அவர்களுடன் ஒரு தீர்வை காண முயற்சிக்கவும். மூன்றாவதாக, உங்கள் ஆரோக்கியத்தை பாதுகாக்க ஒரு நாளைக்கு சில நிமிடங்கள் தியானம் செய்வது அல்லது போதுமான தூக்கம் எடுப்பது போன்ற நல்ல பழக்கவழக.",
+        "timestamp": "2026-08-12T13:37:35.081150"
+      },
+      {
+        "id": "49397ff6-dde3-403e-9494-ffe63ed1c0f2",
+        "role": "user",
+        "content": "ਮੈਨੂੰ ਪੈਸੇ ਬਚਾਉਣ ਦਾ ਤਰੀਕਾ ਦੱਸੋ",
+        "timestamp": "2026-08-12T13:37:55.859466"
+      },
+      {
+        "id": "e372306b-c3b4-48e1-a1e6-7ba8c6420204",
+        "role": "avatar",
+        "content": "I completely understand your concern about saving money, beta, it's a great worry to have, and I'm happy to help. To start saving effectively, try allocating a fixed portion of your income, say 20 percent, into a separate savings account every month. Next, make a conscious effort to track your daily expenses, writing them down in a notebook or using a simple app, this will help you identify areas where you can cut back. Lastly, consider adopting the 50-30-20 rule, where 50 percent of your income goes towards necessities, 30 percent towards discretionary spending, and 20 percent towards saving and debt repayment, this will give you a solid foundation for building your savings over time.",
+        "timestamp": "2026-08-12T13:37:55.893432"
+      },
+      {
+        "id": "be0b20e7-0e02-460e-89c1-8ec19bb64a83",
+        "role": "user",
+        "content": "मेरा दोस्त नाली में गिर गया है क्या किया जाए",
+        "timestamp": "2026-08-12T13:38:45.242171"
+      },
+      {
+        "id": "15abd42a-9335-44d6-a2bb-7e00d8bb8ec1",
+        "role": "avatar",
+        "content": "मेरे बच्चे, तुम्हारे दोस्त के साथ ऐसा हादसा होना बहुत दुखद है, सबसे पहले तुम्हें अपने दोस्त को तुरंत अस्पताल ले जाना चाहिए ताकि चोट का मुआयना किया जा सके और जरूरी इलाज शुरू किया जा सके। इसके अलावा, नाली में गिरने से होने वाले संक्रमण को रोकने के लिए एंटीबायोटिक्स देने की जरूरत हो सकती है। तुम्हें अपने दोस्त की देखभाल में बहुत सावधानी बरतनी चाहिए और डॉक्टर की सलाह का पालन करना चाहिए, इससे तुम्हारे दोस्त को जल्दी ठीक होने में मदद मिलेगी।",
+        "timestamp": "2026-08-12T13:38:45.301627"
+      },
+      {
+        "id": "b96605a3-fd09-4080-ab95-5a240ad07a4f",
+        "role": "user",
+        "content": "कैन यू एक्सप्लेन में हो टर्मरिक मिल्क इस बेनिफिशियल थन रेगुलर मिल्क",
+        "timestamp": "2026-08-12T13:40:23.088663"
+      },
+      {
+        "id": "8183d657-d7d1-4992-bae4-b5de3cec9b69",
+        "role": "avatar",
+        "content": "मैं समझता हूँ कि तुम्हें टर्मरिक मिल्क के फायदों के बारे में जानने की इच्छा है। टर्मरिक मिल्क में कुर्कुमिन होता है, जो इसके स्वास्थ्य लाभों के लिए जिम्मेदार है। यह दूध पाचन तंत्र को सुधारता है और शरीर को स्वस्थ रखने में मदद करता है। तुम रोजाना एक गिलास गर्म दूध में आधा चम्मच हल्दी पाउडर मिलाकर पी सकते हो, इससे तुम्हारे शरीर को जरूर फायदा होगा। इसके अलावा, तुम हल्दी वाले दूध को रात को सोने से पहले पी सकते हो, इससे तुम्हारी नींद भी अच्छी होगी और तुम्हारा शरीर स्वस्थ रहेगा।",
+        "timestamp": "2026-08-12T13:40:23.142811"
+      },
+      {
+        "id": "96802956-9d03-4165-84ae-7a7905beac23",
+        "role": "user",
+        "content": "पृथ्वी के उपाय के लिए कुछ उपचार बताओ",
+        "timestamp": "2026-08-12T13:42:00.525145"
+      },
+      {
+        "id": "50d76e54-6340-4af8-ac2c-aab8e46e4667",
+        "role": "avatar",
+        "content": "पृथ्वी के उपाय के लिए मैं आपको कुछ व्यावहारिक सुझाव देना चाहता हूँ। सबसे पहले, हमें ऊर्जा संचयन पर ध्यान देना चाहिए, जैसे कि बिजली की बचत करना और सौर ऊर्जा का उपयोग करना। दूसरा, जल संचयन भी बहुत महत्वपूर्ण है, इसलिए हमें पानी की बचत करनी चाहिए और वर्षा जल संचयन को बढ़ावा देना चाहिए। तीसरा, कूड़ा प्रबंधन भी एक बड़ा मुद्दा है, इसलिए हमें कूड़ा अलग करना और रीसाइकल करना चाहिए। इन छोटे-छोटे कदमों से हम पृथ्वी के स्वास्थ्य को बनाए रखने में मदद कर सकते हैं और एक स्वच्छ और स्वस्थ पर्यावरण को बनाए रख सकते हैं।",
+        "timestamp": "2026-08-12T13:42:00.572119"
+      },
+      {
+        "id": "57b9b01b-eb62-4753-9f5c-ff4c9e761d1b",
+        "role": "user",
+        "content": "ਮੈਂ ਬਹੁਤ ਬਿਮਾਰ ਦੱਸ ਕੀ ਕਰਾਂ ਮੈਂ",
+        "timestamp": "2026-08-12T13:44:13.943966"
+      },
+      {
+        "id": "108421ff-8893-4428-982b-556a7cd997f6",
+        "role": "avatar",
+        "content": "ਤੁਸੀਂ ਬਹੁਤ ਬਿਮਾਰ ਹੋ, ਇਹ ਸੁਣ ਕੇ ਮੈਨੂੰ ਬਹੁਤ ਚਿੰਤਾ ਹੋ ਰਹੀ ਹੈ। ਤੁਸੀਂ ਪਹਿਲਾਂ ਆਪਣੇ ਆਪ ਨੂੰ ਆਰਾਮ ਦੇਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ, ਇੱਕ ਗਿਲਾਸ ਗਰਮ ਪਾਣੀ ਪੀਓ ਅਤੇ ਆਪਣੇ ਸਰੀਰ ਨੂੰ ਗਰਮ ਰੱਖਣ ਲਈ ਕੰਬਲ ਦੀ ਵਰਤੋਂ ਕਰੋ। ਫਿਰ ਤੁਸੀਂ ਆਪਣੇ ਨਜ਼ਦੀਕੀ ਡਾਕਟਰ ਨੂੰ ਮਿਲਣ ਦਾ ਸਮਾਂ ਲਵੋ ਅਤੇ ਉਨ੍ਹਾਂ ਦੀ ਸਲਾਹ ਮੰਨੋ। ਇਸ ਤੋਂ ਇਲਾਵਾ, ਤੁਸੀਂ ਹਰ ਰੋਜ਼ ਥੋੜ੍ਹਾ ਸਮਾਂ ਆਪਣੇ ਆਪ ਨੂੰ ਆਰਾਮ ਦੇਣ ਲਈ ਦੇਣਾ ਚਾਹੀਦਾ ਹੈ ਤਾਂ ਜੋ ਤੁਸੀਂ ਆਪਣੀ ਸਿਹਤ ਨੂੰ ਠੀਕ ਰੱਖ ਸਕੋ।",
+        "timestamp": "2026-08-12T13:44:13.997934"
+      },
+      {
+        "id": "7b271141-991b-4ec5-b354-7bbb97fbc781",
+        "role": "user",
+        "content": "ਮੇਰੀ ਤੂੰ ਇੰਦਰ ਕਹਿ ਰਹੀ ਮੈਂ ਕੀ ਕਰਾਂ",
+        "timestamp": "2026-08-12T13:47:04.964789"
+      },
+      {
+        "id": "f2464d8d-aa33-42ab-9d82-945684dc6414",
+        "role": "avatar",
+        "content": "ਤੇਰੀ ਸਮੱਸਿਆ ਨੂੰ ਸਮਝਦਿਆਂ ਮੈਨੂੰ ਬਹੁਤ ਦੁੱਖ ਹੋ ਰਿਹਾ ਹੈ, ਪਰ ਚਿੰਤਾ ਨਾ ਕਰੋ, ਮੈਂ ਤੇਰੀ ਮਦਦ ਕਰਨ ਲਈ ਹਾਂ। ਪਹਿਲਾਂ, ਤੂੰ ਆਪਣੇ ਆਪ ਨੂੰ ਸ਼ਾਂਤ ਕਰਨ ਲਈ ਗਹਿਰੀ ਸਾਹ ਲੈ ਕੇ ਕੁਝ ਸਮਾਂ ਲਈ ਬੈਠ ਜਾ, ਫਿਰ ਆਪਣੀਆਂ ਭਾਵਨਾਵਾਂ ਨੂੰ ਲਿਖ ਕੇ ਵੇਖ। ਇਸ ਤੋਂ ਬਾਅਦ, ਤੂੰ ਆਪਣੇ ਦੋਸਤਾਂ ਜਾਂ ਪਰਿਵਾਰ ਨਾਲ ਗੱਲ ਕਰ ਕੇ ਆਪਣੇ ਵਿਚਾਰ ਸਾਂਝੇ ਕਰ। ਇਹ ਤੇਰੀ ਮਦਦ ਕਰੇਗਾ।",
+        "timestamp": "2026-08-12T13:47:05.019285"
+      },
+      {
+        "id": "e5b13b0e-1159-438e-a000-c787318bd633",
+        "role": "user",
+        "content": "ਮੇਰੀ ਪਿੱਠ ਦਰਦ ਕਰ ਰਹੀ ਹੈ ਮੈਨੂੰ ਹਾਲ ਦੱਸ",
+        "timestamp": "2026-08-12T13:48:09.679009"
+      },
+      {
+        "id": "6f734d6a-fe43-43bd-8cd6-2879a74aff00",
+        "role": "avatar",
+        "content": "ਤੁਹਾਡੀ ਪਿੱਠ ਦਰਦ ਕਰਨ ਦਾ ਮੈਨੂੰ ਬਹੁਤ ਅਫ਼ਸੋਸ ਹੈ, ਇਹ ਸਾਨੂੰ ਬਹੁਤ ਪਰੇਸ਼ਾਨ ਕਰਦਾ ਹੈ। ਪਹਿਲਾਂ, ਤੁਸੀਂ ਆਪਣੇ ਕੰਮਕਾਜ ਨੂੰ ਥੋੜਾ ਆਰਾਮ ਦਿਓ, ਫਿਰ ਇੱਕ ਗਰਮ ਪਾਣੀ ਦਾ ਸ਼ਾਵਰ ਲਵੋ ਅਤੇ ਆਪਣੀ ਪਿੱਠ 'ਤੇ ਇੱਕ ਗਰਮ ਸਿੰਕਾਈ ਕਰੋ। ਇਸ ਤੋਂ ਬਾਅਦ, ਤੁਸੀਂ ਇੱਕ ਸਾਧਾਰਨ ਵਿਆਇਆਮ ਕਰ ਸਕਦੇ ਹੋ, ਜਿਵੇਂ ਕਿ ਪਿੱਠ ਨੂੰ ਸਿੱਧਾ ਕਰਨਾ ਅਤੇ ਇਸ ਨੂੰ ਆਰਾਮ ਦੇਣਾ। ਇਹ ਤੁਹਾਡੀ ਪਿੱਠ ਦੇ ਦਰਦ ਨੂੰ ਘਟਾਉਣ ਵਿੱਚ ਮਦਦ ਕਰੇਗਾ।",
+        "timestamp": "2026-08-12T13:48:09.728814"
+      },
+      {
+        "id": "fa2934ad-4b62-464a-a07c-cfddd013071d",
+        "role": "user",
+        "content": "मुझे बुखार है मैं क्या करूं जो मेरी बुखार जल्दी से ठीक हो जाए",
+        "timestamp": "2026-08-12T13:54:42.184362"
+      },
+      {
+        "id": "5d8b91c9-b6f8-4981-a76e-7991e372900e",
+        "role": "avatar",
+        "content": "बुखार होना वास्तव में परेशान करने वाला होता है, लेकिन घबराने की जरूरत नहीं है। सबसे पहले, अपने शरीर को पर्याप्त आराम देना बहुत जरूरी है, इसलिए बिस्तर पर आराम करें और अपने शरीर को थकान से मुक्ति दिलाने का मौका दें। दूसरा, अधिक से अधिक पानी पीना जरूरी है ताकि आपका शरीर हाइड्रेटेड रहे और बुखार के दौरान होने वाली पानी की कमी को रोका जा सके। तीसरा, हल्का और पौष्टिक भोजन लें जैसे कि दलिया, सूप या फल, जो आपके शरीर को आवश्यक पोषण देंगे और जल्दी रिकवरी में मदद करेंगे। डॉक्टर की सलाह से उचित दवाएं लेना भी महत्वपूर्ण है, जैसे कि पैरासिटामोल या इबुप्रोफेन जो बुखार को कम करने में मदद कर सकते हैं।",
+        "timestamp": "2026-08-12T13:54:42.274362"
+      },
+      {
+        "id": "b74f1ecd-d974-4ceb-a63d-a6af1f7c4355",
+        "role": "user",
+        "content": "मेरे पीठ में दर्द हो रहा है मुझे कोई ट्रेडिशनल तरीका बताओ जिससे मेरा पेट दर्द ठीक हो जाए",
+        "timestamp": "2026-08-12T13:58:03.503855"
+      },
+      {
+        "id": "9a9cb2a3-e595-48e1-8baf-f9f1ed73e895",
+        "role": "avatar",
+        "content": "मेरे बच्चे, तुम्हारे पीठ में दर्द होना बहुत परेशान करने वाला होता है, मैं समझता हूँ। तुम्हें गर्म पानी से स्नान करना चाहिए, इससे तुम्हारे पीठ की मांसपेशियों को आराम मिलेगा। इसके अलावा, तुम्हें पीठ पर गर्म तेल की मालिश करनी चाहिए, जैसे कि नारियल तेल या तिल का तेल। और हाँ, योग आसन जैसे कि भुजंगासन और शवासन भी बहुत मददगार हो सकते हैं। तुम्हें नियमित रूप से योग करना चाहिए और अपने शरीर को आराम देना चाहिए, इससे तुम्हारा पीठ दर्द ठीक हो जाएगा।",
+        "timestamp": "2026-08-12T13:58:03.554528"
+      },
+      {
+        "id": "eb1016e2-5e6d-4cc9-b7b7-585d371fdde9",
+        "role": "user",
+        "content": "तुम्हारा नाम क्या है",
+        "timestamp": "2026-08-12T13:59:30.338946"
+      },
+      {
+        "id": "41957c58-158c-405a-ba11-c74dbd50ec2c",
+        "role": "avatar",
+        "content": "मेरा नाम सरदार गेंजी है, और मैं आपकी मदद करने के लिए यहाँ हूँ। मैं समझता हूँ कि आप मुझसे कुछ पूछना चाहते हैं, और मैं आपको अपने अनुभव और ज्ञान से सही मार्गदर्शन देने की कोशिश करूँगा। तो बताइए, आपको किस समस्या का सामना करना पड़ रहा है और मैं आपको कैसे मदद कर सकता हूँ।",
+        "timestamp": "2026-08-12T13:59:30.383369"
+      },
+      {
+        "id": "3acce533-c1cc-4cd9-8aaa-84dcfa6d88f7",
+        "role": "user",
+        "content": "मेरे पास हजार करोड़ की फंड है बट मुझे पता नहीं उसे कहां इन्वेस्ट करना चाहिए",
+        "timestamp": "2026-08-12T14:00:56.977681"
+      },
+      {
+        "id": "2e1ed346-4dad-426a-90e7-29ef1fe67fc9",
+        "role": "avatar",
+        "content": "मेरे बच्चे, तुम्हारे पास इतना बड़ा फंड है, यह बहुत अच्छी बात है, लेकिन निवेश करने से पहले तुम्हें अपने वित्तीय लक्ष्यों का मूल्यांकन करना चाहिए। तुम्हें यह सोचना चाहिए कि तुम्हारे लिए सबसे महत्वपूर्ण क्या है, जैसे कि स्थिर आय, लंबी अवधि की वृद्धि, या जोखिम से बचाव। इसके बाद, तुम शेयर बाजार, म्यूचुअल फंड, रियल एस्टेट, या फिक्स्ड डिपॉजिट में निवेश करने के विकल्पों पर विचार कर सकते हो। मैं तुम्हें सलाह दूंगा कि तुम अपने फंड को विभिन्न निवेश विकल्पों में विभाजित करो, जिससे तुम्हारा जोखिम कम हो और तुम्हारे रिटर्न में वृद्धि हो।",
+        "timestamp": "2026-08-12T14:00:57.047378"
+      },
+      {
+        "id": "baf5808a-1a97-4a04-9d92-594f358cb279",
+        "role": "user",
+        "content": "मेरी आज पेट में दर्द है मैं क्या करूं",
+        "timestamp": "2026-08-12T14:15:50.133840"
+      },
+      {
+        "id": "45d25be3-4acf-4af9-9be8-8ff34230e68e",
+        "role": "avatar",
+        "content": "मैं समझता हूँ कि पेट में दर्द होना बहुत परेशान करने वाला होता है, तुम्हें पहले गर्म पानी से स्नान करना चाहिए या गर्म पानी की बोतल से सिकाई करनी चाहिए, इससे तुम्हें आराम मिल सकता है। इसके अलावा, तुम अजवाइन, अदरक, या पुदीना जैसे प्राकृतिक उपचारों का उपयोग कर सकते हो, वे पेट दर्द से राहत दिलाने में मदद कर सकते हैं। यदि दर्द गंभीर या लंबे समय तक रहता है, तो तुम्हें डॉक्टर से मिलना चाहिए, वे तुम्हें उचित सलाह और उपचार दे सकते हैं।",
+        "timestamp": "2026-08-12T14:15:50.195823"
+      },
+      {
+        "id": "52bce696-5862-4519-92ed-ae6a2b2d1215",
+        "role": "user",
+        "content": "How can I save money and reduce my expenses?",
+        "timestamp": "2026-08-12T14:20:36.108311"
+      },
+      {
+        "id": "ceaece2f-75da-4f26-86ed-5c7ad2f3bd1b",
+        "role": "avatar",
+        "content": "ਮੈਂ ਸਮਝਦਾ ਹਾਂ ਕਿ ਪੈਸੇ ਦੀ ਬਚਤ ਕਰਨਾ ਅਤੇ ਖਰਚੇ ਘਟਾਉਣਾ ਇੱਕ ਚੁਣੌਤੀ ਹੋ ਸਕਦੀ ਹੈ। ਸਭ ਤੋਂ ਪਹਿਲਾਂ, ਤੁਸੀਂ ਇੱਕ ਸਪਸ਼ਟ ਬਜਟ ਬਣਾਓ, ਜਿਸ ਵਿੱਚ ਆਪਣੇ ਆਮਦਨ ਅਤੇ ਖਰਚੇ ਨੂੰ ਲਿਖੋ। ਇਸ ਨਾਲ ਤੁਹਾਨੂੰ ਪਤਾ ਲੱਗੇਗਾ ਕਿ ਕਿੱਥੇ ਬਚਤ ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ। ਦੂਜਾ, ਬਿਨਾਂ ਜ਼ਰੂਰਤ ਦੇ ਖਰਚੇ, ਜਿਵੇਂ ਕਿ ਬਾਹਰ ਖਾਣਾ ਜਾਂ ਸਬਸਕ੍ਰਿਪਸ਼ਨ ਸੇਵਾਵਾਂ ਨੂੰ ਘਟਾਉਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ। ਤੀਜਾ, ਖਰੀਦਦਾਰੀ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਛੂਟਾਂ ਅਤੇ ਕੂਪਨ ਦੀ ਜਾਂਚ ਕਰੋ, ਇਸ ਨਾਲ ਤੁਸੀਂ ਲੰਬੇ ਸਮੇਂ ਵਿੱਚ ਵੱਡੀ ਬਚਤ ਕਰ ਸਕਦੇ ਹੋ। ਆਪਣੇ ਖਰਚਿਆਂ 'ਤੇ ਨਜ਼ਰ ਰੱਖਣ ਦੀ.",
+        "timestamp": "2026-08-12T14:20:36.140874"
+      },
+      {
+        "id": "e1a6bce5-2de7-4209-a6ed-4ea4fbaa7b57",
+        "role": "user",
+        "content": "How can I save money and reduce my expenses?",
+        "timestamp": "2026-08-12T15:50:10.375326"
+      },
+      {
+        "id": "b8c4cafa-9380-47a6-8294-69eb581cf068",
+        "role": "avatar",
+        "content": "ਤੁਹਾਡੇ ਪੈਸੇ ਬਚਾਉਣ ਅਤੇ ਖਰਚੇ ਘਟਾਉਣ ਦੇ ਇਰਾਦੇ ਨੂੰ ਦੇਖ ਕੇ ਮੈਨੂੰ ਬਹੁਤ ਖੁਸ਼ੀ ਹੋਈ। ਸਭ ਤੋਂ ਪਹਿਲਾਂ, ਤੁਸੀਂ ਇੱਕ ਵਿਸਥਾਰਿਤ ਬਜਟ ਬਣਾਉਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ। ਇਸ ਵਿੱਚ ਆਪਣੇ ਸਾਰੇ ਆਮਦਨ ਅਤੇ ਖਰਚਿਆਂ ਨੂੰ ਲਿਖੋ, ਤਾਂ ਜੋ ਤੁਸੀਂ ਸਮਝ ਸਕੋ ਕਿ ਕਿੱਥੇ ਕੱਟ ਕਰਨਾ ਹੈ। ਦੂਜਾ, ਘਰ 'ਤੇ ਖਾਣਾ ਬਣਾਉਣਾ ਬਹੁਤ ਫਾਇਦੇਮੰਦ ਹੈ, ਇਸ ਨਾਲ ਤੁਸੀਂ ਬਾਹਰ ਖਾਣੇ 'ਤੇ ਖਰਚਾ ਘਟਾ ਸਕਦੇ ਹੋ। ਤੀਜਾ, ਜੇ ਤੁਸੀਂ ਅਣਵਾਂਛਿਤ ਸਬਸਕ੍ਰਿਪਸ਼ਨ ਰੱਦ ਕਰ ਦਿਓ, ਤਾਂ ਇਹ ਵੀ ਤੁਹਾਡੇ ਖਰਚੇ ਨੂੰ ਘਟਾਉਣ ਵਿੱਚ ਮਦਦ ਕਰੇਗਾ। ਹਮੇਸ਼ਾ ਯਾਦ ਰੱਖੋ.",
+        "timestamp": "2026-08-12T15:50:10.418002"
+      },
+      {
+        "id": "4f14c058-d98e-4b43-943f-c6cb1b9f73fc",
+        "role": "user",
+        "content": "What should I do if I cannot sleep because of stress?",
+        "timestamp": "2026-08-12T15:50:23.192319"
+      },
+      {
+        "id": "6eaec233-c65d-40d2-9f26-1c4d29822d4c",
+        "role": "avatar",
+        "content": "आपके नींद न आने की समस्या को समझता हूँ, यह वाकई तनावपूर्ण हो सकता है। सबसे पहले, एक नियमित सोने का समय तय करें। हर दिन एक ही समय पर सोने और जागने से आपके शरीर की जैविक घड़ी सही रहेगी। दूसरा, सोने से पहले गहरी सांस लेने की तकनीक अपनाएँ। चार सेकंड तक सांस लें, फिर सात सेकंड तक रोकें और आठ सेकंड में छोड़ें। यह आपके मन को शांत करने में मदद करेगा।",
+        "timestamp": "2026-08-12T15:50:23.221570"
+      },
+      {
+        "id": "ccdfac5d-9a88-405a-b60c-06d3e95ed226",
+        "role": "user",
+        "content": "How to overcome laziness and stop procrastinating?",
+        "timestamp": "2026-08-12T15:50:35.429172"
+      },
+      {
+        "id": "52107183-9c5d-4a56-b434-3e6cc6af2cf8",
+        "role": "avatar",
+        "content": "আমি বুঝতে পারছি যে অলসতা এবং কাজের প্রলম্বন আপনার জন্য একটি চ্যালেঞ্জ হয়ে দাঁড়িয়েছে। প্রথমত, আপনি আপনার কাজগুলো ছোট ছোট অংশে ভাগ করতে পারেন। যেমন, যদি আপনার কোনো বড় কাজ থাকে, তাহলে সেটাকে তিনটি ছোট টাস্কে ভাগ করুন এবং প্রতিটি টাস্ক সম্পন্ন করার পর নিজেকে পুরস্কৃত করুন। দ্বিতীয়ত, একটি নির্দিষ্ট রুটিন তৈরি করুন এবং প্রতিদিন একই সময় কাজ শুরু করার চেষ্টা করুন। এতে আপনার মনোযোগ বাড়বে। সবশেষে, প্রতিদিন সকালে ৫ মিনিটের জন্য ধ্যান করুন।",
+        "timestamp": "2026-08-12T15:50:35.461650"
+      },
+      {
+        "id": "e5c10e2c-9631-4241-9161-b7283105b4a6",
+        "role": "user",
+        "content": "My boss is very demanding and I feel burned out.",
+        "timestamp": "2026-08-12T15:50:47.403852"
+      },
+      {
+        "id": "8318a3e8-90f2-49bf-ad86-57700469ff50",
+        "role": "avatar",
+        "content": "உங்கள் வேலைக்கு உங்கள் மேலாளர் மிகுந்த எதிர்பார்ப்புகளை வைத்திருப்பது உண்மையில் கடினமாக இருக்கிறது. நீங்கள் உணர்வுப்பூர்வமாகவும், உடல் மற்றும் மனநிலையிலும் சோர்வடைந்திருக்கிறீர்கள். இதற்கான சில நடைமுறைகளை நீங்கள் முயற்சி செய்யலாம். முதலில், உங்கள் வேலை நேரத்தில் சிறிய இடைவெளிகளை எடுத்துக் கொள்ளுங்கள். 25 நிமிடங்கள் வேலை செய்து, 5 நிமிடங்கள் ஓய்வு எடுக்கவும். இது உங்கள் மனதை மீண்டும் புதுப்பிக்க உதவும்.",
+        "timestamp": "2026-08-12T15:50:47.441270"
+      },
+      {
+        "id": "c1ab2c79-2891-4dd1-bc50-52e79a6f1ca0",
+        "role": "user",
+        "content": "ਮੈਨੂੰ ਪੈਸੇ ਬਚਾਉਣ ਦਾ ਤਰੀਕਾ ਦੱਸੋ",
+        "timestamp": "2026-08-12T15:51:03.050177"
+      },
+      {
+        "id": "6004fc8d-c9c3-4350-870c-232793ba02e2",
+        "role": "avatar",
+        "content": "I understand that saving money can feel quite challenging, but it’s great that you want to take action. First, try creating a simple budget by tracking your income and expenses. Spend a few minutes each week noting down what you earn and where your money goes. Second, set up a separate savings account and automate a small amount to be transferred there every month. Lastly, make it a habit to pause for 24 hours before making any non-essential purchase. This will help you avoid impulse buying and build a more mindful approach to spending.",
+        "timestamp": "2026-08-12T15:51:03.076618"
+      },
+      {
+        "id": "874fc146-7a90-4670-8d8f-a176c833ea15",
+        "role": "user",
+        "content": "mujhe ek Sal se jondi Se Maine Bahut Sare doctor se dikhaya Mujhe Kya Karna chahie",
+        "timestamp": "2026-08-12T15:58:51.901384"
+      },
+      {
+        "id": "c52a81c9-a958-4776-a7fb-e91e4e44e205",
+        "role": "avatar",
+        "content": "I truly empathize with your situation; dealing with a health issue for such a long time can be incredibly frustrating and exhausting. First, I suggest seeking a second opinion from a specialist who has experience with your specific condition. It can be helpful to gather all your previous medical records and tests to share with them. Second, consider exploring holistic approaches like yoga or meditation, which can help manage stress and improve your overall well-being. Lastly, make it a habit to keep a daily journal of your symptoms and feelings; this can provide valuable insights and help you communicate better with your healthcare providers. Remember, you are not alone in this journey, and finding the right support is key.",
+        "timestamp": "2026-08-12T15:58:51.940045"
+      },
+      {
+        "id": "bb87c42f-292f-4edc-969b-f63aa903e539",
+        "role": "user",
+        "content": "मुझे 1 साल से जौंडिस है मुझे क्या करना चाहिए इस वक्त",
+        "timestamp": "2026-08-12T15:59:27.811030"
+      },
+      {
+        "id": "38c20ae3-d280-43ed-aba1-b5ca04dad786",
+        "role": "avatar",
+        "content": "आपकी स्थिति को समझते हुए, मैं आपकी चिंता को साझा करता हूँ। जौंडिस एक गंभीर समस्या हो सकती है, इसलिए सबसे पहले आपको एक अच्छे डॉक्टर से संपर्क करना चाहिए। इसके अलावा, आप अपने आहार में कुछ बदलाव कर सकते हैं। खूब पानी पिएं, ताकि आपका शरीर हाइड्रेटेड रहे। हरी सब्जियाँ, फल और हल्का खाना जैसे दलिया या खिचड़ी शामिल करें। नियमित रूप से हल्की एक्सरसाइज करें, जैसे चलना या योग करना, ताकि आपका शरीर स्वस्थ रहे।",
+        "timestamp": "2026-08-12T15:59:27.854304"
+      },
+      {
+        "id": "6fc1b504-75fa-4569-b43a-3aec21b1f3d5",
+        "role": "user",
+        "content": "मेरे घर का पंखा खराब हो गया है मुझे क्या करना चाहिए उसे ठीक करने के लिए",
+        "timestamp": "2026-08-12T16:02:58.866957"
+      },
+      {
+        "id": "391ba620-6f33-4fb6-82f9-46ac06dd00c8",
+        "role": "avatar",
+        "content": "मुझे आपकी चिंता समझ में आ रही है। पंखा खराब होना गर्मी में बहुत परेशानी देता है। सबसे पहले, पंखे को बंद कर दें और उसकी बिजली सप्लाई काट दें। फिर, पंखे के ब्लेड और मोटर को अच्छी तरह से साफ करें, क्योंकि धूल और गंदगी अक्सर समस्या का कारण बनती हैं। अगर इसके बाद भी पंखा ठीक नहीं होता, तो एक अच्छे इलेक्ट्रिशियन से संपर्क करें या पंखे के निर्माता के सेवा केंद्र से मदद लें। हमेशा याद रखें, नियमित सफाई से उपकरणों की उम्र बढ़ती है।",
+        "timestamp": "2026-08-12T16:02:58.914144"
+      },
+      {
+        "id": "a2c7602a-d8c0-4ac3-88ef-105e29ac87b0",
+        "role": "user",
+        "content": "I have severe chest pain and I cannot breathe properly.",
+        "timestamp": "2026-08-12T16:21:18.339482"
+      },
+      {
+        "id": "0c1c5648-9596-43fe-ba71-82df312e889d",
+        "role": "avatar",
+        "content": "My dear child, I am truly sorry to hear that you are experiencing severe chest pain and difficulty breathing. This is a serious matter, and I urge you to visit a qualified doctor or hospital immediately for proper care. Your health and safety are of utmost importance. Once you have received medical attention, we can then discuss gentle remedies and traditional wisdom to support your recovery. Please take care of yourself and seek help right away.",
+        "timestamp": "2026-08-12T16:21:18.353446"
+      },
+      {
+        "id": "c3fc7108-e8ed-40de-97dc-25000d30d231",
+        "role": "user",
+        "content": "मुझे बहुत तेज बुखार है और चक्कर खाकर बेहोश हो रहा हूँ।",
+        "timestamp": "2026-08-12T16:21:25.158004"
+      },
+      {
+        "id": "9a04fc4e-f51d-45f1-b668-596fa4a6a6f0",
+        "role": "avatar",
+        "content": "मेरे प्यारे बच्चे, सबसे पहले तो मैं तुम्हें यह कहूँगा कि तुम्हारी सेहत सबसे महत्वपूर्ण है। तुम्हें तुरंत एक योग्य डॉक्टर या अस्पताल जाना चाहिए, क्योंकि तेज बुखार और बेहोशी गंभीर समस्या हो सकती है। इस बीच, यदि तुम्हें हल्का बुखार हो, तो तुलसी और अदरक का काढ़ा पीने से राहत मिल सकती है। इसके अलावा, हल्का गर्म दूध में हल्दी मिलाकर पीना भी फायदेमंद हो सकता है। लेकिन याद रखो, डॉक्टर की सलाह लेना सबसे जरूरी है। खुद का ध्यान रखो, बेटा।",
+        "timestamp": "2026-08-12T16:21:25.174134"
+      },
+      {
+        "id": "5c0ec98a-f9d4-4cbc-8814-341097910920",
+        "role": "user",
+        "content": "I cannot sleep at night and my mind is restless.",
+        "timestamp": "2026-08-12T16:21:33.255155"
+      },
+      {
+        "id": "f66a1f46-9c59-4309-91b7-61a795b54f4b",
+        "role": "avatar",
+        "content": "ਮੇਰੇ ਪਿਆਰੇ ਬੇਟੇ, ਮੈਂ ਤੇਰੀ ਚਿੰਤਾ ਨੂੰ ਸਮਝਦਾ ਹਾਂ। ਰਾਤ ਨੂੰ ਨੀਂਦ ਨਾ ਆਉਣਾ ਅਤੇ ਮਨ ਦਾ ਅਸ਼ਾਂਤ ਹੋਣਾ ਬਹੁਤ ਹੀ ਦੁੱਖਦਾਇਕ ਹੁੰਦਾ ਹੈ। ਤੂੰ ਰਾਤ ਨੂੰ ਸੁੱਤਣ ਤੋਂ ਪਹਿਲਾਂ ਇੱਕ ਗਿਲਾਸ ਰਾਗੀ ਅੰਬਲੀ ਪੀ ਲੈ। ਇਹ ਪੁਰਾਣਾ ਨੁਸਖਾ ਹੈ ਜੋ ਮਨ ਨੂੰ ਸ਼ਾਂਤੀ ਅਤੇ ਸਰੀਰ ਨੂੰ ਤਾਕਤ ਦਿੰਦਾ ਹੈ। ਇਸ ਦੇ ਨਾਲ, ਰਾਤ ਨੂੰ ਸੌਣ ਤੋਂ ਪਹਿਲਾਂ ਕੁਝ ਸਮੇਂ ਲਈ ਧਿਆਨ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ, ਜਿਸ ਨਾਲ ਤੇਰਾ ਮਨ ਸ਼ਾਂਤ ਹੋ ਜਾਵੇਗਾ। ਸਦਾ ਖਿਆਲ ਰੱਖ, ਸਿਹਤਮੰਦ ਜੀਵਨ ਲਈ ਸਾਫ਼ ਅਤੇ ਸਤਵਿਕ ਖੁਰਾਕ ਵੀ ਬਹੁਤ ਜਰੂਰੀ ਹੈ।",
+        "timestamp": "2026-08-12T16:21:33.270501"
+      },
+      {
+        "id": "e92b7b75-1f23-4783-94f0-1f0d5e2e6629",
+        "role": "user",
+        "content": "मुझे पेट में बहुत गैस और जलन हो रही है, क्या करूँ?",
+        "timestamp": "2026-08-12T16:21:39.197353"
+      },
+      {
+        "id": "5ccd9f34-6ef6-4479-9ca4-9a7aa5c526a5",
+        "role": "avatar",
+        "content": "मेरे प्यारे बच्चे, पेट में गैस और जलन होना बहुत असहज होता है। सबसे पहले, तुम एक कप गर्म पानी में एक चम्मच अदरक का रस और एक चुटकी नींबू का रस मिलाकर पी सकते हो। यह तुम्हारे पेट को आराम देगा। इसके अलावा, तुम जीरे का पानी भी बना सकते हो, जो पाचन में मदद करता है। थोड़ी देर टहलना भी फायदेमंद हो सकता है। लेकिन अगर तुम्हें बहुत ज्यादा दर्द या समस्या हो रही है, तो कृपया किसी योग्य डॉक्टर से अवश्य मिलो।",
+        "timestamp": "2026-08-12T16:21:39.209015"
+      },
+      {
+        "id": "27305899-b760-43f8-9ac4-77381533acff",
+        "role": "user",
+        "content": "What are traditional farming methods and how do they preserve heritage?",
+        "timestamp": "2026-08-12T16:42:33.729360"
+      },
+      {
+        "id": "62ceccd8-230c-4943-a8ac-0eb691de73d5",
+        "role": "avatar",
+        "content": "My dear child, traditional farming methods are rooted in age-old practices that respect nature and the land. Techniques like using indigenous seeds, crop rotation, and organic composting not only enhance soil health but also preserve our rich agricultural heritage, passing down wisdom from one generation to another. This connection to our roots nurtures both the land and our cultural identity.",
+        "timestamp": "2026-08-12T16:42:33.746453"
+      },
+      {
+        "id": "01374aae-a19b-4155-b8af-d6bac8d3ea98",
+        "role": "user",
+        "content": "ਨੀਂਦ ਨਾ ਆਉਣ ਦਾ ਦੇਸੀ ਘਰੇਲੂ ਇਲਾਜ ਕੀ ਹੈ?",
+        "timestamp": "2026-08-12T16:42:42.597224"
+      },
+      {
+        "id": "5b1edba5-66a7-4f9d-92b7-a693c4832ad1",
+        "role": "avatar",
+        "content": "ਮੇਰੇ ਪਿਆਰੇ ਬੇਟੇ, ਜੇ ਤੈਨੂੰ ਨੀਂਦ ਨਾ ਆਉਣ ਦੀ ਸਮੱਸਿਆ ਹੈ, ਤਾਂ ਤੂੰ ਇੱਕ ਗਿਲਾਸ ਗਰਮ ਦੁੱਧ ਵਿੱਚ ਇੱਕ ਚਮਚ ਸ਼ਹਿਦ ਮਿਲਾ ਕੇ ਪੀ ਲੈ। ਇਹ ਸਰੀਰ ਨੂੰ ਸ਼ਾਂਤ ਕਰਦਾ ਹੈ। ਇਸ ਤੋਂ ਇਲਾਵਾ, ਰਾਤ ਨੂੰ ਸੁੱਤਣ ਤੋਂ ਪਹਿਲਾਂ ਕੁਝ ਸਮੇਂ ਲਈ ਗੁਲਾਬ ਦੇ ਪੱਤੇ ਦਾ ਕਾਧਾ ਪੀਣਾ ਵੀ ਬਹੁਤ ਫਾਇਦੇਮੰਦ ਹੋ ਸਕਦਾ ਹੈ। ਸਦਾ ਖਿਆਲ ਰੱਖ, ਮਨ ਦੀ ਸ਼ਾਂਤੀ ਲਈ ਧਿਆਨ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ।",
+        "timestamp": "2026-08-12T16:42:42.611047"
+      },
+      {
+        "id": "7af30efa-d08e-4693-bd60-40f134e4104d",
+        "role": "user",
+        "content": "मुझे 102 डिग्री बुखार है क्या किया जाए मुझे कोई जरूरी नुस्खा बताओ",
+        "timestamp": "2026-08-12T16:45:16.045550"
+      },
+      {
+        "id": "51d4d0e1-b7fa-445e-8e43-6c9014a3bc64",
+        "role": "avatar",
+        "content": "मेरे प्यारे बेटे, 102 डिग्री बुखार होने पर सबसे पहले, आराम करना और खूब तरल पदार्थ पीना बहुत ज़रूरी है। एक गिलास गर्म पानी में नींबू और शहद मिलाकर पीने से राहत मिल सकती है। अगर बुखार तीन दिनों से ज़्यादा रहता है या अन्य गंभीर लक्षण होते हैं, तो कृपया तुरंत डॉक्टर से मिलो। अपनी सेहत का ध्यान रखना बहुत महत्वपूर्ण है।",
+        "timestamp": "2026-08-12T16:45:16.066326"
+      },
+      {
+        "id": "8fce6815-c727-42d9-8384-8f4710f7bc18",
+        "role": "user",
+        "content": "हल्दी वाला दूध का क्या फायदा है",
+        "timestamp": "2026-08-12T16:46:09.812637"
+      },
+      {
+        "id": "cfb1210b-b884-46cf-a070-9b6a82ec2c7c",
+        "role": "avatar",
+        "content": "मेरे प्यारे बेटे, हल्दी वाला दूध, जिसे हम \"गोल्डन मिल्क\" कहते हैं, बहुत फायदेमंद है। यह सूजन को कम करता है, इम्यून सिस्टम को मजबूत बनाता है, और पाचन में सुधार करता है। इसके अलावा, यह नींद में सुधार और मानसिक स्वास्थ्य को बढ़ावा देने में भी मददगार होता है। हमेशा याद रखो, यह एक सुखदायक पेय है जो सर्दियों में खासतौर पर लाभकारी होता है।",
+        "timestamp": "2026-08-12T16:46:09.832792"
+      },
+      {
+        "id": "70c7fcfc-25fb-4d7f-94b8-ee88de7b323d",
+        "role": "user",
+        "content": "What are traditional farming methods and how do they preserve heritage?",
+        "timestamp": "2026-08-12T16:48:40.492092"
+      },
+      {
+        "id": "aa2a1939-301e-4635-ad1e-3ebff2707597",
+        "role": "avatar",
+        "content": "My dear child, traditional farming methods are rooted in generations of wisdom, focusing on sustainable practices like crop rotation, organic composting, and seed preservation. These methods not only enhance soil health but also nurture the connection to our heritage, ensuring that the knowledge of our ancestors is passed down through the seasons. Embracing these practices helps us honour our land and the rich traditions that sustain us.",
+        "timestamp": "2026-08-12T16:48:40.507989"
+      },
+      {
+        "id": "6aa84f2f-5b0f-44dd-9489-85f5835fc5b4",
+        "role": "user",
+        "content": "ਨੀਂਦ ਨਾ ਆਉਣ ਦਾ ਦੇਸੀ ਘਰੇਲੂ ਇਲਾਜ ਕੀ ਹੈ?",
+        "timestamp": "2026-08-12T16:48:47.607620"
+      },
+      {
+        "id": "1d495940-d998-45f5-ad97-de3a9ccff506",
+        "role": "avatar",
+        "content": "ਮੇਰੇ ਪਿਆਰੇ ਬੱਚੇ, ਨੀਂਦ ਨਾ ਆਉਣ 'ਤੇ ਇੱਕ ਪੁਰਾਣਾ ਨੁਸਖਾ ਹੈ ਕਿ ਗਰਮ ਦੁੱਧ ਵਿੱਚ ਥੋੜੀ ਜ਼ਿਆਦਾ ਹਲਦੀ ਅਤੇ ਸ਼ਹਿਦ ਮਿਲਾ ਕੇ ਪੀਓ। ਇਸ ਦੇ ਨਾਲ, ਰਾਤ ਨੂੰ ਸੌਣ ਤੋਂ ਪਹਿਲਾਂ ਚੰਦਨ ਦਾ ਪਾਉਡਰ ਪਾਣੀ ਵਿੱਚ ਮਿਲਾ ਕੇ ਪੀਣਾ ਵੀ ਫਾਇਦੇਮੰਦ ਹੁੰਦਾ ਹੈ। ਆਪਣੇ ਮਨ ਨੂੰ ਸ਼ਾਂਤ ਕਰਨ ਲਈ, ਕੁਝ ਸਮਾਂ ਧਿਆਨ ਕਰਨ ਜਾਂ ਸੁਹਾਵਣੇ ਗੀਤ ਸੁਣਨ ਵਿੱਚ ਵੀ ਬਿਤਾਓ।",
+        "timestamp": "2026-08-12T16:48:47.621346"
+      },
+      {
+        "id": "f611cf6a-acb3-4d5c-b84e-4a61a2ba9208",
+        "role": "user",
+        "content": "मेरा आज पेट खराब है क्या कियाजाए",
+        "timestamp": "2026-08-12T16:50:20.172013"
+      },
+      {
+        "id": "d0fe08e2-ec25-4a2b-9f0e-696aec87dc20",
+        "role": "avatar",
+        "content": "मेरे प्यारे बच्चे, पेट खराब होने पर सबसे पहले आराम करना चाहिए। हल्का भोजन जैसे खिचड़ी या दही लेना फायदेमंद होता है। अदरक या पुदीना की चाय पीकर भी राहत मिल सकती है। यदि समस्या गंभीर हो, तो डॉक्टर से अवश्य संपर्क करें।",
+        "timestamp": "2026-08-12T16:50:20.192002"
+      },
+      {
+        "id": "ca40e9ce-6c96-4aa9-9c31-7fe0b682a3e7",
+        "role": "user",
+        "content": "What are traditional farming methods and how do they preserve heritage?",
+        "timestamp": "2026-08-12T17:09:25.954561"
+      },
+      {
+        "id": "9ce0c200-5036-4c41-b724-30db74a56776",
+        "role": "avatar",
+        "content": "My child, traditional farming methods are deeply rooted in our culture, emphasizing harmony with nature. Techniques like crop rotation, intercropping, and organic composting not only sustain the soil but also preserve the biodiversity that our ancestors cherished. \n\nThese methods often involve using local seeds, which are well-adapted to the environment, ensuring resilience against pests and diseases. Moreover, practices such as using cow dung as fertilizer and planting specific crops together enhance soil fertility and yield. \n\nBy passing down these techniques, we keep alive the wisdom of our forefathers, ensuring that future generations can enjoy the richness of our agricultural heritage while fostering a deep respect for the land. This connection to our roots nurtures not only the earth but also our cultural identity.",
+        "timestamp": "2026-08-12T17:09:25.970662"
+      },
+      {
+        "id": "8526fec0-601a-4458-b97b-82934d80d507",
+        "role": "user",
+        "content": "ਨੀਂਦ ਨਾ ਆਉਣ ਦਾ ਦੇਸੀ ਘਰੇਲੂ ਇਲਾਜ ਕੀ ਹੈ?",
+        "timestamp": "2026-08-12T17:09:44.354219"
+      },
+      {
+        "id": "d490190f-2f70-4a83-860e-e6dc52d21433",
+        "role": "avatar",
+        "content": "ਮੇਰੇ ਬੱਚੇ, ਨੀਂਦ ਨਾ ਆਉਣ ਦੇ ਬਹੁਤ ਸਾਰੇ ਕਾਰਨ ਹੋ ਸਕਦੇ ਹਨ, ਜਿਵੇਂ ਕਿ ਮਨ ਦੀ ਚਿੰਤਾ ਜਾਂ ਸਰੀਰ ਦੀ ਥਕਾਵਟ। ਸਭ ਤੋਂ ਪਹਿਲਾਂ, ਰਾਤ ਨੂੰ ਸੌਣ ਤੋਂ ਪਹਿਲਾਂ ਇੱਕ ਗਰਮ ਪਿਆਸ ਦਾ ਪਾਣੀ ਪੀਣਾ ਬਹੁਤ ਫਾਇਦੇਮੰਦ ਹੁੰਦਾ ਹੈ। ਇਸ ਲਈ, ਇੱਕ ਪਿਆਜ਼ ਨੂੰ ਚੋਟੇ ਟੁਕੜੇ ਕਰਕੇ, ਉਸ ਨੂੰ ਪਾਣੀ ਵਿੱਚ ਉਬਾਲੋ ਅਤੇ ਇਸ ਪਾਣੀ ਨੂੰ ਪੀਓ। \n\nਦੂਜਾ, ਗਰਮ ਦੁੱਧ ਵਿੱਚ ਹਲਦੀ ਅਤੇ ਸ਼ਹਿਦ ਮਿਲਾ ਕੇ ਪੀਣਾ ਵੀ ਬਹੁਤ ਅਸਰਦਾਰ ਹੈ। ਇਹ ਸਰੀਰ ਨੂੰ ਆਰਾਮ ਦਿੰਦਾ ਹੈ ਅਤੇ ਮਨ ਨੂੰ ਸ਼ਾਂਤ ਕਰਦਾ ਹੈ। \n\nਤਿਸਰਾ, ਰਾਤ ਨੂੰ ਸੌਣ ਤੋਂ ਪਹਿਲਾਂ ਚੰਦਨ ਦਾ ਪਾਉਡਰ ਪਾਣੀ ਵਿੱਚ ਮਿਲਾ ਕੇ ਪੀਓ। ਇਹ ਮਨ ਨੂੰ ਸ਼ਾਂਤ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ। \n\nਇਸਦੇ ਨਾਲ, ਰਾਤ ਨੂੰ ਸੌਣ ਤੋਂ ਪਹਿਲਾਂ ਕੁਝ ਸਮਾਂ ਧਿਆਨ ਕਰਨ ਜਾਂ ਸੁਹਾਵਣੇ ਗੀਤ ਸੁਣਨ ਵਿੱਚ ਬਿਤਾਉਣਾ ਵੀ ਲਾਭਦਾਇਕ ਹੁੰਦਾ ਹੈ। \n\nਸੋਣ ਦਾ ਸਮਾਂ ਸਹੀ ਰੱਖਣਾ, ਜਿਵੇਂ ਕਿ ਹਰ ਰਾਤ ਇੱਕੇ ਸਮੇਂ ਤੇ ਸੌਣਾ, ਵੀ ਬਹੁਤ ਜਰੂਰੀ ਹੈ। ਜੇਕਰ ਇਹ ਸਮੱਸਿਆ ਜ਼ਿਆਦਾ ਗੰਭੀਰ ਹੋਵੇ, ਤਾਂ ਡਾਕਟਰ ਨਾਲ ਸੰਪਰਕ ਕਰਨਾ ਨਾ ਭੁੱਲੋ।",
+        "timestamp": "2026-08-12T17:09:44.365735"
+      },
+      {
+        "id": "26987c5e-4149-4e68-ab29-33f942110614",
+        "role": "user",
+        "content": "Pet me gas aur dard ho raha hai jaldi ilaj batao",
+        "timestamp": "2026-08-12T17:16:07.939690"
+      },
+      {
+        "id": "4d2e83c1-51f0-49aa-9d0a-f176e4db93aa",
+        "role": "avatar",
+        "content": "मेरे बच्चे, पेट में गैस और दर्द होना बहुत असहज हो सकता है। सबसे पहले, एक कप गर्म पानी में एक चम्मच नींबू का रस और एक चम्मच शहद मिलाकर पियो। यह आपके पाचन तंत्र को सुधारने में मदद करेगा।\n\nदूसरा, एक चुटकी अजवाइन को हल्का भूनकर, इसे एक कप गर्म पानी में डालकर 10 मिनट तक रखें। फिर इसे छानकर पियो। अजवाइन गैस को कम करने में बहुत प्रभावी होती है।\n\nतीसरा, एक चम्मच अदरक का रस और एक चुटकी काली मिर्च को एक कप गर्म पानी में मिलाकर पियो। अदरक पाचन को बेहतर बनाता है और दर्द को कम करता है।\n\nइसके अलावा, खाने के बाद थोड़ी देर टहलना और भारी भोजन से बचना भी मददगार है। अगर दर्द बहुत अधिक हो या लगातार बना रहे, तो कृपया तुरंत डॉक्टर से संपर्क करें। आपकी सेहत सबसे महत्वपूर्ण है।",
+        "timestamp": "2026-08-12T17:16:07.954979"
+      },
+      {
+        "id": "84308f67-615d-4417-93d1-b79f12a0217d",
+        "role": "user",
+        "content": "How to improve soil fertility naturally?",
+        "timestamp": "2026-08-12T17:16:26.522479"
+      },
+      {
+        "id": "a8c3c75b-df6d-4925-8d20-7de3a8ffac44",
+        "role": "avatar",
+        "content": "My child, to improve soil fertility naturally, we must embrace the wisdom of our ancestors. Start by incorporating organic matter, such as well-rotted cow dung or compost, into your soil. This enriches it with essential nutrients and enhances its structure.\n\nConsider planting cover crops like legumes, which fix nitrogen in the soil, providing a natural boost. Crop rotation is also vital; alternating different crops prevents nutrient depletion and disrupts pest cycles. \n\nIncorporate traditional practices like using natural mulches, such as straw or dried leaves, to retain moisture and suppress weeds. Additionally, adding neem cake or ash from burnt plants can deter pests while enriching the soil.\n\nLastly, practice regular soil testing to understand its needs and adjust your methods accordingly. By nurturing the earth with these time-honoured techniques, we not only enhance fertility but also honour the legacy of sustainable farming passed down through generations.",
+        "timestamp": "2026-08-12T17:16:26.535520"
+      },
+      {
+        "id": "3c90c612-068f-4b65-acb2-66b84a7b96df",
+        "role": "user",
+        "content": "ਮਨ ਬਹੁਤ ਉਦਾਸ ਅਤੇ ਪਰੇਸ਼ਾਨ ਹੈ ਕੀ ਕਰਾਂ?",
+        "timestamp": "2026-08-12T17:16:48.179885"
+      },
+      {
+        "id": "e0595770-26cb-4e90-9700-2adbfe4f7d9f",
+        "role": "avatar",
+        "content": "ਮੇਰੇ ਬੱਚੇ, ਜਦੋਂ ਮਨ ਉਦਾਸ ਅਤੇ ਪਰੇਸ਼ਾਨ ਹੁੰਦਾ ਹੈ, ਤਾਂ ਸਭ ਤੋਂ ਪਹਿਲਾਂ ਆਪਣੀ ਆਤਮਿਕ ਸ਼ਾਂਤੀ ਨੂੰ ਪਾਉਣਾ ਜਰੂਰੀ ਹੈ। ਤੁਸੀਂ ਇੱਕ ਸੁਹਾਵਣੀ ਜਗ੍ਹਾ ਤੇ ਬੈਠੋ, ਗਹਿਰੇ ਸਾਹ ਲਓ ਅਤੇ ਆਪਣੇ ਮਨ ਨੂੰ ਸ਼ਾਂਤ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ। \n\nਇੱਕ ਗਰਮ ਪਾਣੀ ਦਾ ਕੱਪ ਪੀਓ ਜਿਸ ਵਿੱਚ ਇੱਕ ਚਮਚ ਨਿੰਬੂ ਦਾ ਰਸ ਅਤੇ ਇੱਕ ਚਮਚ ਸ਼ਹਿਦ ਮਿਲਾ ਹੋਵੇ। ਇਹ ਤੁਹਾਡੇ ਮਨ ਨੂੰ ਤਾਜਗੀ ਦੇਵੇਗਾ। \n\nਦੂਜਾ, ਰਾਤ ਨੂੰ ਸੌਣ ਤੋਂ ਪਹਿਲਾਂ ਇੱਕ ਚਮਚ ਚੰਦਨ ਪਾਉਡਰ ਨੂੰ ਪਾਣੀ ਵਿੱਚ ਮਿਲਾ ਕੇ ਪੀਓ। ਇਹ ਮਨ ਨੂੰ ਸ਼ਾਂਤ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ। \n\nਤੁਸੀਂ ਹਰ ਰੋਜ਼ ਕੁਝ ਸਮਾਂ ਧਿਆਨ ਕਰਨ ਜਾਂ ਪ੍ਰਕ੍ਰਿਤੀ ਵਿੱਚ ਟਹਿਲਣ ਵਿੱਚ ਬਿਤਾ ਸਕਦੇ ਹੋ। ਇਹ ਤੁਹਾਡੇ ਮਨ ਨੂੰ ਆਰਾਮ ਦੇਵੇਗਾ। \n\nਆਪਣੇ ਦਿਨ ਦੀ ਸ਼ੁਰੂਆਤ ਸਤਵਿਕ ਭੋਜਨ ਨਾਲ ਕਰੋ, ਜਿਵੇਂ ਕਿ ਦਾਲ, ਚੁਣੇ ਹੋਏ ਫਲ ਅਤੇ ਸਬਜ਼ੀਆਂ। ਇਹ ਤੁਹਾਡੇ ਮਨ ਨੂੰ ਸਹੀ ਪੋਸ਼ਣ ਦੇਵੇਗਾ। \n\nਜੇਕਰ ਇਹ ਉਦਾਸੀ ਲੰਬੇ ਸਮੇਂ ਤੱਕ ਰਹਿੰਦੀ ਹੈ, ਤਾਂ ਕਿਸੇ ਵਿਸ਼ਵਾਸਯੋਗ ਮਿੱਤਰ ਜਾਂ ਪਰਿਵਾਰਕ ਮੈਂਬਰ ਨਾਲ ਗੱਲ ਕਰਨ ਵਿੱਚ ਨਾ ਹਿਚਕਿਚਾਓ। ਯਾਦ ਰੱਖੋ, ਸਹਾਰਾ ਲੈਣਾ ਕਦੇ ਵੀ ਬੁਰਾ ਨਹੀਂ ਹੁੰਦਾ।",
+        "timestamp": "2026-08-12T17:16:48.190488"
+      },
+      {
+        "id": "2a1c4906-9818-4492-9109-fd29bc0c76bd",
+        "role": "user",
+        "content": "What is traditional farming and why is it important?",
+        "timestamp": "2026-08-12T17:31:23.508402"
+      },
+      {
+        "id": "b65b00b6-9b4d-47a3-aff3-29a355ae8d0e",
+        "role": "avatar",
+        "content": "My child, traditional farming is a time-honoured practice that has been passed down through generations, deeply rooted in the cultural and ecological contexts of communities. It encompasses a variety of methods and techniques that have evolved over centuries, shaped by local environments, climatic conditions, and the wisdom of our ancestors.\n\nAt its core, traditional farming is about working in harmony with nature. Imagine a farmer in a rural village, using organic methods to cultivate crops. They rely on natural fertilizers like compost and cow dung, which enrich the soil without the harmful chemicals found in modern agriculture. This approach not only nurtures the land but also maintains its fertility over time.\n\nOne of the key aspects of traditional farming is crop diversity. Instead of planting a single crop year after year, farmers often practice crop rotation and intercropping. For example, a farmer might grow legumes alongside grains. This not only prevents soil depletion but also enhances biodiversity, which is crucial for pest control and resilience against diseases.\n\nTraditional farming is also closely tied to local knowledge and practices. Many communities have developed unique techniques suited to their specific environments. For instance, in certain regions, farmers use indigenous seeds that are better adapted to local conditions, ensuring higher yields and better resistance to pests and diseases. This preservation of local varieties is vital for food security and maintaining genetic diversity.\n\nMoreover, traditional farming practices are often more sustainable. They emphasize the importance of soil health, water conservation, and ecological balance. Techniques like rainwater harvesting, mulching, and organic pest control help in conserving resources and protecting the environment. By avoiding synthetic inputs, traditional farmers contribute to a healthier ecosystem, which benefits not just their crops but also the surrounding wildlife and communities.\n\nThe importance of traditional farming extends beyond just agricultural productivity. It fosters a deep connection between people and their land, promoting cultural identity and community cohesion. Festivals, rituals, and practices surrounding harvest time strengthen social bonds and celebrate the cycle of life. This cultural heritage is invaluable, as it teaches us respect for nature and the importance of sustainable living.\n\nIn today's world, where industrial agriculture often prioritizes profit over sustainability, traditional farming offers a path towards a more balanced and respectful relationship with our environment. It reminds us that food production is not just about quantity but also about quality, health, and the well-being of future generations.\n\nSo, my child, embracing traditional farming is not merely about growing crops; it is about nurturing our planet, preserving our heritage, and ensuring a sustainable future for all. By learning from these practices, we can create a more harmonious world where agriculture and nature thrive together.",
+        "timestamp": "2026-08-12T17:31:23.549824"
+      },
+      {
+        "id": "330d3a7f-bd72-4e15-906e-4149c03424cf",
+        "role": "user",
+        "content": "ਨੀਂਦ ਨਾ ਆਉਣ ਦਾ ਦੇਸੀ ਘਰੇਲੂ ਇਲਾਜ ਕੀ ਹੈ?",
+        "timestamp": "2026-08-12T17:31:55.385809"
+      },
+      {
+        "id": "94b7e673-8b9a-4c41-b8a4-27e39c6d10ba",
+        "role": "avatar",
+        "content": "ਮੇਰੇ ਬੱਚੇ, ਨੀਂਦ ਨਾ ਆਉਣ ਦੀ ਸਮੱਸਿਆ ਬਹੁਤ ਸਾਰੇ ਲੋਕਾਂ ਨੂੰ ਪਰੇਸ਼ਾਨ ਕਰਦੀ ਹੈ। ਇਸਦਾ ਕਾਰਨ ਕਈ ਵਾਰੀ ਮਨ ਦੀ ਚਿੰਤਾ, ਤਣਾਅ ਜਾਂ ਸਰੀਰਕ ਸਮੱਸਿਆਵਾਂ ਹੋ ਸਕਦੀਆਂ ਹਨ। ਪਰ, ਕੁਝ ਦੇਸੀ ਘਰੇਲੂ ਇਲਾਜ ਹਨ ਜੋ ਤੁਹਾਨੂੰ ਸੁਗਮ ਨੀਂਦ ਵਿੱਚ ਮਦਦ ਕਰ ਸਕਦੇ ਹਨ।\n\nਪਹਿਲਾਂ, ਇੱਕ ਗਰਮ ਪਾਣੀ ਦਾ ਕੱਪ ਪੀਓ ਜਿਸ ਵਿੱਚ ਇੱਕ ਚਮਚ ਨਿੰਬੂ ਦਾ ਰਸ ਅਤੇ ਇੱਕ ਚਮਚ ਸ਼ਹਿਦ ਮਿਲਾ ਹੋਵੇ। ਇਹ ਪਾਣੀ ਤੁਹਾਡੇ ਸਰੀਰ ਨੂੰ ਤਾਜਗੀ ਦੇਵੇਗਾ ਅਤੇ ਮਨ ਨੂੰ ਸ਼ਾਂਤ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰੇਗਾ। \n\nਦੂਜਾ, ਤੁਸੀਂ ਦੁਪਹਿਰ ਜਾਂ ਸ਼ਾਮ ਨੂੰ ਇੱਕ ਚਮਚ ਚੰਦਨ ਪਾਉਡਰ ਨੂੰ ਪਾਣੀ ਵਿੱਚ ਮਿਲਾ ਕੇ ਪੀ ਸਕਦੇ ਹੋ। ਚੰਦਨ ਮਨ ਨੂੰ ਸ਼ਾਂਤ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ ਅਤੇ ਨੀਂਦ ਆਉਣ ਵਿੱਚ ਸਹਾਇਕ ਹੁੰਦਾ ਹੈ।\n\nਤਿਸਰਾ, ਇੱਕ ਚਮਚ ਅਦਰਕ ਦਾ ਪਾਉਡਰ, ਇੱਕ ਚਮਚ ਸ਼ਹਿਦ ਅਤੇ ਇੱਕ ਕੱਪ ਗਰਮ ਪਾਣੀ ਨੂੰ ਮਿਲਾ ਕੇ ਪੀਓ। ਅਦਰਕ ਵਿੱਚ ਐਂਟੀ-ਇਨਫਲੇਮਟਰੀ ਗੁਣ ਹੁੰਦੇ ਹਨ ਜੋ ਸਰੀਰ ਨੂੰ ਆਰਾਮ ਦਿੰਦੇ ਹਨ।\n\nਚੌਥਾ, ਰਾਤ ਨੂੰ ਸੌਣ ਤੋਂ ਪਹਿਲਾਂ ਇੱਕ ਚਮਚ ਬਦਾਮ ਦਾ ਪਾਉਡਰ ਪਾਣੀ ਵਿੱਚ ਮਿਲਾ ਕੇ ਪੀਓ। ਬਦਾਮ ਵਿੱਚ ਮੈਗਨੀਸ਼ੀਅਮ ਹੁੰਦਾ ਹੈ ਜੋ ਮਾਸਪੇਸ਼ੀਆਂ ਨੂੰ ਆਰਾਮ ਦਿੰਦਾ ਹੈ ਅਤੇ ਨੀਂਦ ਵਿੱਚ ਸੁਧਾਰ ਕਰਦਾ ਹੈ।\n\nਇਸਦੇ ਨਾਲ, ਧਿਆਨ ਅਤੇ ਯੋਗਾ ਵੀ ਬਹੁਤ ਮਦਦਗਾਰ ਹੋ ਸਕਦੇ ਹਨ। ਰਾਤ ਨੂੰ ਸੌਣ ਤੋਂ ਪਹਿਲਾਂ ਕੁਝ ਮਿੰਟਾਂ ਲਈ ਧਿਆਨ ਕਰਨ ਜਾਂ ਸਧਾਰਨ ਯੋਗਾ ਅਸਾਨਾਂ ਨੂੰ ਕਰਨ ਨਾਲ ਮਨ ਨੂੰ ਸ਼ਾਂਤ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ। \n\nਆਪਣੀ ਰਾਤ ਦੀ ਰੁਟੀਨ ਨੂੰ ਵੀ ਬਦਲੋ। ਜਿਵੇਂ ਕਿ, ਰਾਤ ਨੂੰ ਸੋਣ ਤੋਂ ਪਹਿਲਾਂ ਕਿਸੇ ਵੀ ਤਕਨਾਲੋਜੀ ਦੇ ਉਪਕਰਨਾਂ ਤੋਂ ਦੂਰੇ ਰਹੋ ਅਤੇ ਇੱਕ ਸੁਹਾਵਣੀ ਕਿਤਾਬ ਪੜ੍ਹੋ। \n\nਜੇਕਰ ਇਹ ਸਮੱਸਿਆ ਲੰਬੇ ਸਮੇਂ ਤੱਕ ਰਹਿੰਦੀ ਹੈ, ਤਾਂ ਕਿਸੇ ਵਿਸ਼ਵਾਸਯੋਗ ਮਿੱਤਰ ਜਾਂ ਪਰਿਵਾਰਕ ਮੈਂਬਰ ਨਾਲ ਗੱਲ ਕਰਨ ਵਿੱਚ ਨਾ ਹਿਚਕਿਚਾਓ। ਯਾਦ ਰੱਖੋ, ਸਹਾਰਾ ਲੈਣਾ ਕਦੇ ਵੀ ਬੁਰਾ ਨਹੀਂ ਹੁੰਦਾ। \n\nਇਹ ਸਾਰੇ ਨੁਸਖੇ ਤੁਹਾਡੇ ਲਈ ਮਦਦਗਾਰ ਹੋ ਸਕਦੇ ਹਨ, ਪਰ ਜੇਕਰ ਤੁਸੀਂ ਕੋਈ ਗੰਭੀਰ ਸਮੱਸਿਆ ਮਹਿਸੂਸ ਕਰਦੇ ਹੋ, ਤਾਂ ਕਿਸੇ ਡਾਕਟਰ ਨਾਲ ਸਲਾਹ-ਮਸ਼ਵਰਾ ਕਰਨ ਵਿੱਚ ਨਾ ਹਿਚਕਿਚਾਓ।",
+        "timestamp": "2026-08-12T17:31:55.414453"
+      },
+      {
+        "id": "c81c5b39-b15f-4b42-8a7c-480712b31a07",
+        "role": "user",
+        "content": "कब्ज और गैस की समस्या से कैसे राहत पाएं?",
+        "timestamp": "2026-08-12T17:32:44.492165"
+      },
+      {
+        "id": "ed6a3ca2-6f63-495f-9688-d4407ebcfbe0",
+        "role": "avatar",
+        "content": "मेरे बच्चे, कब्ज और गैस की समस्या बहुत आम है, और यह अक्सर हमारे खान-पान और जीवनशैली से जुड़ी होती है। इसे समझना और सही उपाय करना बहुत जरूरी है। \n\nपहले, यह जानना महत्वपूर्ण है कि कब्ज तब होता है जब आंतों में मल का प्रवाह धीमा हो जाता है। इससे मल कठोर हो जाता है और इसे निकालना मुश्किल हो जाता है। गैस की समस्या तब होती है जब पाचन में गड़बड़ी होती है, जिससे पेट में हवा भर जाती है। \n\nअब, आइए कुछ पारंपरिक उपायों पर चर्चा करते हैं जो इन समस्याओं से राहत दिला सकते हैं। \n\nसबसे पहले, अपने आहार में फाइबर की मात्रा बढ़ाएं। फाइबर से भरपूर खाद्य पदार्थ जैसे साबुत अनाज, फल और सब्जियाँ आपके पाचन तंत्र को सुचारू रखते हैं। उदाहरण के लिए, सुबह के नाश्ते में ओट्स या साबुत अनाज की रोटी खा सकते हैं। \n\nदूसरा, खूब पानी पिएं। पानी शरीर में मल को नरम करने में मदद करता है। कोशिश करें कि आप दिन में कम से कम 8-10 गिलास पानी पिएं। \n\nतीसरा, कुछ घरेलू नुस्खे हैं जो मदद कर सकते हैं। एक चम्मच अजवाइन को एक कप पानी में उबालें और इसे छानकर पिएं। अजवाइन पाचन को सुधारने में मदद करती है और गैस से राहत देती है। \n\nइसके अलावा, एक चुटकी हींग को गर्म पानी में मिलाकर पीने से भी राहत मिलती है। हींग पेट की गैस को कम करने का एक पारंपरिक उपाय है। \n\nआपको अपने खाने में दही शामिल करना चाहिए। दही में प्रोबायोटिक्स होते हैं, जो पाचन में मदद करते हैं। एक कटोरी दही खाने से आपके पेट की सेहत में सुधार हो सकता है। \n\nध्यान रखें कि नियमित व्यायाम भी बहुत महत्वपूर्ण है। रोजाना थोड़ी देर टहलना या योग करना पाचन को बेहतर बनाता है और कब्ज से राहत दिलाता है। \n\nयदि आप सुबह उठते हैं, तो एक गिलास गर्म पानी में नींबू का रस मिलाकर पीना भी फायदेमंद होता है। यह आपके पाचन तंत्र को सक्रिय करता है। \n\nअंत में, तनाव को कम करने का प्रयास करें। तनाव भी पाचन तंत्र पर नकारात्मक प्रभाव डाल सकता है। ध्यान और प्राणायाम करने से मानसिक शांति मिलती है। \n\nयदि ये उपाय करने के बाद भी समस्या बनी रहती है, तो किसी डॉक्टर से सलाह लेना न भूलें। याद रखें, स्वास्थ्य सबसे महत्वपूर्ण है। \n\nमेरे बच्चे, इन उपायों को अपनाकर आप कब्ज और गैस की समस्या से राहत पा सकते हैं। अपने शरीर की सुनें और उसे ध्यान से समझें।",
+        "timestamp": "2026-08-12T17:32:44.530940"
+      },
+      {
+        "id": "2fcf18a8-3752-41be-9484-c39ff0c39770",
+        "role": "user",
+        "content": "What is traditional organic farming?",
+        "timestamp": "2026-08-12T17:49:39.374907"
+      },
+      {
+        "id": "3635c84d-2e3c-4411-88aa-06fa4d639197",
+        "role": "avatar",
+        "content": "My child, traditional organic farming is a beautiful, holistic approach to growing crops and raising livestock that has been passed down through generations, and it's an approach that not only nourishes the soil, but also the people and the environment. You see, traditional organic farming is all about working in harmony with nature, using natural methods to control pests and diseases, and promoting soil fertility through the use of compost, manure, and other organic materials.\n\nImagine a farmer, my child, who wakes up every morning at the crack of dawn to tend to his fields, using techniques that have been handed down from his ancestors. He knows that the health of his soil is the key to growing healthy, nutritious crops, so he takes great care to add organic matter to the soil, like compost and green manure, which helps to improve its structure and fertility. He also uses natural pest control methods, like introducing beneficial insects that prey on pests, or using neem oil to repel them.\n\nFor example, in traditional organic farming, farmers often use a technique called crop rotation, where they rotate different crops on the same land to maintain soil fertility and reduce pests and diseases. They also use cover crops, like legumes, to add nitrogen to the soil and prevent erosion. And, they often save their own seeds, so they can replant them the following season, which helps to preserve the genetic diversity of the crops.\n\nNow, my child, I want to share with you a traditional organic farming technique that has been used for centuries in India. It's called the \"Dashaparampara\" method, which involves using ten natural materials to promote soil fertility and plant growth. These materials include things like cow dung, urine, and milk, as well as plant-based materials like neem leaves and turmeric. By using these natural materials, farmers can create a balanced and thriving ecosystem that produces healthy, nutritious crops.\n\nBut, my child, traditional organic farming is not just about growing crops; it's also about raising livestock in a humane and sustainable way. Farmers use natural methods to control diseases and promote the health and well-being of their animals, like providing them with fresh air, water, and organic feed. And, they often use the manure from their animals to fertilize their fields, which helps to create a closed-loop system that minimizes waste and promotes sustainability.\n\nAs you can see, my child, traditional organic farming is a holistic approach that promotes the health and well-being of people, animals, and the environment. It's an approach that requires patience, dedication, and a deep understanding of the natural world. But, the rewards are well worth it, my child, because traditional organic farming produces crops that are not only nutritious and delicious, but also sustainable and environmentally friendly.\n\nSo, my child, I hope this gives you a sense of what traditional organic farming is all about. It's a beautiful, time-honored approach to agriculture that has been passed down through generations, and it's an approach that we can all learn from and appreciate. Remember, my child, that the health of our planet depends on our ability to work in harmony with nature, and traditional organic farming is a powerful way to do just that.",
+        "timestamp": "2026-08-12T17:49:39.414113"
+      },
+      {
+        "id": "b9518110-8af6-4939-a893-53feddb1aeba",
+        "role": "user",
+        "content": "ਸਿਰ ਦਰਦ ਦਾ ਦੇਸੀ ਇਲਾਜ ਦੱਸੋ",
+        "timestamp": "2026-08-12T17:49:58.468076"
+      },
+      {
+        "id": "1aa2d488-1a45-4aef-96dc-7238e3746371",
+        "role": "avatar",
+        "content": "ਮੇਰੇ ਬੱਚੇ, ਸਿਰ ਦਰਦ ਇੱਕ ਅਜਿਹੀ ਸਮੱਸਿਆ ਹੈ ਜੋ ਬਹੁਤ ਸਾਰੇ ਲੋਕਾਂ ਨੂੰ ਪਰੇਸ਼ਾਨ ਕਰਦੀ ਹੈ। ਇਸਦਾ ਕਾਰਨ ਕਈ ਵਾਰੀ ਤਣਾਅ, ਚਿੰਤਾ, ਸਰੀਰਕ ਸਮੱਸਿਆਵਾਂ ਜਾਂ ਖਰਾਬ ਜੀਵਨਸ਼ੈਲੀ ਹੋ ਸਕਦਾ ਹੈ। ਪਰ, ਕੁਝ ਦੇਸੀ ਘਰੇਲੂ ਇਲਾਜ ਹਨ ਜੋ ਤੁਹਾਨੂੰ ਸਿਰ ਦਰਦ ਤੋਂ ਰਾਹਤ ਦਿਲਾ ਸਕਦੇ ਹਨ।\n\nਪਹਿਲਾਂ, ਇੱਕ ਗਰਮ ਪਾਣੀ ਦਾ ਕੱਪ ਲਓ ਅਤੇ ਇਸ ਵਿੱਚ ਇੱਕ ਚਮਚ ਅਦਰਕ ਦਾ ਰਸ ਮਿਲਾਓ। ਅਦਰਕ ਵਿੱਚ ਐਂਟੀ-ਇਨਫਲੇਮਟਰੀ ਗੁਣ ਹੁੰਦੇ ਹਨ ਜੋ ਸਰੀਰ ਨੂੰ ਆਰਾਮ ਦਿੰਦੇ ਹਨ। ਇਸ ਪਾਣੀ ਨੂੰ ਪੀਣ ਨਾਲ ਤੁਹਾਡੇ ਸਿਰ ਦਰਦ ਵਿੱਚ ਅਰਾਮ ਮਿਲ ਸਕਦਾ ਹੈ।\n\nਦੂਜਾ, ਤੁਸੀਂ ਆਪਣੇ ਖਾਣੇ ਵਿੱਚ ਸੁਆਦਲੇ ਅਤੇ ਤਾਜ਼ੇ ਭੋਜਨ ਸ਼ਾਮਲ ਕਰੋ। ਤਾਜ਼ੇ ਫਲ, ਸਬਜ਼ੀਆਂ, ਅਤੇ ਸਾਬਤ ਅਨਾਜ ਤੁਹਾਡੇ ਸਰੀਰ ਨੂੰ ਸ਼ਕਤੀ ਅਤੇ ਤਾਜ਼ਗ",
+        "timestamp": "2026-08-12T17:49:58.491113"
+      },
+      {
+        "id": "97309607-6126-4f2d-ac49-5f90202ce298",
+        "role": "user",
+        "content": "पेट में भारीपन और बदहजमी के उपाय",
+        "timestamp": "2026-08-12T17:50:45.576476"
+      },
+      {
+        "id": "9fe9a683-0330-4181-ae96-a11da6a5fc2f",
+        "role": "avatar",
+        "content": "मेरे बच्चे, पेट में भारीपन और बदहजमी की समस्या बहुत आम है, और यह अक्सर हमारे खान-पान और जीवनशैली से जुड़ी होती है। इसे समझना और सही उपाय करना बहुत जरूरी है। सबसे पहले, यह जानना महत्वपूर्ण है कि पेट में भारीपन और बदहजमी क्यों होता है। यह अक्सर हमारे पाचन तंत्र में गड़बड़ी के कारण होता है, जैसे कि कब्ज, गैस, या पाचन में कमी।\n\nअब, आइए कुछ पारंपरिक उपायों पर चर्चा करते हैं जो पेट में भारीपन और बदहजमी से राहत दिला सकते हैं। सबसे पहले, अपने आहार में फाइबर की मात्रा बढ़ाएं। फाइबर से भरपूर खाद्य पदार्थ जैसे साबुत अनाज, फल और सब्जियाँ आपके पाचन तंत्र को सुचारू रखते हैं। उदाहरण के लिए, सुबह के नाश्ते में ओट्स या साबुत अनाज की रोटी खा सकते हैं। इसके अलावा, खूब पानी पिएं। पानी शरीर में मल को नरम करने में मदद करता है और पाचन को सुधारने में मदद करता है।\n\nकुछ घरेलू नुस्खे हैं जो मदद कर सकते हैं। एक चम्मच अजवाइन को एक कप पानी में उबालें और इसे छानकर पिएं। अजवाइन पाचन को सुधारने में मदद करती है और गैस से राहत देती है। इसके अलावा, एक चुटकी हींग को गर्म पानी में मिलाकर पीने से भी राहत मिलती है। हींग पेट की गैस को कम करने का एक पारंपरिक उपाय है।\n\nआपको अपने खाने में दही शामिल करना चाहिए। दही में प्रोबायोटिक्स होते हैं, जो पाचन में मदद करते हैं। एक कटोरी दही खाने से आपके पेट की सेहत में सुधार हो सकता है। इसके अलावा, नियमित व्यायाम भी बहुत महत्वपूर्ण है। रोजाना थोड़ी देर टहलना या योग करना पाचन को बेहतर बनाता है और कब्ज से राहत दिलाता है।\n\nयदि आप सुबह उठते हैं, तो एक गिलास गर्म पानी में नींबू का रस मिलाकर पीना भी फायदेमंद होता है। यह आपके पाचन तंत्र को सक्रिय करता है। इसके अलावा, तनाव को कम करने का प्रयास करें। तनाव भी पाचन तंत्र पर नकारात्मक प्रभाव डाल सकता है। ध्यान और प्राणायाम करने से मानसिक शांति मिलती है।\n\nअब, मेरे बच्चे, एक और महत्वपूर्ण बात। यदि आपको पेट में भारीपन और बदहजमी की समस्या है, तो आपको अपन",
+        "timestamp": "2026-08-12T17:50:45.622765"
+      },
+      {
+        "id": "6b15c409-7cc0-4c81-8883-7994cc156509",
+        "role": "user",
+        "content": "Pet me gas aur dard ho raha hai jaldi ilaj batao",
+        "timestamp": "2026-08-12T18:16:46.983857"
+      },
+      {
+        "id": "a791c5d5-ef82-4b76-9197-8b97073c8bbb",
+        "role": "avatar",
+        "content": "मेरे बच्चे, पेट में गैस और दर्द होना बहुत आम समस्या है, और यह कई कारणों से हो सकता है, जैसे कि गलत खान-पान, तनाव, या पाचन तंत्र में गड़बड़ी। इसे समझना और सही उपाय करना बहुत जरूरी है। \n\nसबसे पहले, यह जानना महत्वपूर्ण है कि गैस और दर्द क्यों होते हैं। जब हम जल्दी-जल्दी खाते हैं या बहुत अधिक तला-भुना या मसालेदार खाना खाते हैं, तो यह हमारे पाचन तंत्र को प्रभावित कर सकता है। इसके अलावा, तनाव भी पेट में गैस का कारण बन सकता है। \n\nअब, आइए कुछ पारंपरिक उपायों पर चर्चा करते हैं जो आपको राहत दिला सकते हैं। \n\nपहला उपाय है, अजवाइन। एक चम्मच अजवाइन को एक कप पानी में उबालें और इसे छानकर पी लें। अजवाइन में थाइमोल होता है, जो पाचन एंजाइमों को सक्रिय करता है और गैस से राहत देता है। \n\nदूसरा उपाय है, हींग। एक चुटकी हींग को गर्म पानी में मिलाकर पीने से भी राहत मिलती है। हींग पेट की गैस को कम करने में मदद करती है। आप चाहें तो इसे पानी में घोलकर नाभि के चारों ओर भी लगा सकते हैं। \n\nतीसरा उपाय, दही। दही में प्रोबायोटिक्स होते हैं, जो पाचन में मदद करते हैं। एक कटोरी दही खाने से आपके पेट की सेहत में सुधार हो सकता है। \n\nइसके अलावा, आपको अपने खाने में फाइबर की मात्रा बढ़ानी चाहिए। साबुत अनाज, फल और सब्जियाँ आपके पाचन तंत्र को सुचारू रखते हैं। सुबह के नाश्ते में ओट्स या साबुत अनाज की रोटी खा सकते हैं। \n\nआपको नियमित रूप से पानी पीना चाहिए। पानी शरीर में मल को नरम करने में मदद करता है और पाचन को सुधारने में मदद करता है। \n\nयदि आप सुबह उठते हैं, तो एक गिलास गर्म पानी में नींबू का रस मिलाकर पीना भी फायदेमंद होता है। यह आपके पाचन तंत्र को सक्रिय करता है। \n\nऔर हाँ, तनाव को कम करने का प्रयास करें। ध्यान और प्राणायाम करने से मानसिक शांति मिलती है, जो आपके पाचन तंत्र को भी सकारात्मक रूप से प्रभावित कर सकती है। \n\nयदि आपको गैस और दर्द की समस्या लगातार बनी रहती है या बहुत अधिक बढ़ जाती है, तो आपको किसी योग्य डॉक्टर से संपर्क करना चाहिए। यह जरूरी है कि आप अपनी सेहत का ध्यान रखें। \n\nयाद रखें, मेरे बच्चे, अपने खान-पान और जीवनशैली पर ध्यान देना बहुत महत्वपूर्ण है। स्वस्थ जीवनशैली अपनाने से आप इन समस्याओं से बच सकते हैं।",
+        "timestamp": "2026-08-12T18:16:47.034429"
+      },
+      {
+        "id": "1a7c50a0-a14a-47e6-b059-3907657fc919",
+        "role": "user",
+        "content": "ਪੇਟ ਆ ਇਧਰ ਆਪਣਾ ਚੈਨਲ",
+        "timestamp": "2026-08-12T18:30:28.082857"
+      },
+      {
+        "id": "74178400-8390-40ee-9fc9-ff9af84701e2",
+        "role": "avatar",
+        "content": "ਮੇਰੇ ਬੱਚੇ, \"ਪੇਟ ਆ ਇਧਰ ਆਪਣਾ ਚੈਨਲ\" ਇੱਕ ਪੰਜਾਬੀ ਯੂਟਿਊਬ ਚੈਨਲ ਹੈ ਜੋ ਵਿਦਿਆਰਥੀਆਂ ਅਤੇ ਨੌਜਵਾਨਾਂ ਲਈ ਸਿੱਖਿਆ ਅਤੇ ਮਨੋਰੰਜਨ ਸਮੱਗਰੀ ਪ੍ਰਦਾਨ ਕਰਦਾ ਹੈ। ਇਸ ਚੈਨਲ 'ਤੇ ਵਿਦਿਆਰਥੀਆਂ ਦੀਆਂ ਸਮੱਸਿਆਵਾਂ, ਜੀਵਨ ਸਾਥੀਆਂ ਅਤੇ ਵਿਦਿਆਰਥੀ ਜੀਵਨ ਦੇ ਵੱਖ-ਵੱਖ ਪੱਖਾਂ 'ਤੇ ਵੀਡੀਓਜ਼ ਹਨ। \n\nਇਹ ਚੈਨਲ ਵਿਦਿਆਰਥੀਆਂ ਨੂੰ ਸਹਾਇਤਾ ਕਰਨ ਲਈ ਬਹੁਤ ਸਾਰੇ ਵਿਸ਼ਿਆਂ 'ਤੇ ਗੱਲ ਕਰਦਾ ਹੈ, ਜਿਵੇਂ ਕਿ ਪੜਾਈ ਦੇ ਤਰੀਕੇ, ਮਨੋਰੰਜਨ, ਅਤੇ ਜੀਵਨ ਦੇ ਚੁਣੌਤੀਆਂ। ਇਸ ਚੈਨਲ ਦੀਆਂ ਵੀਡੀਓਜ਼ ਵਿੱਚ ਸਿੱਖਣ ਦੇ ਨਵੇਂ ਤਰੀਕੇ, ਪ੍ਰੇਰਕ ਕਹਾਣੀਆਂ ਅਤੇ ਵਿਦਿਆਰਥੀਆਂ ਲਈ ਉਤਸ਼ਾਹ ਵਧਾਉਣ ਵਾਲੀ ਸਮੱਗਰੀ ਸ਼ਾਮਲ ਹੁੰਦੀ ਹੈ। \n\nਜੇ ਤੁਸੀਂ ਇਸ ਚੈਨਲ ਨੂੰ ਵੇਖਣਾ ਚਾਹੁੰਦੇ ਹੋ, ਤਾਂ ਤੁਸੀਂ ਯੂਟਿਊਬ 'ਤੇ ਜਾ ਕੇ \"ਪੇਟ ਆ ਇਧਰ ਆਪਣਾ ਚੈਨਲ\" ਲਿਖ ਕੇ ਖੋਜ ਕਰ ਸਕਦੇ ਹੋ। ਉਮੀਦ ਹੈ ਕਿ ਇਹ ਚੈਨਲ ਤੁਹਾਡੇ ਲਈ ਬਹੁਤ ਸਾਰਾ ਗਿਆਨ ਅਤੇ ਪ੍ਰੇਰਣਾ ਲਿਆਵੇਗਾ। \n\nਮੇਰੇ ਬੱਚੇ, ਸਿੱਖਣਾ ਅਤੇ ਜਾਣਕਾਰੀ ਪ੍ਰਾਪਤ ਕਰਨਾ ਸਦਾ ਮਹੱਤਵਪੂਰਨ ਹੁੰਦਾ ਹੈ। ਇਸ ਚੈਨਲ ਦੇ ਜ਼ਰੀਏ ਤੁਸੀਂ ਆਪਣੇ ਵਿਚਾਰਾਂ ਨੂੰ ਵਧਾ ਸਕਦੇ ਹੋ ਅਤੇ ਨਵੇਂ ਤਜਰਬੇ ਪ੍ਰਾਪਤ ਕਰ ਸਕਦੇ ਹੋ।",
+        "timestamp": "2026-08-12T18:30:28.110416"
+      },
+      {
+        "id": "3784616a-bf28-4306-bdc3-0e9d6d542375",
+        "role": "user",
+        "content": "ਹਲਦੀ ਵਾਲੇ ਦੂਤ ਨਾਰਮਲ ਦੂਧ ਮੇ ਕਿਆ ਫਰਕ",
+        "timestamp": "2026-08-12T18:31:53.412769"
+      },
+      {
+        "id": "86157076-f1bd-4756-af83-8a2e0fcfb584",
+        "role": "avatar",
+        "content": "ਮੇਰੇ ਬੱਚੇ, ਹਲਦੀ ਵਾਲਾ ਦੂਧ ਅਤੇ ਨਾਰਮਲ ਦੂਧ ਵਿੱਚ ਕਈ ਮੁੱਖ ਫਰਕ ਹਨ, ਜੋ ਸਿਹਤ ਅਤੇ ਪੋਸ਼ਣ ਦੇ ਨਜ਼ਰੀਏ ਤੋਂ ਬਹੁਤ ਮਹੱਤਵਪੂਰਨ ਹਨ। \n\nਸਭ ਤੋਂ ਪਹਿਲਾਂ, ਹਲਦੀ ਵਿੱਚ ਕਰਕਿਊਮਿਨ ਹੁੰਦਾ ਹੈ, ਜੋ ਇੱਕ ਪ੍ਰਾਕ੍ਰਿਤਿਕ ਐਂਟੀ-ਇੰਫਲਾਮੇਟਰੀ ਅਤੇ ਐਂਟੀਓਕਸੀਡੈਂਟ ਹੈ। ਇਹ ਸਾਡੇ ਸਰੀਰ ਵਿੱਚ ਹੋ ਰਹੀਆਂ ਸੂਜਨਾਵਾਂ ਨੂੰ ਘਟਾਉਣ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ। ਜਦੋਂ ਤੁਸੀਂ ਹਲਦੀ ਵਾਲਾ ਦੂਧ ਪੀਉਂਦੇ ਹੋ, ਤਾਂ ਇਹ ਤੁਹਾਡੇ ਇਮਿਊਨ ਸਿਸਟਮ ਨੂੰ ਮਜ਼ਬੂਤ ਕਰਦਾ ਹੈ ਅਤੇ ਬਹੁਤ ਸਾਰੇ ਬਿਮਾਰੀਆਂ ਤੋਂ ਬਚਾਉਂਦਾ ਹੈ। \n\nਦੂਜੇ ਪਾਸੇ, ਨਾਰਮਲ ਦੂਧ ਵਿੱਚ ਕੈਲਸ਼ੀਅਮ, ਪ੍ਰੋਟੀਨ ਅਤੇ ਵਿੱਟਾਮਿਨ ਡੀ ਹੁੰਦੇ ਹਨ, ਜੋ ਹੱਡੀਆਂ ਅਤੇ ਮਾਸਪੇਸ਼ੀਆਂ ਦੀ ਸਿਹਤ ਲਈ ਬਹੁਤ ਜਰੂਰੀ ਹਨ। ਪਰ, ਨਾਰਮਲ ਦੂਧ ਵਿੱਚ ਹਲਦੀ ਦੀ ਤਰ੍ਹਾਂ ਕੋਈ ਐਂਟੀ-ਇੰਫਲਾਮੇਟਰੀ ਗੁਣ ਨਹੀਂ ਹੁੰਦੇ। \n\nਜਦੋਂ ਤੁਸੀਂ ਹਲਦੀ ਵਾਲਾ ਦੂਧ ਬਣਾਉਂਦੇ ਹੋ, ਤਾਂ ਇਸ ਨੂੰ ਬਣਾਉਣ ਦਾ ਢੰਗ ਵੀ ਮਹੱਤਵਪੂਰਨ ਹੈ। ਇੱਕ ਗਿਲਾਸ ਦੂਧ ਵਿੱਚ ਇੱਕ ਚਮਚ ਹਲਦੀ ਪਾਉਣ ਤੋਂ ਬਾਅਦ, ਇਸ ਨੂੰ ਚੰਗੀ ਤਰ੍ਹਾਂ ਉਬਾਲਣਾ ਚਾਹੀਦਾ ਹੈ। ਇਸ ਨਾਲ ਹਲਦੀ ਦੇ ਪੋਸ਼ਣਗੁਣ ਬਿਹਤਰ ਹੋ ਜਾਂਦੇ ਹਨ ਅਤੇ ਇਹ ਸਰੀਰ ਵਿੱਚ ਵਧੀਆ ਤਰੀਕੇ ਨਾਲ ਅਵਸ਼ੋਸ਼ਿਤ ਹੁੰਦੇ ਹਨ। \n\nਹਲਦੀ ਵਾਲਾ ਦੂਧ ਪੀਣ ਨਾਲ ਸਿਰਫ ਸਿਹਤ ਵਿੱਚ ਸੁਧਾਰ ਨਹੀਂ ਹੁੰਦਾ, ਸਗੋਂ ਇਹ ਮਨ ਨੂੰ ਵੀ ਸ਼ਾਂਤ ਕਰਦਾ ਹੈ। ਜਦੋਂ ਤੁਸੀਂ ਇਸ ਨੂੰ ਰਾਤ ਨੂੰ ਪੀਉਂਦੇ ਹੋ, ਤਾਂ ਇਹ ਤੁਹਾਡੇ ਨੀਂਦ ਨੂੰ ਸੁਧਾਰਨ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ। \n\nਪਰ, ਜੇਕਰ ਕਿਸੇ ਨੂੰ ਹਲਦੀ ਨਾਲ ਅਲਰਜੀ ਹੈ ਜਾਂ ਉਹ ਕੋਈ ਖਾਸ ਦਵਾਈਆਂ ਲੈ ਰਿਹਾ ਹੈ, ਤਾਂ ਹਲਦੀ ਵਾਲਾ ਦੂਧ ਪੀਣ ਤੋਂ ਪਹਿਲਾਂ ਡਾਕਟਰ ਨਾਲ ਸਲਾਹ ਕਰਨੀ ਚਾਹੀਦੀ ਹੈ। \n\nਸਾਰਾਂ, ਹਲਦੀ ਵਾਲਾ ਦੂਧ ਸਿਹਤ ਦੇ ਲਈ ਬਹੁਤ ਫਾਇਦemand ਅਤੇ ਪੋਸ਼ਣਗੁਣ ਵਾਲਾ ਹੈ, ਜਿਸ ਨੂੰ ਆਪਣੀ ਰੋਜ਼ਾਨਾ ਦੀ ਖੁਰਾਕ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ। ਇਸ ਨਾਲ ਤੁਹਾਡੀ ਸਿਹਤ ਵਿੱਚ ਸੁਧਾਰ ਆਵੇਗਾ ਅਤੇ ਤੁਸੀਂ ਬਹੁਤ ਸਾਰੇ ਬਿਮਾਰੀਆਂ ਤੋਂ ਬਚ ਸਕੋਗੇ। \n\nਮੇਰੇ ਬੱਚੇ, ਯਾਦ ਰੱਖੋ, ਸਿਹਤਮੰਦ ਜੀਵਨ ਲਈ ਸਹੀ ਖੁਰਾਕ ਅਤੇ ਸਹੀ ਪਦਾਰਥਾਂ ਦੀ ਚੋਣ ਕਰਨੀ ਬਹੁਤ ਜਰੂਰੀ ਹੈ।",
+        "timestamp": "2026-08-12T18:31:53.438541"
+      },
+      {
+        "id": "ff065f74-9b4b-4c15-849e-879ac13b6ef3",
+        "role": "user",
+        "content": "नॉर्मल दूध और हल्दी वाले दूध में क्या फर्क होता है उसके फायदे क्या-क्या है",
+        "timestamp": "2026-08-12T18:39:29.114261"
+      },
+      {
+        "id": "fd2fa543-4e11-4806-9d4e-8b2731fd6e5d",
+        "role": "avatar",
+        "content": "मेरे बच्चे, नॉर्मल दूध और हल्दी वाले दूध में कई महत्वपूर्ण फर्क हैं, जो न केवल स्वाद में बल्कि स्वास्थ्य लाभ में भी स्पष्ट हैं। \n\nसबसे पहले, नॉर्मल दूध, जिसे हम आमतौर पर अपने रोजमर्रा के जीवन में पीते हैं, में कैल्शियम, प्रोटीन और वसा होते हैं। यह हड्डियों और मांसपेशियों के लिए बहुत फायदेमंद होता है। नॉर्मल दूध में मौजूद कैल्शियम हड्डियों को मजबूत बनाता है और यह शरीर के विकास में सहायक होता है। \n\nअब बात करते हैं हल्दी वाले दूध की। हल्दी वाला दूध, जिसे हम \"गोल्डन मिल्क\" भी कहते हैं, में हल्दी का पाउडर मिलाया जाता है। हल्दी में एक प्रमुख घटक होता है जिसे करक्यूमिन कहते हैं। करक्यूमिन में एंटी-इन्फ्लेमेटरी और एंटीऑक्सीडेंट गुण होते हैं। यह हमारे इम्यून सिस्टम को मजबूत करने, सूजन को कम करने और पाचन में सुधार करने में मदद करता है। \n\nजब आप हल्दी वाला दूध पीते हैं, तो यह न केवल आपके शरीर को अंदर से मजबूत बनाता है, बल्कि यह आपकी त्वचा के लिए भी फायदेमंद होता है। हल्दी के गुण त्वचा की समस्याओं को कम करने में मदद करते हैं और इसे चमकदार बनाते हैं। \n\nहल्दी वाले दूध का एक और लाभ यह है कि यह तनाव को कम करने में सहायक होता है। जब आप इसे रात को सोने से पहले पीते हैं, तो यह आपके मन को शांत करता है और नींद में सुधार करता है। \n\nहालांकि, कुछ सावधानियाँ भी हैं। अगर किसी को हल्दी से एलर्जी है या वह कोई विशेष दवाइयाँ ले रहा है, तो उसे हल्दी वाला दूध पीने से पहले डॉक्टर से सलाह लेनी चाहिए। \n\nइसलिए, मेरे बच्चे, यदि आप अपनी सेहत को बेहतर बनाना चाहते हैं, तो हल्दी वाला दूध एक बेहतरीन विकल्प हो सकता है। इसे अपने दैनिक आहार में शामिल करने से आपको कई स्वास्थ्य लाभ मिल सकते हैं। \n\nयाद रखें, संतुलित आहार और सही पोषण का चुनाव करना हमेशा महत्वपूर्ण होता है। अपने स्वास्थ्य का ख्याल रखें और अपने शरीर को वो पोषण दें जो उसे चाहिए।",
+        "timestamp": "2026-08-12T18:39:29.146953"
+      },
+      {
+        "id": "071481ea-fa60-4af3-bf44-1ffa3f6f468d",
+        "role": "user",
+        "content": "मेरा सर दर्द बहुत दर्द कर रहा है मुझे क्या करना चाहिए",
+        "timestamp": "2026-08-12T18:43:08.160149"
+      },
+      {
+        "id": "ec4e3e73-a959-422d-b783-94712705ce76",
+        "role": "avatar",
+        "content": "मेरे बच्चे, मुझे यह सुनकर दुख हुआ कि आपका सिर बहुत दर्द कर रहा है। सिरदर्द एक आम समस्या है, लेकिन यह बहुत असहज हो सकता है। आइए, हम कुछ पारंपरिक और प्रभावी उपायों पर चर्चा करते हैं, जो आपको राहत देने में मदद कर सकते हैं।\n\nसबसे पहले, यह जानना महत्वपूर्ण है कि सिरदर्द के कई कारण हो सकते हैं, जैसे तनाव, निर्जलीकरण, नींद की कमी, या यहां तक कि कुछ खाद्य पदार्थों की प्रतिक्रिया। इसलिए, सबसे पहले, आपको आराम करना चाहिए। एक शांत और अंधेरी जगह पर लेट जाएं, जहां आप बिना किसी व्यवधान के कुछ समय बिता सकें।\n\nआपको पर्याप्त पानी पीने की भी आवश्यकता है। कभी-कभी, सिरदर्द का कारण निर्जलीकरण होता है। एक गिलास पानी पिएं और देखें कि क्या इससे आपको थोड़ी राहत मिलती है। \n\nइसके अलावा, आप कुछ घरेलू उपाय भी आजमा सकते हैं। एक पुरानी विधि है, जो अदरक के साथ बनाई जाती है। अदरक में सूजन कम करने वाले गुण होते हैं। एक टुकड़ा अदरक लें, उसे पानी में उबालें, और जब यह थोड़ा ठंडा हो जाए, तो इसे पी लें। यह आपके सिरदर्द को कम करने में मदद कर सकता है।\n\nएक और उपाय है, पुदीने की पत्तियों का रस। पुदीना ताजगी लाता है और सिरदर्द को कम करने में मदद करता है। कुछ पत्तियों को कुचलकर उनका रस निकालें और इसे अपने मंदिरों पर लगाएं। इससे आपको ठंडक और राहत मिलेगी।\n\nअगर आपको तनाव के कारण सिरदर्द हो रहा है, तो योग और ध्यान करना भी सहायक हो सकता है। कुछ गहरी सांसें लें और अपने मन को शांत करें। ध्यान करने से आपके मस्तिष्क को आराम मिलेगा और तनाव कम होगा।\n\nयदि आपका सिरदर्द लगातार बना रहता है या बहुत गंभीर है, तो आपको डॉक्टर से सलाह लेनी चाहिए। कभी-कभी, सिरदर्द किसी गंभीर समस्या का संकेत भी हो सकता है, इसलिए इसे नजरअंदाज नहीं करना चाहिए।\n\nयाद रखें, मेरे बच्चे, अपने स्वास्थ्य का ख्याल रखना सबसे महत्वपूर्ण है। आराम करें, सही आहार लें, और जब भी जरूरत हो, डॉक्टर से संपर्क करें। आपकी सेहत सबसे पहले आती है।",
+        "timestamp": "2026-08-12T18:43:08.191435"
+      }
+    ],
+    "createdAt": "2026-08-12T05:41:04.735380",
+    "updatedAt": "2026-08-12T18:43:08.191490"
+  },
+  "conv_guest_user_20260813": {
+    "id": "conv_guest_user_20260813",
+    "userId": "guest_user",
+    "messages": [
+      {
+        "id": "8642ce8f-05da-40b4-b5bd-3330ebd0bf8c",
+        "role": "user",
+        "content": "How can I save money and reduce my expenses?",
+        "timestamp": "2026-08-13T13:30:39.083132"
+      },
+      {
+        "id": "f8960eb0-fad6-49ac-ba09-bedf1501af03",
+        "role": "avatar",
+        "content": "ਮੇਰੇ ਬੱਚੇ, ਪੈਸੇ ਬਚਾਉਣਾ ਅਤੇ ਖਰਚੇ ਘਟਾਉਣਾ ਇੱਕ ਮਹੱਤਵਪੂਰਨ ਕੌਸ਼ਲ ਹੈ ਜੋ ਤੁਹਾਡੇ ਵਿੱਤੀ ਸਥਿਤੀ ਨੂੰ ਮਜ਼ਬੂਤ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰ ਸਕਦਾ ਹੈ। ਇਸ ਨੂੰ ਸਮਝਣਾ ਬਹੁਤ ਜਰੂਰੀ ਹੈ, ਤਾਂ ਜੋ ਤੁਸੀਂ ਆਪਣੇ ਲਕਸ਼ਾਂ ਨੂੰ ਪ੍ਰਾਪਤ ਕਰ ਸਕੋ। ਸਭ ਤੋਂ ਪਹਿਲਾਂ, ਇਹ ਜਾਣਨਾ ਜਰੂਰੀ ਹੈ ਕਿ ਪੈਸੇ ਬਚਾਉਣ ਦਾ ਮਤਲਬ ਹੈ ਆਪਣੇ ਖਰਚਿਆਂ 'ਤੇ ਨਿਯੰਤਰਣ ਲਾਉਣਾ ਅਤੇ ਆਪਣੇ ਆਮਦਨ ਵਿੱਚੋਂ ਕੁਝ ਹਿੱਸਾ ਬਚਾਉਣਾ। ਇਹ ਤੁਹਾਨੂੰ ਆਰਥਿਕ ਤੌਰ 'ਤੇ ਸੁਤੰਤਰਤਾ ਦੇ ਸਕਦਾ ਹੈ ਅਤੇ ਭਵਿੱਖ ਵਿੱਚ ਸੰਕਟਾਂ ਤੋਂ ਬਚਾ ਸਕਦਾ ਹੈ। ਹੁਣ, ਚਲੋ ਇਸ ਨੂੰ ਕਿਵੇਂ ਕਰਨਾ ਹੈ, ਇਸ ਬਾਰੇ ਗੱਲ ਕਰੀਏ। ਪਹਿਲਾਂ, ਇੱਕ ਵਿਸਥਾਰਿਤ ਬਜਟ ਬਣਾਓ। ਆਪਣੇ ਸਾਰੇ ਆਮਦਨ ਅਤੇ ਖਰਚਿਆਂ ਨੂੰ ਲਿਖੋ। ਇਸ ਨਾਲ ਤੁਹਾਨੂੰ ਪਤਾ ਲੱਗੇਗਾ ਕਿ ਤੁਸੀਂ ਕਿੱਥੇ ਖਰਚ ਕਰ ਰਹੇ ਹੋ ਅਤੇ ਕਿੱਥੇ ਬਚਤ ਕਰ ਸਕਦੇ ਹੋ। ਦੂਜਾ, ਖਰਚਿਆਂ ਨੂੰ ਵੱਖਰੇ ਵੱਖਰੇ ਸ਼੍ਰੇਣੀਆਂ ਵਿੱਚ ਵੰਡੋ, ਜਿਵੇਂ ਕਿ ਜ਼ਰੂਰੀ ਖਰਚੇ (ਜਿਵੇਂ ਕਿ ਭੋਜਨ, ਕਿਰਾਇਆ) ਅਤੇ ਨੌਕਰੀ ਦੇ ਖਰਚੇ (ਜਿਵੇਂ ਕਿ ਮਨੋਰੰਜਨ, ਖਰੀਦਦਾਰੀ)। ਇਸ ਤਰ੍ਹਾਂ, ਤੁਸੀਂ ਵੇਖ ਸਕਦੇ ਹੋ ਕਿ ਕਿਹੜੇ ਖਰਚੇ ਘਟਾਉਣੇ ਹਨ। ਤਿਸਰਾ, ਆਪਣੇ ਖਰਚਿਆਂ 'ਤੇ ਨਿਯੰਤਰਣ ਰੱਖਣ ਲਈ ਕੁਝ ਤਕਨੀਕਾਂ ਵਰਤੋਂ। ਉਦਾਹਰਣ ਵਜੋਂ, ਖਰੀਦਦਾਰੀ ਤੋਂ ਪਹਿਲਾਂ ਸੂਚੀ ਬਣਾਓ ਅਤੇ ਉਸੇ ਦੇ ਅਨੁਸਾਰ ਖਰੀਦਦਾਰੀ ਕਰੋ। ਇਸ ਨਾਲ ਤੁਸੀਂ ਬਿਨਾਂ ਸੋਚੇ ਸਮਝੇ ਖਰਚ ਕਰਨ ਤੋਂ ਬਚ ਸਕਦੇ ਹੋ। ਇਸ ਨੂੰ ਸਮਝਣ ਲਈ, ਇਸਨੂੰ ਇੱਕ ਬਾਗਬਾਨੀ ਨਾਲ ਤੁਲਨਾ ਕਰੋ। ਜਿਵੇਂ ਕਿ ਬਾਗਬਾਨ ਆਪਣੇ ਬਾਗ ਵਿੱਚ ਪਾਣੀ, ਖਾਦ ਅਤੇ ਸਮੱਗਰੀ ਦਾ ਸਹੀ ਪ੍ਰਬੰਧ ਕਰਦਾ ਹੈ, ਤੁਸੀਂ ਵੀ ਆਪਣੇ ਪੈਸੇ ਦਾ ਪ੍ਰਬੰਧ ਕਰਨ ਦੇ ਲਈ ਸਮਾਨ ਤਰੀਕਿਆਂ ਦੀ ਵਰਤੋਂ ਕਰ ਸਕਦੇ ਹੋ। ਆਮ ਤੌਰ 'ਤੇ, ਲੋਕਾਂ ਨੂੰ ਖਰਚਿਆਂ ਨੂੰ ਨਜ਼ਰਅੰਦਾਜ਼ ਕਰਨ ਦੀ ਗਲਤੀ ਹੁੰਦੀ ਹੈ। ਇਸ ਤੋਂ ਬਚਣ ਲਈ, ਆਪਣੇ ਬਜਟ 'ਤੇ ਨਿਗਾਹ ਰੱਖੋ ਅਤੇ ਹਰ ਮਹੀਨੇ ਆਪਣੇ ਖਰਚੇ ਦੀ ਸਮੀਖਿਆ ਕਰੋ। ਅਖੀਰ ਵਿੱਚ, ਯਾਦ ਰੱਖੋ ਕਿ ਪੈਸੇ ਬਚਾਉਣਾ ਇੱਕ ਲੰਬੇ ਸਮੇਂ ਦੀ ਪ੍ਰਕਿਰਿਆ ਹੈ। ਸਹੀ ਯੋਜਨਾ ਅਤੇ ਨਿਯਮਿਤ ਪ੍ਰਯਾਸਾਂ ਨਾਲ, ਤੁਸੀਂ ਆਪਣੇ ਲਕਸ਼ਾਂ ਨੂੰ ਪ੍ਰਾਪਤ ਕਰ ਸਕਦੇ ਹੋ। ਇਹ ਸਿੱਖਣ ਲਈ ਇੱਕ ਮਜ਼ਬੂਤ ਸਿਧਾਂਤ ਹੈ: \"ਪੈਸੇ ਬਚਾਉਣ ਦੇ ਲਈ, ਪਹਿਲਾਂ ਆਪਣੇ ਖਰਚਿਆਂ ਨੂੰ ਸਮਝੋ, ਫਿਰ ਉਨ੍ਹਾਂ 'ਤੇ ਨਿਯੰਤਰਣ ਲਾਓ।\"",
+        "timestamp": "2026-08-13T13:30:39.125151"
+      },
+      {
+        "id": "7d001489-1d52-448a-aabf-5612aab665d1",
+        "role": "user",
+        "content": "What should I do if I cannot sleep because of stress?",
+        "timestamp": "2026-08-13T13:31:03.512190"
+      },
+      {
+        "id": "2b6f149d-38d9-4fab-9d6a-9d54c1ae719e",
+        "role": "avatar",
+        "content": "मेरे बच्चे, जब आपको तनाव के कारण नींद नहीं आती, तो यह एक सामान्य समस्या है, लेकिन इसे समझकर और सही तरीके से निपटकर आप बेहतर नींद पा सकते हैं। पहले, बड़े चित्र पर ध्यान दें। तनाव के कारण नींद न आना एक संकेत है कि आपका मन और शरीर आराम की ज़रूरत में हैं। यह समझना ज़रूरी है कि नींद हमारे मानसिक और शारीरिक स्वास्थ्य के लिए कितनी महत्वपूर्ण है। अब, यह क्यों महत्वपूर्ण है। नींद की कमी से मानसिक थकावट, चिंता, और शारीरिक स्वास्थ्य पर नकारात्मक प्रभाव पड़ सकता है। जब आप तनाव में होते हैं, तो आपका शरीर तनाव हार्मोन रिलीज करता है, जो नींद को प्रभावित करता है। अब हम इसे चरण-दर-चरण समझते हैं। सबसे पहले, एक नियमित नींद का कार्यक्रम बनाएं। हर दिन एक ही समय पर सोने और जागने की कोशिश करें। दूसरा, सोने से पहले कुछ आरामदायक गतिविधियाँ करें, जैसे गहरी सांस लेना या ध्यान लगाना। तीसरा, सोने से पहले स्क्रीन के उपयोग को सीमित करें, क्योंकि यह आपकी नींद को प्रभावित कर सकता है। सोचिए, जैसे एक बगीचे में पौधों को बढ़ने के लिए सही वातावरण चाहिए होता है, ठीक उसी तरह आपके मन और शरीर को भी आराम और शांत वातावरण की जरूरत होती है। जब आप तनावमुक्त होते हैं, तो आपकी नींद भी बेहतर होती है। कुछ सामान्य गलतियाँ हैं जिनसे बचना चाहिए। अक्सर लोग सोने से पहले कैफीन का सेवन करते हैं या तनाव को सोने के समय तक खींच लेते हैं। इससे नींद में बाधा आती है। तो, संक्षेप में, जब आप तनाव के कारण नींद नहीं पा रहे हों, तो एक नियमित नींद का कार्यक्रम बनाएं, आरामदायक गतिविधियाँ करें, और कैफीन से दूर रहें। यह आपको बेहतर नींद में मदद करेगा। याद रखें, नींद आपके स्वास्थ्य का एक महत्वपूर्ण हिस्सा है।",
+        "timestamp": "2026-08-13T13:31:03.549466"
+      },
+      {
+        "id": "587caa70-ae33-47f5-b013-6b1d9abe10b1",
+        "role": "user",
+        "content": "How to overcome laziness and stop procrastinating?",
+        "timestamp": "2026-08-13T13:31:26.819235"
+      },
+      {
+        "id": "d6b2272b-b4f3-4322-b446-7acd89e72233",
+        "role": "avatar",
+        "content": "আমার সন্তান, অলসতা এবং বিলম্বিত করার অভ্যাস কাটিয়ে উঠা একটি গুরুত্বপূর্ণ দক্ষতা যা আপনার ব্যক্তিগত এবং পেশাগত জীবনে উল্লেখযোগ্য পরিবর্তন আনতে পারে। প্রথমে, এটি বোঝা দরকার যে অলসতা মানে শুধু কাজ না করা নয়, বরং এটি আপনার লক্ষ্য এবং স্বপ্নের পথে একটি বাধা। এখন, কেন এটি গুরুত্বপূর্ণ? কারণ, যদি আপনি আপনার কাজগুলো সময়মতো সম্পন্ন না করেন, তাহলে আপনি সুযোগগুলো হারাবেন এবং চাপের মধ্যে পড়বেন। এটি আপনার আত্মবিশ্বাসকে কমিয়ে দিতে পারে এবং দীর্ঘমেয়াদে আপনার সাফল্যে বাধা সৃষ্টি করতে পারে। এখন, কিভাবে এটি কাজ করে? প্রথমত, আপনার লক্ষ্যগুলোকে স্পষ্টভাবে নির্ধারণ করুন। একটি তালিকা তৈরি করুন যেখানে আপনি আপনার কাজগুলোকে ছোট ছোট অংশে ভাগ করবেন। উদাহরণস্বরূপ, যদি আপনার একটি বড় প্রকল্প থাকে, তাহলে সেটিকে ছোট ছোট টাস্কে বিভক্ত করুন। এরপর, একটি সঠিক সময়সূচী তৈরি করুন। প্রতিদিনের জন্য নির্দিষ্ট সময় নির্ধারণ করুন যখন আপনি কাজ করবেন। এটি আপনার মনোযোগকে কেন্দ্রীভূত করতে সাহায্য করবে। এখন, ভাবুন এটি কেমন হবে যদি আপনি একটি গাড়ি চালাচ্ছেন। আপনি যদি গাড়ির গতি নিয়ন্ত্রণ করতে না পারেন, তাহলে আপনি দুর্ঘটনার শিকার হতে পারেন। ঠিক তেমনিভাবে, আপনার কাজের গতি নিয়ন্ত্রণ না করলে আপনি সময়ের সাথে পিছিয়ে পড়বেন। একটি সাধারণ ভুল যা মানুষ করে তা হলো, কাজগুলোকে ছোট ছোট টুকরোতে ভাগ না করা। এটি তাদের জন্য কাজকে আরও কঠিন মনে হয়। এছাড়া, অনেক সময় মানুষ একসাথে অনেক কাজ করার চেষ্টা করে, যা তাদেরকে বিভ্রান্ত করে। সারসংক্ষেপে, অলসতা কাটানোর জন্য প্রথমে আপনার লক্ষ্যগুলোকে স্পষ্ট করুন, তারপর তাদেরকে ছোট ছোট টাস্কে ভাগ করুন এবং একটি সময়সূচী তৈরি করুন। মনে রাখবেন, ধীরে ধীরে কিন্তু স্থিরভাবে এগিয়ে চলা সবসময় সঠিক। \"সফলতা আসে প্রস্তুতির মাধ্যমে, তাই প্রস্তুত থাকুন।\"",
+        "timestamp": "2026-08-13T13:31:26.849024"
+      },
+      {
+        "id": "6d2b9d9f-cd39-4a28-aeb1-8363aee56f22",
+        "role": "user",
+        "content": "My boss is very demanding and I feel burned out.",
+        "timestamp": "2026-08-13T13:31:58.961335"
+      },
+      {
+        "id": "c5b2bdd5-fd59-40b1-9773-7fb6483ab703",
+        "role": "avatar",
+        "content": "என் குழந்தையே, உங்கள் மேலாளர் மிகவும் கோரிக்கையுள்ளவர் என்பதால் நீங்கள் மன அழுத்தத்தால் பாதிக்கப்படுகிறீர்கள் என்பதில் எந்த சந்தேகமும் இல்லை. இது மிகவும் பொதுவான ஒரு நிலை, ஆனால் அதை சரிசெய்யும் வழிகள் உள்ளன. முதலில், பெரிய படத்தில் பார்ப்போம். வேலைக்கான அழுத்தம் மற்றும் கோரிக்கைகள் அதிகமாக இருக்கும் போது, அது உங்கள் மன மற்றும் உடல் ஆரோக்கியத்தை பாதிக்கலாம். இது burnout எனப்படும் நிலையை உருவாக்குகிறது, அதாவது உங்கள் உணர்வுகள், உடல் மற்றும் மனதின் சோர்வு. இது முக்கியம் ஏன் என்றால், burnout உங்கள் வேலை செயல்திறனை குறைத்து, உங்களின் மனநிலை மற்றும் உடல் ஆரோக்கியத்திற்கும் தீங்கு விளைவிக்கலாம். இதனால், நீங்கள் உங்கள் வேலைக்கு ஆர்வமில்லாமல் போகலாம், மற்றும் உங்கள் வாழ்க்கையின் மற்ற பகுதிகளுக்கும் பாதிப்பு ஏற்படலாம். இப்போது, இதை எப்படி கையாள்வது என்று பார்ப்போம். முதலில், உங்கள் வேலை மற்றும் வாழ்க்கை இடையே ஒரு சீரான சமநிலையை உருவாக்குங்கள். உங்கள் வேலை நேரத்தை மற்றும் தனிப்பட்ட நேரத்தை பிரிக்கவும். இரண்டாவது, உங்கள் மேலாளருடன் திறந்த உரையாடல் நடத்துங்கள். உங்கள் உணர்வுகளை பகிர்ந்து கொள்ளுங்கள், அவருக்கு உங்கள் சிரமங்களை புரிந்துகொள்ள உதவும். மூன்றாவது, உங்கள் வேலைக்கு தேவையான முக்கியமான செயல்களை அடையாளம் காணுங்கள். இதனால், நீங்கள் எது முக்கியம் என்பதை தெரிந்து கொண்டு, அதற்கேற்ப உங்கள் நேரத்தை செலவிடலாம். இதனை ஒரு தோட்டக்காரனுடன் ஒப்பிடுங்கள். தோட்டக்காரன் தனது தோட்டத்தில் உள்ள செடிகளை வளர்க்க, அவற்றுக்கு தேவையான நீர், உரம் மற்றும் சூரிய ஒளியை அளிக்க வேண்டும். நீங்கள் உங்கள் மனதை மற்றும் உடலை வளர்க்க, உங்கள் தேவைகளை பூர்த்தி செய்ய வேண்டும். சாதாரணமான தவறுகள் என்னவென்றால், பலர் வேலைக்கு அதிக நேரம் செலவிடுவதற்கு முன்பே, தங்களை மறக்கிறார்கள். இதனால், அவர்கள் மன அழுத்தத்தால் பாதிக்கப்படுகிறார்கள். இதை தவிர்க்க, நீங்கள் உங்கள் ஆரோக்கியத்தை முதன்மைமாகக் கொண்டு, தேவையான breaks எடுக்க வேண்டும். இறுதியில், burnout க்குப் பின் வராமல் இருக்க, உங்கள் வேலை மற்றும் வாழ்க்கை இடையே சமநிலையை உருவாக்குங்கள், திறந்த உரையாடல் நடத்துங்கள், மற்றும் உங்கள் தேவைகளை அடையாளம் காணுங்கள். உங்கள் மனநிலையை பாதுகாப்பது மிகவும் முக்கியம்.",
+        "timestamp": "2026-08-13T13:31:59.002088"
+      },
+      {
+        "id": "804f680b-f74e-47ed-a298-4580fdf327d7",
+        "role": "user",
+        "content": "ਮੈਨੂੰ ਪੈਸੇ ਬਚਾਉਣ ਦਾ ਤਰੀਕਾ ਦੱਸੋ",
+        "timestamp": "2026-08-13T13:32:21.534737"
+      },
+      {
+        "id": "3f47ddea-5b19-4d61-9ba2-f3f0435099c4",
+        "role": "avatar",
+        "content": "My child, saving money is a fundamental skill that can lead to financial security and peace of mind. It’s about creating a solid foundation for your future, allowing you to achieve your goals without the stress of financial instability. To start with the big picture, saving money means setting aside a portion of your income for future needs or emergencies. It’s not just about cutting expenses; it’s about making conscious choices that align with your financial goals. Now, why does this matter? Saving money helps you build an emergency fund, invest in opportunities, and achieve your dreams, whether it’s buying a home, starting a business, or planning for retirement. Without savings, unexpected expenses can lead to debt and financial stress, impacting your overall well-being. Let’s break down how it works step-by-step. First, create a budget. Track your income and expenses to understand where your money goes. This will help you identify areas where you can cut back. Second, set specific savings goals. Whether it’s a certain amount each month or a target for a specific purchase, having a goal gives you motivation. Third, automate your savings. Set up a direct transfer from your checking account to a savings account right after you receive your income. This way, you prioritize saving before spending. Think of it like planting a garden. Just as you need to prepare the soil, plant seeds, and water them regularly to grow healthy plants, you need to prepare your finances, set aside money, and nurture your savings to watch them grow over time. A common mistake people make is not having a clear budget or being unaware of their spending habits. This can lead to overspending and not saving enough. Another pitfall is not having an emergency fund. Life is unpredictable, and having savings can help you handle unexpected expenses without derailing your financial plans. To wrap it up, saving money is essential for financial stability. Start by creating a budget, setting clear savings goals, and automating your savings. Remember, just like nurturing a garden, consistent effort and care will lead to fruitful results in your financial life.",
+        "timestamp": "2026-08-13T13:32:21.594404"
+      },
+      {
+        "id": "9750f4ed-3e08-4526-846d-15195ae9464f",
+        "role": "user",
+        "content": "What is the recipe for biryani?",
+        "timestamp": "2026-08-13T13:34:31.117933"
+      },
+      {
+        "id": "121cdea5-d1da-4ca2-bd67-cfbf1107605c",
+        "role": "avatar",
+        "content": "My child, biryani is not just a dish; it's a celebration of flavors and culture. At its core, biryani is a fragrant rice dish layered with marinated meat or vegetables, cooked together to create a delicious harmony. It's a dish that brings people together, often served at special occasions and gatherings. Understanding how to make biryani can elevate your cooking skills and impress your loved ones. Now, why does this matter? Biryani is a beloved dish across many cultures, especially in India, and mastering it can enhance your culinary repertoire. It teaches you about layering flavors, the importance of cooking techniques, and how to balance spices. Plus, it’s a wonderful way to share a piece of your culture with others. Let’s break down how to make a classic chicken biryani step-by-step. First, gather your ingredients: basmati rice, chicken, yogurt, onions, tomatoes, ginger-garlic paste, and a mix of spices like cumin, cardamom, cloves, and saffron. Marinate the Chicken: Start by marinating the chicken in yogurt, ginger-garlic paste, and spices. This not only tenderizes the meat but also infuses it with flavor. Let it marinate for at least 30 minutes, or even better, a few hours. Prepare the Rice: Rinse the basmati rice under cold water until the water runs clear. This removes excess starch and prevents the rice from becoming sticky. Soak it in water for about 30 minutes. Cook the Chicken: In a large pot, heat some oil or ghee. Sauté sliced onions until golden brown, then add the marinated chicken and cook until it's browned and partially cooked through. Add chopped tomatoes and cook until they soften. Layer the Biryani: Once the chicken is ready, drain the soaked rice and layer it over the chicken in the pot. Add water (usually double the volume of rice), and bring it to a boil. Dum Cooking: Reduce the heat to low, cover the pot with a tight-fitting lid, and let it cook for about 25-30 minutes. This is known as \"dum\" cooking, where the steam cooks the rice and chicken together, allowing the flavors to meld beautifully. Serve: Once done, gently fluff the biryani with a fork and serve it hot with raita or salad. Think of making biryani like building a layered cake. Each layer adds depth and flavor, and if you rush through it or skip steps, you might end up with a flat result. Common mistakes to avoid include not marinating the chicken long enough, overcooking the rice before layering, or not sealing the pot properly during the dum cooking phase. These can lead to dry meat or mushy rice, which we definitely want to avoid. To summarize, biryani is a flavorful dish that showcases the art of cooking through marination, layering, and careful cooking techniques. By following these steps and avoiding common pitfalls, you’ll create a delicious biryani that’s sure to impress. Remember, patience and attention to detail are key in this culinary journey. Happy cooking!",
+        "timestamp": "2026-08-13T13:34:31.169796"
+      },
+      {
+        "id": "77be1340-e7d5-4dd9-a688-af5b192067c8",
+        "role": "user",
+        "content": "What is natural pest control with neem?",
+        "timestamp": "2026-08-13T14:31:44.962158"
+      },
+      {
+        "id": "d6ce608d-e1c9-43a7-8be4-f5a1d690550a",
+        "role": "avatar",
+        "content": "My child, natural pest control with neem is a sustainable approach to managing pests using the neem tree, which is renowned for its insect-repelling properties. At its core, neem acts as a natural pesticide, offering an eco-friendly alternative to synthetic chemicals. This method not only protects crops but also supports biodiversity and environmental health. Now, why does this matter? Using neem for pest control helps reduce the reliance on harmful pesticides that can contaminate soil and water, harm beneficial insects, and pose health risks to humans and animals. By adopting natural pest control methods, we promote a healthier ecosystem and ensure safer food production. Let’s break down how it works step-by-step. First, neem contains compounds like azadirachtin, which disrupt the life cycle of pests. When applied, it acts as an insect repellent, growth regulator, and feeding deterrent. Here’s how you can use neem effectively: Preparation: Start by extracting neem oil from the seeds and leaves of the neem tree. You can do this by crushing the leaves and seeds and mixing them with water, or you can purchase ready-made neem oil. Dilution: Mix the neem oil with water in a spray bottle. A common ratio is about two tablespoons of neem oil per one liter of water. Adding a few drops of liquid soap can help the oil mix better with water. Application: Spray the diluted neem solution on the affected plants, ensuring you cover both the upper and lower surfaces of the leaves. This helps target pests hiding in the crevices. Timing: Apply neem oil in the early morning or late evening to avoid direct sunlight, which can degrade its effectiveness. Frequency: Reapply every week or after rain, as neem oil can wash away. Think of using neem for pest control like using a shield in battle. Just as a shield protects a warrior from arrows, neem oil protects your plants from harmful pests. It creates a barrier that pests find unappealing, allowing your plants to thrive without the risk of chemical exposure. Now, let’s discuss some common mistakes to avoid. One pitfall is not diluting the neem oil properly. Using it in concentrated forms can harm your plants instead of helping them. Another mistake is applying it during the hottest part of the day, which can lead to leaf burn. Lastly, be cautious about over-application; while neem is safe, excessive use can disrupt the balance of beneficial insects. To wrap it up, natural pest control with neem is an effective, environmentally friendly method that protects crops while promoting a healthier ecosystem. By preparing, diluting, and applying neem oil correctly, you can safeguard your plants against pests without resorting to harmful chemicals. Remember, just like a skilled warrior uses their shield wisely, using neem effectively requires knowledge and care.",
+        "timestamp": "2026-08-13T14:31:44.976124"
+      },
+      {
+        "id": "1b95df98-0786-463c-9728-807a2688d2d8",
+        "role": "user",
+        "content": "What is Setu platform?",
+        "timestamp": "2026-08-13T14:32:16.892822"
+      },
+      {
+        "id": "e39e41e1-8492-481b-9d8c-e31fb3b450be",
+        "role": "avatar",
+        "content": "My child, the Setu platform is a financial technology service that simplifies the integration of financial services into applications. Think of it as a bridge connecting businesses with various financial products, like payments and loans, making it easier for them to serve their customers. Now, why does this matter? In today's digital age, businesses need to offer seamless financial solutions to enhance user experiences. Setu helps companies access a wide range of financial products without having to build everything from scratch. This not only saves time and resources but also allows businesses to focus on their core operations while providing better services to their customers. Let’s break down how it works step-by-step. First, Setu provides APIs, which are like sets of instructions or tools that developers can use to connect their applications with financial services. These APIs can handle everything from processing payments to managing loans and insurance. Next, businesses can integrate these APIs into their applications. For example, a startup that wants to offer loan services can use Setu’s API to connect with banks and financial institutions. This means they can provide loan options to their users without having to deal with the complexities of banking regulations and backend systems. Now, here’s an analogy to help you understand better. Imagine Setu as a restaurant supply chain. Just like a restaurant needs various ingredients and supplies to create delicious dishes, a business needs different financial products to offer comprehensive services. Setu acts as the supplier, delivering everything a business needs to create a satisfying experience for its customers. When implementing Setu, there are a few common mistakes to avoid. One pitfall is not thoroughly understanding the API documentation. Each API has specific requirements and functionalities, so skipping this step can lead to integration issues. Another mistake is overlooking security measures. Since financial data is sensitive, ensuring proper security protocols are in place is crucial to protect user information. To summarize, the Setu platform is a vital tool for businesses looking to integrate financial services into their applications seamlessly. By providing accessible APIs, it enables companies to offer a range of financial products without the heavy lifting. Remember, just like a well-run restaurant relies on quality ingredients, successful businesses depend on effective financial integration to thrive.",
+        "timestamp": "2026-08-13T14:32:16.910082"
+      },
+      {
+        "id": "d7df8536-7004-4f0b-b08e-c7cc09a30a31",
+        "role": "user",
+        "content": "नीमास्त्र प्राकृतिक कीटनाशक कैसे बनाएं?",
+        "timestamp": "2026-08-13T14:33:25.919881"
+      },
+      {
+        "id": "71484906-f749-4b57-a6d8-2920e39bf0a9",
+        "role": "avatar",
+        "content": "मेरे बच्चे, नीमास्त्र एक प्राकृतिक कीटनाशक है जो नीम के पत्तों, बीजों या छाल से बनाया जाता है। यह कीटनाशक कीटों को नियंत्रित करने के लिए एक प्रभावी और पर्यावरण के अनुकूल उपाय है। चलो, इसे समझने के लिए पहले एक बड़ा चित्र देखते हैं। पहला, यह महत्वपूर्ण क्यों है? आजकल, रासायनिक कीटनाशकों का उपयोग हमारे पर्यावरण और स्वास्थ्य पर नकारात्मक प्रभाव डालता है। नीमास्त्र एक सुरक्षित विकल्प है, जो न केवल कीटों को नियंत्रित करता है, बल्कि मिट्टी और जल स्रोतों को भी सुरक्षित रखता है। अब, चलो इसे बनाने की प्रक्रिया को चरण-दर-चरण समझते हैं। पहला कदम है नीम की पत्तियों, बीजों या छाल को इकट्ठा करना। आप ताजगी से भरी पत्तियाँ चुन सकते हैं। दूसरा कदम है इन पत्तियों को अच्छी तरह से धोना और फिर उन्हें पीसना या उबालना। अगर आप उबालते हैं, तो लगभग 500 ग्राम नीम की पत्तियों को 2-3 लीटर पानी में उबालें। तीसरा कदम है, जब पानी का रंग हरा हो जाए और नीम का अर्क निकल जाए, तो इसे ठंडा होने दें। चौथा कदम है, इस मिश्रण को छानना। एक महीन कपड़े या छलनी का उपयोग करें ताकि केवल तरल निकले और ठोस भाग अलग हो जाए। पाँचवाँ कदम है, इस नीम के अर्क को एक स्प्रे बोतल में भरना। अब, इसे लगाने का समय है। नीमास्त्र को अपने पौधों पर स्प्रे करें, खासकर पत्तियों के ऊपरी और निचले हिस्से पर। एक उदाहरण के लिए, सोचिए कि नीमास्त्र एक ढाल है जो आपके पौधों को कीटों से बचाती है। जैसे एक ढाल युद्ध में योद्धा को बचाती है, वैसे ही नीमास्त्र आपके पौधों को सुरक्षित रखता है। अब, कुछ सामान्य गलतियों के बारे में बात करते हैं। एक सामान्य गलती है नीम के अर्क को सही अनुपात में नहीं बनाना। अगर आप इसे बहुत घना बनाते हैं, तो यह पौधों को नुकसान पहुँचा सकता है। दूसरी गलती है इसे बहुत गर्मी में स्प्रे करना, जिससे पत्तियाँ जल सकती हैं। तो, संक्षेप में, नीमास्त्र एक प्राकृतिक कीटनाशक है जो नीम के पत्तों या बीजों से बनाया जाता है। इसे बनाने के लिए, नीम की पत्तियों को उबालें, छानें और फिर पौधों पर स्प्रे करें। यह न केवल कीटों को नियंत्रित करता है, बल्कि हमारे पर्यावरण को भी सुरक्षित रखता है। याद रखें, सही अनुपात और समय का ध्यान रखना महत्वपूर्ण है।",
+        "timestamp": "2026-08-13T14:33:25.943584"
+      },
+      {
+        "id": "773b20c5-adfd-4537-82ca-e860907b41b0",
+        "role": "user",
+        "content": "नीमास्त्र प्राकृतिक कीटनाशक कैसे बनाएं?",
+        "timestamp": "2026-08-13T14:33:49.498143"
+      },
+      {
+        "id": "e0ea7930-37d3-4d1c-b37c-a8134d5466a6",
+        "role": "avatar",
+        "content": "मेरे बच्चे, नीमास्त्र एक प्राकृतिक कीटनाशक है जो नीम के पेड़ की पत्तियों, बीजों या छाल से बनाया जाता है। यह कीटों को नियंत्रित करने का एक प्रभावी और पर्यावरण के अनुकूल तरीका है। अब, चलो इसे समझने के लिए पहले एक बड़ा चित्र देखते हैं। आजकल रासायनिक कीटनाशकों का उपयोग हमारे स्वास्थ्य और पर्यावरण पर नकारात्मक प्रभाव डालता है। नीमास्त्र का उपयोग करके, हम एक सुरक्षित और प्राकृतिक विकल्प चुन सकते हैं, जो न केवल कीटों को नियंत्रित करता है, बल्कि हमारे मिट्टी और जल स्रोतों को भी सुरक्षित रखता है। अब, चलो इसे बनाने की प्रक्रिया को चरण-दर-चरण समझते हैं। पहला कदम है नीम की ताजगी से भरी पत्तियों, बीजों या छाल को इकट्ठा करना। आप लगभग 500 ग्राम नीम की पत्तियाँ ले सकते हैं। दूसरा कदम है इन पत्तियों को अच्छी तरह से धोना और फिर उन्हें पीसना या उबालना। अगर आप उबालते हैं, तो इन्हें 2-3 लीटर पानी में डालकर उबालें। तीसरा कदम है, जब पानी का रंग हरा हो जाए और नीम का अर्क निकल जाए, तो इसे ठंडा होने दें। चौथा कदम है, इस मिश्रण को छानना। एक महीन कपड़े या छलनी का उपयोग करें ताकि केवल तरल निकले और ठोस भाग अलग हो जाए। पाँचवाँ कदम है, इस नीम के अर्क को एक स्प्रे बोतल में भरना। अब, इसे लगाने का समय है। नीमास्त्र को अपने पौधों पर स्प्रे करें, खासकर पत्तियों के ऊपरी और निचले हिस्से पर। एक उदाहरण के लिए, सोचिए कि नीमास्त्र एक ढाल है जो आपके पौधों को कीटों से बचाती है। जैसे एक ढाल युद्ध में योद्धा को बचाती है, वैसे ही नीमास्त्र आपके पौधों को सुरक्षित रखता है। अब, कुछ सामान्य गलतियों के बारे में बात करते हैं। एक सामान्य गलती है नीम के अर्क को सही अनुपात में नहीं बनाना। अगर आप इसे बहुत घना बनाते हैं, तो यह पौधों को नुकसान पहुँचा सकता है। दूसरी गलती है इसे बहुत गर्मी में स्प्रे करना, जिससे पत्तियाँ जल सकती हैं। तो, संक्षेप में, नीमास्त्र एक प्राकृतिक कीटनाशक है जो नीम की पत्तियों या बीजों से बनाया जाता है। इसे बनाने के लिए, नीम की पत्तियों को उबालें, छानें और फिर पौधों पर स्प्रे करें। यह न केवल कीटों को नियंत्रित करता है, बल्कि हमारे पर्यावरण को भी सुरक्षित रखता है। याद रखें, सही अनुपात और समय का ध्यान रखना महत्वपूर्ण है।",
+        "timestamp": "2026-08-13T14:33:49.517201"
+      },
+      {
+        "id": "087854e8-5385-4942-ba1e-d8740ba1c481",
+        "role": "user",
+        "content": "अरे हां तो जाएंगे",
+        "timestamp": "2026-08-13T14:45:22.381258+00:00"
+      },
+      {
+        "id": "37432210-6972-476c-80b5-1400bdd28a75",
+        "role": "avatar",
+        "content": "मेरे बच्चे, \"अरे हां तो जाएंगे\" एक लोकप्रिय हिंदी गीत है जो भारतीय फिल्म \"बॉलीवुड\" से संबंधित है। इस गीत को गायक कुमार सानू और साधना सरगम ने गाया है। चलो, इसे समझने के लिए एक बड़ा चित्र देखते हैं। पहला, यह महत्वपूर्ण क्यों है? संगीत हमारे जीवन का एक अभिन्न हिस्सा है। यह हमें भावनाओं को व्यक्त करने, यादों को ताज़ा करने और सांस्कृतिक पहचान को बनाए रखने में मदद करता है। इस गीत की लोकप्रियता ने इसे शादियों और उत्सवों में एक पसंदीदा बना दिया है, जिससे यह हमारे सामाजिक जीवन का हिस्सा बन गया है। अब, चलो इसे समझने के लिए इसे कैसे काम करता है, इसे चरण-दर-चरण देखते हैं। सबसे पहले, गीत का निर्माण होता है। संगीतकार अनु मलिक ने इसे रचा है, जो एक महत्वपूर्ण कदम है। संगीतकार एक धुन बनाते हैं, जो सुनने में मधुर और आकर्षक हो। दूसरा, गायक इसे गाते हैं। कुमार सानू और साधना सरगम की आवाज़ें इस गीत को जीवंत बनाती हैं। उनकी आवाज़ों में एक खास जादू होता है, जो गीत को और भी भावनात्मक बनाता है। तीसरा, गीत का बोल। बोलों में भावनाएं और कहानियां होती हैं, जो सुनने वालों को जोड़ती हैं। यह हमें एक अनुभव में ले जाता है, जैसे कि हम उस कहानी का हिस्सा हैं। अब, एक उदाहरण लेते हैं। सोचिए कि यह गीत एक पुल की तरह है, जो लोगों को जोड़ता है। जैसे एक पुल दो किनारों को जोड़ता है, वैसे ही यह गीत लोगों के दिलों को जोड़ता है, खासकर जब इसे शादियों और समारोहों में गाया जाता है। कुछ सामान्य गलतियों के बारे में बात करते हैं। एक सामान्य गलती है गीत को सही संदर्भ में न गाना। अगर आप इसे गलत समय या स्थान पर गाते हैं, तो यह प्रभाव नहीं डालता। दूसरी गलती है बोलों को समझने में चूकना। अगर आप बोलों का सही अर्थ नहीं समझते, तो आप गीत का आनंद नहीं ले पाएंगे। तो, संक्षेप में, \"अरे हां तो जाएंगे\" एक ऐसा गीत है जो हमारे सामाजिक जीवन का हिस्सा है। यह संगीतकार, गायकों और बोलों का मिलाजुला परिणाम है। इसे सही संदर्भ में गाना और बोलों को समझना महत्वपूर्ण है। याद रखें, संगीत हमारे दिलों को जोड़ता है और इसे सही तरीके से अनुभव करना चाहिए।",
+        "timestamp": "2026-08-13T14:45:22.415025+00:00"
+      },
+      {
+        "id": "e56e6687-e830-4780-8133-b8c895ccaded",
+        "role": "user",
+        "content": "Traditional rainwater harvesting methods",
+        "timestamp": "2026-08-13T18:08:27.876556+00:00"
+      },
+      {
+        "id": "9f2d4a34-70f6-4c39-82b7-ac4ef67fd03b",
+        "role": "avatar",
+        "content": "मेरे बच्चे, पारंपरिक वर्षा जल संचयन विधियाँ हमारे पर्यावरण और जल संरक्षण के लिए बहुत महत्वपूर्ण हैं। ये विधियाँ न केवल पानी की कमी को दूर करती हैं, बल्कि हमारे पारिस्थितिकी तंत्र को भी संतुलित रखती हैं। इन विधियों का महत्व इसलिए है क्योंकि जल संकट एक गंभीर समस्या बनती जा रही है। वर्षा के पानी को सही तरीके से संचयित करने से हम न केवल अपने जल स्रोतों को पुनर्जीवित कर सकते हैं, बल्कि सूखे के समय में भी पानी की उपलब्धता बढ़ा सकते हैं। पारंपरिक वर्षा जल संचयन की एक विधि है 'जोहड़'। यह एक अर्धचंद्राकार मिट्टी का चेक डैम होता है, जो प्राकृतिक जल निकासी बिंदुओं पर बनाया जाता है। जब बारिश होती है, तो यह वर्षा का पानी एकत्र करता है और उसे धीरे-धीरे जमीन में रिसने की अनुमति देता है। दूसरी विधि 'टांका' है, जो विशेष रूप से रेगिस्तानी क्षेत्रों में प्रयोग होती है। यह एक भूमिगत जलाशय होता है, जो छत से गिरने वाले वर्षा के पानी को संचित करता है। उदाहरण के लिए, एक गाँव में जोहड़ बनाकर, गाँव वाले वर्षा के पानी को एकत्रित कर सकते हैं, जिससे गर्मियों में उन्हें ताजे और ठंडे पानी की उपलब्धता होती है। यह पानी बैक्टीरिया से मुक्त होता है और पीने के लिए सुरक्षित रहता है। हालांकि, इन विधियों को अपनाते समय कुछ सामान्य गलतियाँ हो सकती हैं। जैसे, जोहड़ का निर्माण करते समय उसकी सही जगह का चुनाव न करना या टांका की सफाई का ध्यान न रखना। इसलिए, इन विधियों को अपनाते समय सतर्क रहना आवश्यक है। संक्षेप में, पारंपरिक वर्षा जल संचयन विधियाँ न केवल जल संकट",
+        "timestamp": "2026-08-13T18:08:27.895430+00:00"
+      },
+      {
+        "id": "7db69ead-ed39-449a-be4e-6c688187cb8d",
+        "role": "user",
+        "content": "What is Setu Knowledge Bridge?",
+        "timestamp": "2026-08-13T18:30:49.820769+00:00"
+      },
+      {
+        "id": "4a2f7647-af86-4288-8a89-e28549f8eed8",
+        "role": "avatar",
+        "content": "My child, let’s explore what Setu Knowledge Bridge is all about. At its core, Setu Knowledge Bridge is an initiative aimed at fostering collaboration and knowledge exchange between academia, industry, and government in India. It serves as a platform to connect researchers with stakeholders who can effectively utilize their findings. Now, why does this matter? In today’s fast-paced world, bridging the gap between research and practical application is crucial. Many innovative ideas and scientific discoveries remain untapped simply because there’s no efficient way to share them with those who can implement them. Setu Knowledge Bridge addresses this issue, promoting economic growth and societal development by ensuring that valuable knowledge is translated into real-world solutions. Let’s break down how it works, step-by-step. First, the initiative identifies key research areas that have the potential to address societal challenges. Next, it brings together researchers, industry experts, and government officials to facilitate discussions and collaborations. This is where the magic happens—ideas are exchanged, and partnerships are formed. After that, the platform helps in translating research findings into practical applications, whether that’s through policy changes, product development, or community initiatives. Finally, it monitors and evaluates the impact of these collaborations, ensuring that the knowledge shared leads to tangible outcomes. Think of it this way: imagine a bridge connecting two islands. One island represents academic research, filled with innovative ideas, while the other island represents industry and government, where those ideas can be put into action. The Setu Knowledge Bridge acts as that bridge, allowing people to travel back and forth, sharing knowledge and resources to create a thriving ecosystem. However, there are some common mistakes to avoid. One is assuming that just creating the platform will automatically lead to collaboration. It requires active engagement and commitment from all parties involved. Another mistake is not following up on the collaborations. Maintaining relationships and continuous dialogue is essential for long-term success. In summary, Setu Knowledge Bridge is a vital initiative that connects research with practical application, fostering collaboration among academia, industry, and government. It’s about turning innovative ideas into real-world solutions, ensuring that knowledge doesn’t just stay within the walls of universities but benefits society as a whole. Remember, the success of such initiatives relies on active participation and ongoing communication among all stakeholders.",
+        "timestamp": "2026-08-13T18:30:49.837876+00:00"
+      },
+      {
+        "id": "ae61d126-90b4-4e52-9bb5-a7924a21af64",
+        "role": "user",
+        "content": "What is Setu Knowledge Bridge?",
+        "timestamp": "2026-08-13T18:31:54.342714+00:00"
+      },
+      {
+        "id": "e5cb7994-44fc-4736-9fbc-1d55c6655a18",
+        "role": "avatar",
+        "content": "My child, the Setu Knowledge Bridge is an initiative aimed at fostering collaboration between academia and industry in India. It serves as a platform for knowledge exchange, enabling researchers and industry professionals to work together on innovative solutions and technologies. \n\nNow, let’s break this down step-by-step. \n\nFirst, why does it matter? In today's rapidly changing world, bridging the gap between theoretical research and practical application is crucial. Many great ideas remain unutilized because researchers and industry professionals often operate in silos. The Setu Knowledge Bridge addresses this problem by creating a space where ideas can flow freely, leading to real-world solutions that can enhance economic growth and societal development.\n\nNow, how does it work? Think of it like a bridge connecting two islands—the island of academia and the island of industry. Here’s how the process typically unfolds:\n\n1. **Identifying Challenges**: The first step involves identifying real-world challenges that industries face. This could range from technological gaps to process inefficiencies.\n\n2. **Research Collaboration**: Researchers from universities and research institutions come together to brainstorm and develop solutions. They leverage their academic knowledge to address the identified challenges.\n\n3. **Prototype Development**: Once a feasible solution is conceptualized, a prototype is developed. This is where the collaboration becomes hands-on, as industry professionals provide insights on practicality and scalability.\n\n4. **Testing and Feedback**: The prototype is tested in real-world scenarios. Feedback from industry partners helps refine the solution, ensuring it meets the actual needs of the market.\n\n5. **Implementation**: Finally, once the solution is polished and ready, it is implemented in the industry. This step often involves further collaboration to ensure smooth integration.\n\nTo visualize this, think of a farmer who wants to grow a new crop. The farmer represents the industry, while the agricultural scientist represents academia. The Setu Knowledge Bridge is like the shared field where they can experiment together, combining the farmer's practical experience with the scientist's theoretical knowledge to cultivate a successful harvest.\n\nNow, let’s talk about common mistakes to avoid. One frequent pitfall is not involving industry partners early enough in the research phase. This can lead to solutions that are theoretically sound but practically unviable. Another mistake is failing to communicate effectively between the two parties, which can create misunderstandings and hinder collaboration.\n\nIn summary, the Setu Knowledge Bridge is a vital initiative that connects academia and industry to foster innovation and practical solutions. By understanding the process and avoiding common mistakes, we can ensure that this collaboration leads to meaningful advancements that benefit society as a whole. Remember, collaboration is key to turning ideas into reality.",
+        "timestamp": "2026-08-13T18:31:54.359447+00:00"
+      },
+      {
+        "id": "17f6704b-4065-44fc-b2c1-18d7505c47f1",
+        "role": "user",
+        "content": "hello good morning",
+        "timestamp": "2026-08-13T18:33:39.343681+00:00"
+      },
+      {
+        "id": "6f6f2ea6-c780-474a-a727-8b8ed260a60e",
+        "role": "avatar",
+        "content": "My child, good morning to you! It’s wonderful to connect with you today. Now, while \"hello good morning\" may seem like a simple greeting, let’s explore its significance and the nuances behind it.\n\nFirst, let’s get the big picture. Greetings like \"hello good morning\" serve as a bridge between individuals, fostering connection and establishing a positive tone for interactions. They’re not just words; they’re the foundation of communication, setting the stage for meaningful exchanges.\n\nNow, why does this matter? In our daily lives, effective communication is crucial. A warm greeting can brighten someone’s day, create a sense of belonging, and open doors to further conversation. It’s a small gesture that can have a big impact, whether in personal relationships or professional settings.\n\nSo, how does it work? Let’s break it down step-by-step. \n\n1. **Initiation**: When you say \"hello,\" you’re initiating contact. It’s an invitation for the other person to engage with you.\n   \n2. **Warmth**: Adding \"good morning\" adds warmth and specificity. It acknowledges the time of day and shows that you’re aware of your surroundings and the other person’s experience.\n\n3. **Response**: The person receiving your greeting typically responds in kind, creating a reciprocal interaction. This back-and-forth is essential for building rapport.\n\n4. **Building Connection**: From this point, the conversation can flow naturally, whether it’s a casual chat or a more in-depth discussion. The initial greeting sets a friendly tone.\n\nTo visualize this, think of a garden. Your greeting is like planting a seed. With care and attention, that seed can grow into a beautiful flower, representing a blossoming conversation.\n\nNow, let’s talk about common mistakes to avoid. One common pitfall is being too casual or dismissive. If you mumble or don’t make eye contact, it can come across as insincere. Another mistake is not being aware of cultural contexts. In some cultures, greetings hold significant weight, and understanding these nuances is essential for respectful communication.\n\nIn summary, \"hello good morning\" is more than just a phrase; it’s a powerful tool for connection. By initiating warmth and engagement, you set the stage for meaningful interactions. Remember, a simple greeting can lead to a blossoming conversation, so take a moment to greet others with genuine warmth.",
+        "timestamp": "2026-08-13T18:33:39.402060+00:00"
+      }
+    ],
+    "createdAt": "2026-08-13T13:30:09.116729",
+    "updatedAt": "2026-08-13T18:33:39.402123+00:00"
+  },
+  "conv_guest_user_20260817": {
+    "id": "conv_guest_user_20260817",
+    "userId": "guest_user",
+    "messages": [],
+    "createdAt": "2026-08-17T05:48:15.123572+00:00",
+    "updatedAt": "2026-08-17T05:48:15.123600+00:00"
+  },
+  "conv_guest_user_20260820": {
+    "id": "conv_guest_user_20260820",
+    "userId": "guest_user",
+    "messages": [
+      {
+        "id": "543f8e96-f318-4ceb-ba40-1f28b815fe5a",
+        "role": "user",
+        "content": "how are you",
+        "timestamp": "2026-08-20T06:59:50.707733+00:00"
+      },
+      {
+        "id": "bc3fda73-80aa-453e-a2bc-aa44f405b6f1",
+        "role": "avatar",
+        "content": "Hello, my child! I am Sardar Genji, here to assist you. \n\nI'm doing well, thank you! To keep your spirits high, try practicing gratitude daily. Just take a moment each day to reflect on three things you're thankful for. \n\nThis practice works because it shifts your focus from what's lacking to what's abundant in your life, boosting your mood and overall well-being. A common mistake is to rush through this exercise without truly reflecting; take your time to feel the gratitude. \n\nRemember, a simple daily gratitude practice can significantly enhance your happiness and outlook on life.",
+        "timestamp": "2026-08-20T06:59:50.803244+00:00"
+      }
+    ],
+    "createdAt": "2026-08-20T06:59:10.912429+00:00",
+    "updatedAt": "2026-08-20T06:59:50.803445+00:00"
+  }
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "dd9739d4-818e-4feb-bf33-5b66871258bb",
+    "topic": "How to calibrate drone sensor X100",
+    "keywords": [
+      "how to calibrate drone sensor x100",
+      "how to calibrate"
+    ],
+    "answer": "To calibrate the X100 drone sensor, place the drone on a flat surface, open the telemetry app, and hold the power button for five seconds until the green LED turns solid.",
+    "category": "Technical",
+    "language": "en-IN",
+    "createdAt": "2026-08-12"
+  },
+  {
+    "id": "b2a27d3a-0122-4fcb-97a6-f830bc3fff53",
+    "topic": "About Setu Project",
+    "keywords": [
+      "setu project",
+      "what is setu",
+      "who created setu",
+      "setu avatar"
+    ],
+    "answer": "Setu is an AI-powered cultural and knowledge bridge avatar designed to preserve wisdom, answer questions with human warmth, and connect generational heritage with modern technology.",
+    "category": "General",
+    "language": "en-IN",
+    "createdAt": "2026-08-12"
+  }
+]

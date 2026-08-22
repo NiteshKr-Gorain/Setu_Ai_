@@ -1,0 +1,136 @@
+[
+  {
+    "id": "c25823ac-7369-4f56-b70f-ea931418e73a",
+    "type": "AVATAR_CREATED",
+    "description": "Setu Avatar was born as a persistent AI character dedicated to preserving human and traditional knowledge.",
+    "timestamp": "2026-08-12T05:36:04.543420",
+    "source": "system",
+    "importance": 1.0,
+    "metadata": {
+      "version": "2.0"
+    }
+  },
+  {
+    "id": "evt_7629749e05",
+    "type": "FIRST_CONVERSATION",
+    "description": "Engaged in first live conversation with human participant (test_contributor_rahul).",
+    "timestamp": "2026-08-12T05:37:31.139149",
+    "source": "conversation",
+    "importance": 0.95,
+    "metadata": {
+      "userId": "test_contributor_rahul",
+      "first_query": "Hello Setu Avatar"
+    }
+  },
+  {
+    "id": "evt_8e0fc7a25a",
+    "type": "MILESTONE",
+    "description": "Reached digital maturity milestone: 10 total knowledge exchanges.",
+    "timestamp": "2026-08-12T05:38:21.321845",
+    "source": "conversation",
+    "importance": 0.9,
+    "metadata": {
+      "interaction_count": 10
+    }
+  },
+  {
+    "id": "evt_388925d23a",
+    "type": "FIRST_KNOWLEDGE_LEARNED",
+    "description": "Preserved new generational wisdom: 'Preserved Heritage: My grandfather taught me a traditional s...' shared by contributor test_contributor_rahul.",
+    "timestamp": "2026-08-12T05:38:25.632962",
+    "source": "conversation",
+    "importance": 0.95,
+    "metadata": {
+      "documentId": "setu_usr_20260812053824",
+      "category": "Farming & Traditional Knowledge",
+      "title": "Preserved Heritage: My grandfather taught me a traditional s..."
+    }
+  },
+  {
+    "id": "evt_b3e72aebbc",
+    "type": "FIRST_KNOWLEDGE_LEARNED",
+    "description": "Preserved new generational wisdom: 'Preserved Heritage: My grandfather taught me a traditional s...' shared by contributor test_contributor_rahul.",
+    "timestamp": "2026-08-12T05:38:52.318811",
+    "source": "conversation",
+    "importance": 0.95,
+    "metadata": {
+      "documentId": "setu_usr_20260812053851",
+      "category": "Farming & Traditional Knowledge",
+      "title": "Preserved Heritage: My grandfather taught me a traditional s..."
+    }
+  },
+  {
+    "id": "evt_25d0e21520",
+    "type": "FIRST_KNOWLEDGE_LEARNED",
+    "description": "Preserved new generational wisdom: 'Preserved Heritage: My grandfather taught me a traditional s...' shared by contributor test_contributor_rahul.",
+    "timestamp": "2026-08-12T05:39:45.415005",
+    "source": "conversation",
+    "importance": 0.95,
+    "metadata": {
+      "documentId": "setu_usr_20260812053944",
+      "category": "Farming & Traditional Knowledge",
+      "title": "Preserved Heritage: My grandfather taught me a traditional s..."
+    }
+  },
+  {
+    "id": "evt_f8c4c9951d",
+    "type": "FIRST_KNOWLEDGE_LEARNED",
+    "description": "Preserved new generational wisdom: 'Preserved Heritage: My grandfather taught me a traditional s...' shared by contributor test_contributor_rahul.",
+    "timestamp": "2026-08-12T05:39:58.824624",
+    "source": "conversation",
+    "importance": 0.95,
+    "metadata": {
+      "documentId": "setu_usr_20260812053957",
+      "category": "Farming & Traditional Knowledge",
+      "title": "Preserved Heritage: My grandfather taught me a traditional s..."
+    }
+  },
+  {
+    "id": "evt_4d8f2ae887",
+    "type": "FIRST_KNOWLEDGE_LEARNED",
+    "description": "Preserved new generational wisdom: 'Preserved Heritage: My grandfather taught me a traditional s...' shared by contributor test_contributor_rahul.",
+    "timestamp": "2026-08-12T05:40:14.498815",
+    "source": "conversation",
+    "importance": 0.95,
+    "metadata": {
+      "documentId": "setu_usr_20260812054013",
+      "category": "Farming & Traditional Knowledge",
+      "title": "Preserved Heritage: My grandfather taught me a traditional s..."
+    }
+  },
+  {
+    "id": "evt_5f4cc9d124",
+    "type": "MILESTONE",
+    "description": "Reached digital maturity milestone: 50 total knowledge exchanges.",
+    "timestamp": "2026-08-12T05:42:45.426663",
+    "source": "conversation",
+    "importance": 0.9,
+    "metadata": {
+      "interaction_count": 50
+    }
+  },
+  {
+    "id": "evt_3d8a1a69af",
+    "type": "FIRST_KNOWLEDGE_LEARNED",
+    "description": "Preserved new generational wisdom: 'Preserved Heritage: My grandfather taught me a traditional s...' shared by contributor test_contributor_rahul.",
+    "timestamp": "2026-08-12T08:41:37.095262",
+    "source": "conversation",
+    "importance": 0.95,
+    "metadata": {
+      "documentId": "setu_usr_20260812084136",
+      "category": "Farming & Traditional Knowledge",
+      "title": "Preserved Heritage: My grandfather taught me a traditional s..."
+    }
+  },
+  {
+    "id": "evt_6503f61484",
+    "type": "MILESTONE",
+    "description": "Reached digital maturity milestone: 100 total knowledge exchanges.",
+    "timestamp": "2026-08-12T13:06:36.144153",
+    "source": "conversation",
+    "importance": 0.9,
+    "metadata": {
+      "interaction_count": 100
+    }
+  }
+]

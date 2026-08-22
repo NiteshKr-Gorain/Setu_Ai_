@@ -1,0 +1,29 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Uploaded files
+uploads/
+
+# Logs and caches
+*.log
+.pytest_cache/
+.mypy_cache/
+
+# Editors
+.vscode/
+.idea/
+
+# Operating system files
+Thumbs.db
+.DS_Store
