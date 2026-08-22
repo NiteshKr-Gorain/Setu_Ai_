@@ -1,7 +1,7 @@
 import React from 'react';
 import { getCategoryVisual } from '../../../shared/utils/categoryVisuals';
 
-export default function LibraryCard({
+function LibraryCard({
   item,
   onReadMore,
   onAiSummary,
@@ -124,3 +124,6 @@ export default function LibraryCard({
     </div>
   );
 }
+
+export default React.memo(LibraryCard);
+

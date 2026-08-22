@@ -53,6 +53,9 @@ class KnowledgeEntryOut(BaseModel):
     trust_score: float = 0.0
     verification_count: int = 0
     community_id: Optional[PyObjectId] = None
+    passport_id: Optional[str] = None
+    content_hash: Optional[str] = None
+    version_number: Optional[int] = None
 
     model_config = ConfigDict(
         populate_by_name=True,

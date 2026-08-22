@@ -5,6 +5,7 @@ import AiButton from './shared/components/AiButton';
 import BridgeLoader from './shared/components/BridgeLoader';
 import AppRoutes from './routes';
 import { useAuth } from './features/auth/AuthContext';
+import { useHeartbeat } from './features/presence/hooks/useHeartbeat';
 import './App.css';
 
 // Helper to extract view ID from URL hash or path
@@ -29,12 +30,21 @@ const ROUTE_TITLES = {
   signin: 'Setu: Sign In to Account',
   signup: 'Setu: Join Setu Community',
   ai: 'Setu: AI Knowledge Assistant',
+  admin: 'Setu: Admin AI Cost Control & Telemetry',
 };
 
 export default function App() {
   const [currentView, setCurrentViewState] = useState(() => getViewFromLocation());
   const { currentUser, isLoading, logout } = useAuth();
   const [showLoader, setShowLoader] = useState(true);
+
+  // Live user state backend-confirmed heartbeat with 20s interval & activity tracking
+  useHeartbeat({
+    isAuthenticated: !!currentUser,
+    currentActivity: `viewing_${currentView}`,
+    currentResource: currentView,
+    intervalMs: 20000
+  });
 
   // Synchronized view changer that pushes history stack entry for Browser Back/Forward buttons
   const setCurrentView = useCallback((newView) => {
@@ -116,12 +126,19 @@ export default function App() {
 
       {/* Main Content Area via AppRoutes */}
       <main id="main-content-view" className="flex-grow">
-        <AppRoutes
-          currentView={currentView}
-          setCurrentView={handleViewChange}
-          currentUser={currentUser}
-          handleLogout={handleLogout}
-        />
+        <React.Suspense fallback={
+          <div className="py-20 text-center space-y-3 min-h-screen flex flex-col items-center justify-center bg-slate-50">
+            <div className="w-10 h-10 border-4 border-blue-200 border-t-blue-600 rounded-full animate-spin mx-auto"></div>
+            <p className="text-xs font-bold text-slate-400 uppercase tracking-widest">Loading Wisdom...</p>
+          </div>
+        }>
+          <AppRoutes
+            currentView={currentView}
+            setCurrentView={handleViewChange}
+            currentUser={currentUser}
+            handleLogout={handleLogout}
+          />
+        </React.Suspense>
       </main>
 
       {/* Footer Section */}

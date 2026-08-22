@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
+import LazyImage from '../../shared/components/LazyImage';
 import organicFarmingImg from '../../assets/organic_farming.png';
 import potteryImg from '../../assets/pottery.png';
 import ayurvedicRemediesImg from '../../assets/ayurvedic_remedies.png';
@@ -18,6 +19,7 @@ import traditionalSkillsImg from '../../assets/traditional_skills.png';
 import solarIrrigationImg from '../../assets/solar_irrigation.jpg';
 import { CATEGORIES as BACKEND_CATEGORIES } from '../library/api/knowledgeApi';
 import * as mentorsApi from '../../shared/api/mentorsApi';
+import UserStatusBadge from '../presence/components/UserStatusBadge';
 
 // Initial verified community skill stories & traditional knowledge posts
 const initialStories = [
@@ -408,6 +410,7 @@ export default function CommunityPage({ userProfile }) {
   const [stories, setStories] = useState(initialStories);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
+  const [visibleStoriesCount, setVisibleStoriesCount] = useState(6);
   const [visibleComments, setVisibleComments] = useState({});
   const [commentInputs, setCommentInputs] = useState({});
   const [toastMessage, setToastMessage] = useState('');
@@ -681,13 +684,27 @@ export default function CommunityPage({ userProfile }) {
     }, 1500);
   };
 
-  const filteredStories = stories.filter(story => {
-    const query = searchQuery.toLowerCase();
-    const matchesSearch = story.title.toLowerCase().includes(query) ||
-      story.category.toLowerCase().includes(query);
-    const matchesCategory = selectedCategory === 'All' || story.category === selectedCategory;
-    return matchesSearch && matchesCategory;
-  });
+  const filteredStories = useMemo(() => {
+    const query = searchQuery.toLowerCase().trim();
+    return stories.filter(story => {
+      const matchesSearch = !query ||
+        story.title.toLowerCase().includes(query) ||
+        story.category.toLowerCase().includes(query) ||
+        story.userName.toLowerCase().includes(query);
+      const matchesCategory = selectedCategory === 'All' || story.category.toLowerCase() === selectedCategory.toLowerCase();
+      return matchesSearch && matchesCategory;
+    });
+  }, [stories, searchQuery, selectedCategory]);
+
+  const displayedStories = useMemo(() => {
+    return filteredStories.slice(0, visibleStoriesCount);
+  }, [filteredStories, visibleStoriesCount]);
+
+  const hasMoreStories = visibleStoriesCount < filteredStories.length;
+
+  const handleShowMoreStories = useCallback(() => {
+    setVisibleStoriesCount(prev => prev + 6);
+  }, []);
 
   return (
     <div className="pt-24 pb-12 min-h-screen bg-slate-50 text-slate-800 transition-colors duration-300">
@@ -1121,7 +1138,10 @@ export default function CommunityPage({ userProfile }) {
               {mentors.map((mentor) => (
                 <div key={mentor.user_id} className="border border-slate-100 rounded-2xl p-4 space-y-2.5 hover:border-blue-200 transition-all">
                   <div className="flex items-center justify-between">
-                    <h4 className="text-sm font-bold text-slate-800">{mentor.name || 'Setu Mentor'}</h4>
+                    <div className="flex items-center space-x-2">
+                      <h4 className="text-sm font-bold text-slate-800">{mentor.name || 'Setu Mentor'}</h4>
+                      <UserStatusBadge userId={mentor.user_id} compact={true} size="sm" />
+                    </div>
                     {mentor.rating_count > 0 && (
                       <span className="text-[10px] font-bold text-amber-500">★ {mentor.rating_avg?.toFixed(1)} ({mentor.rating_count})</span>
                     )}
@@ -1198,7 +1218,7 @@ export default function CommunityPage({ userProfile }) {
 
             {/* Stories List - Responsive Grid & Compact Post Cards */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {filteredStories.map((story) => (
+              {displayedStories.map((story) => (
                 <div
                   key={story.id}
                   className="bg-white rounded-2xl border border-slate-100 shadow-xs overflow-hidden flex flex-col justify-between text-left transition-all duration-300 hover:shadow-md hover:border-slate-200"
@@ -1223,6 +1243,7 @@ export default function CommunityPage({ userProfile }) {
                           <div className="flex items-center space-x-1.5">
                             <span className="text-xs font-bold text-slate-900 truncate">{story.userName}</span>
                             <span className="text-[9px] bg-slate-100 text-slate-500 px-1.5 py-0.5 rounded-md font-semibold shrink-0">{story.role}</span>
+                            <UserStatusBadge userId={story.userId || story.userName} compact={true} size="sm" />
                           </div>
                           <p className="text-[10px] font-semibold text-slate-400 truncate">
                             {story.contributorTitle} • {story.location}
@@ -1277,13 +1298,13 @@ export default function CommunityPage({ userProfile }) {
                       </div>
                     </div>
 
-                    {/* Cover photo - Compact aspect ratio */}
+                    {/* Cover photo - Compact aspect ratio with Lazy Loading */}
                     <div className="relative aspect-[16/10] w-full overflow-hidden bg-slate-50 border-b border-slate-50">
-                      <img
+                      <LazyImage
                         src={story.coverImage}
                         alt={story.title}
-                        loading="lazy"
-                        className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                        className="w-full h-full"
+                        imgClassName="transition-transform duration-300 hover:scale-105"
                       />
                     </div>
 
@@ -1402,6 +1423,25 @@ export default function CommunityPage({ userProfile }) {
                 </div>
               ))}
             </div>
+
+            {/* Show More Community Stories Button */}
+            {hasMoreStories && (
+              <div className="pt-6 pb-2 flex flex-col items-center justify-center space-y-2">
+                <button
+                  onClick={handleShowMoreStories}
+                  className="px-8 py-3.5 bg-blue-600 hover:bg-blue-700 text-white text-xs font-black rounded-2xl shadow-lg shadow-blue-600/25 hover:shadow-xl hover:shadow-blue-600/40 transition-all transform hover:-translate-y-0.5 cursor-pointer flex items-center space-x-2.5"
+                >
+                  <span>Show More Community Stories</span>
+                  <span className="bg-white/20 px-2 py-0.5 rounded-md text-[10px]">
+                    +{Math.min(6, filteredStories.length - visibleStoriesCount)} more
+                  </span>
+                  <span>↓</span>
+                </button>
+                <p className="text-[11px] text-slate-400 font-medium">
+                  Showing {displayedStories.length} of {filteredStories.length} community posts
+                </p>
+              </div>
+            )}
 
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-export default function Navbar({ currentView, onViewChange, currentUser, onLogout }) {
+function Navbar({ currentView, onViewChange, currentUser, onLogout }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
@@ -48,6 +48,8 @@ export default function Navbar({ currentView, onViewChange, currentUser, onLogou
     setIsMobileMenuOpen(false);
   };
 
+  const isAdmin = currentUser && (currentUser.role === 'admin' || currentUser.email?.includes('admin'));
+
   const navLinks = [
     { label: 'Home', viewId: 'home', id: 'nav-link-home' },
     { label: 'Library', viewId: 'library', id: 'nav-link-library' },
@@ -55,6 +57,7 @@ export default function Navbar({ currentView, onViewChange, currentUser, onLogou
     { label: 'Schemes', viewId: 'govt schemes', id: 'nav-link-schemes' },
     { label: 'Legacy Archives', viewId: 'legacy', id: 'nav-link-legacy' },
     { label: 'About Us', viewId: 'about us', id: 'nav-link-about' },
+    ...(isAdmin ? [{ label: '⚡ Cost Control', viewId: 'admin', id: 'nav-link-admin' }] : []),
   ];
 
   return (
@@ -262,3 +265,5 @@ export default function Navbar({ currentView, onViewChange, currentUser, onLogou
     </>
   );
 }
+
+export default React.memo(Navbar);

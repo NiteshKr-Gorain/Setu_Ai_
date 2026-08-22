@@ -18,14 +18,24 @@ export function getRefreshToken() {
   return localStorage.getItem(REFRESH_KEY);
 }
 
+// Simple client-side cache
+const cacheStore = new Map();
+const CACHE_TTL = 300000; // 5 minutes
+
+export function clearCache() {
+  cacheStore.clear();
+}
+
 // Save tokens
 export function setTokens({ access_token, refresh_token }) {
+  clearCache();
   if (access_token) localStorage.setItem(TOKEN_KEY, access_token);
   if (refresh_token) localStorage.setItem(REFRESH_KEY, refresh_token);
 }
 
 // Clear tokens
 export function clearTokens() {
+  clearCache();
   localStorage.removeItem(TOKEN_KEY);
   localStorage.removeItem(REFRESH_KEY);
 }
@@ -75,6 +85,16 @@ async function refreshAccessToken() {
 // API request
 export async function apiRequest(path, options = {}) {
   const { json, auth = true, isFormData = false, headers = {}, ...rest } = options;
+
+  const method = (rest.method || 'GET').toUpperCase();
+  const useCache = method === 'GET' && options.useCache !== false;
+
+  if (useCache) {
+    const cached = cacheStore.get(path);
+    if (cached && Date.now() - cached.timestamp < CACHE_TTL) {
+      return cached.data;
+    }
+  }
 
   // Execute fetch
   const doFetch = async () => {
@@ -133,6 +153,13 @@ export async function apiRequest(path, options = {}) {
     throw new ApiError(message, response.status, data);
   }
 
+  if (useCache) {
+    cacheStore.set(path, {
+      timestamp: Date.now(),
+      data: data
+    });
+  }
+
   return data;
 }
 
@@ -151,3 +178,5 @@ export const api = {
 
 // URL export
 export { BASE_URL };
+
+export default api;

@@ -4,6 +4,7 @@ import ProfileSettingsModal from './components/ProfileSettingsModal';
 import { useAuth } from '../auth/AuthContext';
 import * as mentorsApi from '../../shared/api/mentorsApi';
 import { fetchKnowledgeEntries } from '../library/api/knowledgeApi';
+import UserStatusBadge from '../presence/components/UserStatusBadge';
 
 // Profile page
 export default function ProfilePage({ userProfile, onLogout }) {
@@ -172,7 +173,11 @@ export default function ProfilePage({ userProfile, onLogout }) {
                   {profileData.role}
                 </span>
               </div>
-              <p className="font-serif italic text-sm sm:text-base font-semibold text-brand-primary">{profileData.title}</p>
+              <div className="flex items-center justify-center space-x-3">
+                <p className="font-serif italic text-sm sm:text-base font-semibold text-brand-primary">{profileData.title}</p>
+                <span className="text-slate-300">•</span>
+                <UserStatusBadge userId={user?._id || user?.id || user?.email} size="sm" />
+              </div>
             </div>
 
             {/* 3. Details after that */}
