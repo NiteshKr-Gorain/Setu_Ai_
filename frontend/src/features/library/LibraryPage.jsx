@@ -1,7 +1,18 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import LibraryCard from './components/LibraryCard';
-import { fetchKnowledgeEntries } from './api/knowledgeApi';
+import VersionHistoryPanel from './components/VersionHistoryPanel';
+import {
+  fetchKnowledgeEntries,
+  fetchPassportSummary,
+  fetchVersionHistory,
+  fetchVersionDetails,
+  fetchProvenanceTimeline,
+  verifyPassportIntegrity
+} from './api/knowledgeApi';
 import { listLearningPaths } from './api/learningPathsApi';
+
+const CATEGORIES = ['All', 'Agriculture', 'Health', 'Traditional Skills', 'Recipes', 'Technology'];
+const CONTENT_TYPES = ['All', 'Article', 'Audio', 'Video', 'PDF'];
 
 const fallbackMockEntries = [
   {
@@ -194,46 +205,51 @@ export default function LibraryPage({ onContribute }) {
   const [selectedContentType, setSelectedContentType] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
   const [visibleCount, setVisibleCount] = useState(6); // Incremental pagination: initial 6 items
+  
+  // Server-side pagination and offline states
+  const [isBackendOffline, setIsBackendOffline] = useState(false);
+  const [hasMoreServer, setHasMoreServer] = useState(true);
+  const [loadingMore, setLoadingMore] = useState(false);
 
   const [selectedCard, setSelectedCard] = useState(null);
   const [aiSummaryCard, setAiSummaryCard] = useState(null);
   const [bookmarkedIds, setBookmarkedIds] = useState([]);
 
+  // Passport UI States
+  const [activeModalTab, setActiveModalTab] = useState('details');
+  const [passportSummary, setPassportSummary] = useState(null);
+  const [versionHistory, setVersionHistory] = useState([]);
+  const [timelineEvents, setTimelineEvents] = useState([]);
+  const [selectedHistoryVersion, setSelectedHistoryVersion] = useState(null);
+  const [verificationResult, setVerificationResult] = useState(null);
+  const [verifyingIntegrity, setVerifyingIntegrity] = useState(false);
+  const [loadingPassportData, setLoadingPassportData] = useState(false);
+
   const [learningPaths, setLearningPaths] = useState([]);
 
   useEffect(() => {
     let isMounted = true;
-    async function loadData() {
+    async function initLoad() {
       setLoading(true);
+      setIsBackendOffline(false);
       try {
         const apiData = await fetchKnowledgeEntries({
           category: selectedCategory,
           contentType: selectedContentType,
           q: searchQuery,
+          skip: 0,
+          limit: 6
         });
 
         if (isMounted) {
-          if (apiData && apiData.length > 0) {
-            setEntries(apiData);
-          } else if (!searchQuery && selectedCategory === 'All' && selectedContentType === 'All') {
-            setEntries(fallbackMockEntries);
-          } else {
-            // Filter fallback mock entries locally when backend is offline
-            const filteredMock = fallbackMockEntries.filter((item) => {
-              const matchCat = selectedCategory === 'All' || item.category.toLowerCase() === selectedCategory.toLowerCase();
-              const matchType = selectedContentType === 'All' || item.contentType.toLowerCase() === selectedContentType.toLowerCase();
-              const matchSearch =
-                item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                item.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                item.contributor.toLowerCase().includes(searchQuery.toLowerCase());
-              return matchCat && matchType && matchSearch;
-            });
-            setEntries(filteredMock);
-          }
+          setEntries(apiData);
+          setHasMoreServer(apiData.length === 6);
+          setVisibleCount(6);
         }
       } catch (err) {
         if (isMounted) {
           console.warn('Backend API unavailable, using fallback mock library data:', err.message);
+          setIsBackendOffline(true);
           const filteredMock = fallbackMockEntries.filter((item) => {
             const matchCat = selectedCategory === 'All' || item.category.toLowerCase() === selectedCategory.toLowerCase();
             const matchType = selectedContentType === 'All' || item.contentType.toLowerCase() === selectedContentType.toLowerCase();
@@ -244,13 +260,14 @@ export default function LibraryPage({ onContribute }) {
             return matchCat && matchType && matchSearch;
           });
           setEntries(filteredMock);
+          setVisibleCount(6);
         }
       } finally {
         if (isMounted) setLoading(false);
       }
     }
 
-    loadData();
+    initLoad();
     return () => { isMounted = false; };
   }, [selectedCategory, selectedContentType, searchQuery]);
 
@@ -266,21 +283,103 @@ export default function LibraryPage({ onContribute }) {
     return () => { isMounted = false; };
   }, []);
 
-  const handleToggleBookmark = (id) => {
+  useEffect(() => {
+    if (!selectedCard || !selectedCard.id || selectedCard.id.startsWith('mock-')) {
+      setPassportSummary(null);
+      setVersionHistory([]);
+      setTimelineEvents([]);
+      setSelectedHistoryVersion(null);
+      setVerificationResult(null);
+      setActiveModalTab('details');
+      return;
+    }
+
+    let isMounted = true;
+    async function loadPassportData() {
+      setLoadingPassportData(true);
+      setActiveModalTab('details');
+      setSelectedHistoryVersion(null);
+      setVerificationResult(null);
+      try {
+        const [passport, versions, timeline] = await Promise.all([
+          fetchPassportSummary(selectedCard.id).catch(() => null),
+          fetchVersionHistory(selectedCard.id).catch(() => []),
+          fetchProvenanceTimeline(selectedCard.id).catch(() => ({ timeline: [] }))
+        ]);
+
+        if (isMounted) {
+          setPassportSummary(passport);
+          setVersionHistory(versions || []);
+          setTimelineEvents(timeline?.timeline || []);
+        }
+      } catch (err) {
+        console.error('Failed to load passport info:', err);
+      } finally {
+        if (isMounted) setLoadingPassportData(false);
+      }
+    }
+    loadPassportData();
+    return () => { isMounted = false; };
+  }, [selectedCard]);
+
+  const handleVerifyIntegrity = async () => {
+    if (!selectedCard) return;
+    setVerifyingIntegrity(true);
+    setVerificationResult(null);
+    try {
+      const res = await verifyPassportIntegrity(selectedCard.id);
+      setVerificationResult(res);
+    } catch (err) {
+      console.error(err);
+      setVerificationResult({
+        verified: false,
+        message: 'Failed to perform cryptographic verification. Backend offline.'
+      });
+    } finally {
+      setVerifyingIntegrity(false);
+    }
+  };
+
+  const handleToggleBookmark = useCallback((id) => {
     setBookmarkedIds((prev) =>
       prev.includes(id) ? prev.filter((item) => item !== id) : [...prev, id]
     );
+  }, []);
+
+  const handleReadMore = useCallback((entry) => {
+    setSelectedCard(entry);
+  }, []);
+
+  const handleAiSummary = useCallback((entry) => {
+    setAiSummaryCard(entry);
+  }, []);
+
+  const handleShowMore = async () => {
+    if (isBackendOffline) {
+      setVisibleCount((prev) => prev + 6);
+      return;
+    }
+
+    setLoadingMore(true);
+    try {
+      const nextEntries = await fetchKnowledgeEntries({
+        category: selectedCategory,
+        contentType: selectedContentType,
+        q: searchQuery,
+        skip: entries.length,
+        limit: 6
+      });
+      setEntries((prev) => [...prev, ...nextEntries]);
+      setHasMoreServer(nextEntries.length === 6);
+    } catch (err) {
+      console.error('Failed to load more entries from server:', err);
+    } finally {
+      setLoadingMore(false);
+    }
   };
 
-  const handleShowMore = () => {
-    setVisibleCount((prev) => prev + 6);
-  };
-
-  const categories = ['All', 'Agriculture', 'Health', 'Traditional Skills', 'Recipes', 'Technology'];
-  const contentTypes = ['All', 'Article', 'Audio', 'Video', 'PDF'];
-
-  const displayedEntries = entries.slice(0, visibleCount);
-  const hasMore = visibleCount < entries.length;
+  const displayedEntries = isBackendOffline ? entries.slice(0, visibleCount) : entries;
+  const hasMore = isBackendOffline ? (visibleCount < entries.length) : hasMoreServer;
 
   return (
     <div className="pt-24 pb-16 min-h-screen bg-slate-50 text-slate-800 transition-colors duration-300">
@@ -340,7 +439,7 @@ export default function LibraryPage({ onContribute }) {
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
             {/* Category Pills */}
             <div className="flex flex-wrap gap-1.5">
-              {categories.map((cat) => (
+              {CATEGORIES.map((cat) => (
                 <button
                   key={cat}
                   onClick={() => {
@@ -369,7 +468,7 @@ export default function LibraryPage({ onContribute }) {
                 }}
                 className="bg-slate-50 border border-slate-200/60 rounded-xl px-3 py-1.5 text-xs font-semibold text-slate-700 focus:outline-none focus:border-blue-500 cursor-pointer"
               >
-                {contentTypes.map((ct) => (
+                {CONTENT_TYPES.map((ct) => (
                   <option key={ct} value={ct}>{ct}</option>
                 ))}
               </select>
@@ -415,8 +514,8 @@ export default function LibraryPage({ onContribute }) {
                 <LibraryCard
                   key={item.id}
                   item={item}
-                  onReadMore={(entry) => setSelectedCard(entry)}
-                  onAiSummary={(entry) => setAiSummaryCard(entry)}
+                  onReadMore={handleReadMore}
+                  onAiSummary={handleAiSummary}
                   onBookmark={handleToggleBookmark}
                   isBookmarked={bookmarkedIds.includes(item.id)}
                 />
@@ -428,16 +527,30 @@ export default function LibraryPage({ onContribute }) {
               <div className="pt-4 pb-2 flex flex-col items-center justify-center space-y-2">
                 <button
                   onClick={handleShowMore}
-                  className="px-8 py-3.5 bg-blue-600 hover:bg-blue-700 text-white text-xs font-black rounded-2xl shadow-lg shadow-blue-600/25 hover:shadow-xl hover:shadow-blue-600/40 transition-all transform hover:-translate-y-0.5 cursor-pointer flex items-center space-x-2.5"
+                  disabled={loadingMore}
+                  className="px-8 py-3.5 bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white text-xs font-black rounded-2xl shadow-lg shadow-blue-600/25 hover:shadow-xl hover:shadow-blue-600/40 transition-all transform hover:-translate-y-0.5 cursor-pointer flex items-center space-x-2.5"
                 >
-                  <span>Show More Knowledge Posts</span>
-                  <span className="bg-white/20 px-2 py-0.5 rounded-md text-[10px]">
-                    +{Math.min(6, entries.length - visibleCount)} more
-                  </span>
-                  <span>↓</span>
+                  {loadingMore ? (
+                    <>
+                      <div className="w-3.5 h-3.5 border-2 border-white/30 border-t-white rounded-full animate-spin"></div>
+                      <span>Loading...</span>
+                    </>
+                  ) : (
+                    <>
+                      <span>Show More Knowledge Posts</span>
+                      {isBackendOffline && (
+                        <span className="bg-white/20 px-2 py-0.5 rounded-md text-[10px]">
+                          +{Math.min(6, entries.length - visibleCount)} more
+                        </span>
+                      )}
+                      <span>↓</span>
+                    </>
+                  )}
                 </button>
                 <p className="text-[11px] text-slate-400 font-medium">
-                  Showing {displayedEntries.length} of {entries.length} knowledge entries
+                  {isBackendOffline 
+                    ? `Showing ${displayedEntries.length} of ${entries.length} knowledge entries`
+                    : `Showing ${displayedEntries.length} knowledge entries`}
                 </p>
               </div>
             )}
@@ -471,14 +584,178 @@ export default function LibraryPage({ onContribute }) {
             <div className="space-y-3">
               <h2 className="text-xl font-extrabold text-slate-900 leading-snug">{selectedCard.title}</h2>
               <p className="text-xs text-slate-400 font-semibold">Contributed by {selectedCard.contributor}</p>
-              <div className="h-px bg-slate-100"></div>
-              <p className="text-xs text-slate-600 leading-relaxed font-normal">{selectedCard.description}</p>
             </div>
 
-            <div className="bg-slate-50 border border-slate-100 rounded-2xl p-5 space-y-3">
-              <h4 className="text-xs font-bold text-slate-800 uppercase tracking-wider">🌿 Traditional Technique</h4>
-              <p className="text-xs text-slate-600 leading-relaxed font-normal">{selectedCard.traditionalMethod}</p>
+            {/* Tab Switched Header */}
+            <div className="flex border-b border-slate-100 space-x-1">
+              <button
+                onClick={() => setActiveModalTab('details')}
+                className={`pb-2.5 px-4 text-xs font-bold border-b-2 transition-all cursor-pointer ${
+                  activeModalTab === 'details'
+                    ? 'border-blue-600 text-blue-600'
+                    : 'border-transparent text-slate-400 hover:text-slate-600'
+                }`}
+              >
+                📖 Details
+              </button>
+              {!selectedCard.id?.startsWith('mock-') && (
+                <>
+                  <button
+                    onClick={() => setActiveModalTab('passport')}
+                    className={`pb-2.5 px-4 text-xs font-bold border-b-2 transition-all cursor-pointer ${
+                      activeModalTab === 'passport'
+                        ? 'border-blue-600 text-blue-600'
+                        : 'border-transparent text-slate-400 hover:text-slate-600'
+                    }`}
+                  >
+                    🛡️ Knowledge Passport
+                  </button>
+                  <button
+                    onClick={() => setActiveModalTab('history')}
+                    className={`pb-2.5 px-4 text-xs font-bold border-b-2 transition-all cursor-pointer ${
+                      activeModalTab === 'history'
+                        ? 'border-blue-600 text-blue-600'
+                        : 'border-transparent text-slate-400 hover:text-slate-600'
+                    }`}
+                  >
+                    📜 Versions ({versionHistory.length})
+                  </button>
+                  <button
+                    onClick={() => setActiveModalTab('timeline')}
+                    className={`pb-2.5 px-4 text-xs font-bold border-b-2 transition-all cursor-pointer ${
+                      activeModalTab === 'timeline'
+                        ? 'border-blue-600 text-blue-600'
+                        : 'border-transparent text-slate-400 hover:text-slate-600'
+                    }`}
+                  >
+                    ⏱️ Provenance ({timelineEvents.length})
+                  </button>
+                </>
+              )}
             </div>
+
+            {/* Tab Contents */}
+            {activeModalTab === 'details' && (
+              <div className="space-y-6">
+                <div className="space-y-3">
+                  <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider">Description</h4>
+                  <p className="text-xs text-slate-600 leading-relaxed font-normal">{selectedCard.description}</p>
+                </div>
+
+                <div className="bg-slate-50 border border-slate-100 rounded-2xl p-5 space-y-3">
+                  <h4 className="text-xs font-bold text-slate-800 uppercase tracking-wider">🌿 Traditional Technique</h4>
+                  <p className="text-xs text-slate-600 leading-relaxed font-normal">{selectedCard.traditionalMethod}</p>
+                </div>
+              </div>
+            )}
+
+            {activeModalTab === 'passport' && (
+              <div className="space-y-4">
+                {loadingPassportData ? (
+                  <div className="py-6 text-center space-y-2">
+                    <div className="w-6 h-6 border-2 border-blue-200 border-t-blue-600 rounded-full animate-spin mx-auto"></div>
+                    <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Loading Passport Summary...</p>
+                  </div>
+                ) : passportSummary ? (
+                  <div className="space-y-4">
+                    <div className="grid grid-cols-2 gap-4">
+                      <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100">
+                        <span className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">Passport Identifier</span>
+                        <p className="font-mono text-xs font-bold text-slate-900 mt-1">{passportSummary.passport_id}</p>
+                      </div>
+                      <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100">
+                        <span className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">Active Version</span>
+                        <p className="text-xs font-bold text-slate-900 mt-1">v{passportSummary.version_number}</p>
+                      </div>
+                      <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100">
+                        <span className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">Trust Score</span>
+                        <p className="text-xs font-bold text-emerald-600 mt-1">{(passportSummary.trust_score * 100).toFixed(0)}%</p>
+                      </div>
+                      <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100">
+                        <span className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">Peer Reviews</span>
+                        <p className="text-xs font-bold text-slate-900 mt-1">{passportSummary.verification_count} reviews</p>
+                      </div>
+                    </div>
+                    
+                    <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100 space-y-1">
+                      <span className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">Current Signature (SHA-256 Content Hash)</span>
+                      <p className="font-mono text-[10px] text-slate-600 break-all select-all">{passportSummary.content_hash}</p>
+                    </div>
+
+                    {/* Cryptographic Integrity Verification Panel */}
+                    <div className="bg-blue-50/30 border border-blue-200/50 rounded-2xl p-5 space-y-3">
+                      <div className="flex items-center justify-between">
+                        <h4 className="text-xs font-extrabold text-slate-800">Cryptographic Integrity Verification</h4>
+                        <button
+                          onClick={handleVerifyIntegrity}
+                          disabled={verifyingIntegrity}
+                          className="px-4 py-1.5 bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white text-[10px] font-bold rounded-lg cursor-pointer transition-all animate-pulse"
+                        >
+                          {verifyingIntegrity ? 'Verifying...' : 'Verify Signature'}
+                        </button>
+                      </div>
+                      
+                      {verificationResult && (
+                        <div className={`p-4 rounded-xl border text-xs space-y-1 ${
+                          verificationResult.verified 
+                            ? 'bg-emerald-50 border-emerald-200 text-emerald-800' 
+                            : 'bg-rose-50 border-rose-200 text-rose-800'
+                        }`}>
+                          <p className="font-bold flex items-center space-x-1">
+                            <span>{verificationResult.verified ? '✓' : '⚠️'}</span>
+                            <span>{verificationResult.verified ? 'Integrity Verification Passed' : 'Verification Issue Detected'}</span>
+                          </p>
+                          <p className="text-[11px] font-normal leading-relaxed">{verificationResult.message}</p>
+                          <div className="pt-2 font-mono text-[10px] space-y-0.5">
+                            <p><span className="font-semibold">Computed:</span> {verificationResult.computed_hash}</p>
+                            <p><span className="font-semibold">Stored:</span> {verificationResult.stored_hash || 'None'}</p>
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                ) : (
+                  <p className="text-xs text-slate-400 italic">No passport data available.</p>
+                )}
+              </div>
+            )}
+
+            {activeModalTab === 'history' && (
+              <div className="space-y-4">
+                <VersionHistoryPanel
+                  articleId={selectedCard.id}
+                  initialContributor={selectedCard.contributor}
+                />
+              </div>
+            )}
+
+            {activeModalTab === 'timeline' && (
+              <div className="space-y-4">
+                {timelineEvents.length > 0 ? (
+                  <div className="relative pl-6 border-l-2 border-slate-100 space-y-6 text-xs text-left">
+                    {timelineEvents.map((evt) => (
+                      <div key={evt.id || evt.created_at} className="relative">
+                        <span className="absolute -left-[31px] top-1 bg-white border-2 border-blue-600 rounded-full w-4 h-4 flex items-center justify-center text-[8px] text-blue-600 font-bold">
+                          ✓
+                        </span>
+                        <div className="space-y-1">
+                          <div className="flex items-center justify-between">
+                            <span className="font-bold text-[9px] bg-blue-50 text-blue-700 px-2 py-0.5 rounded uppercase tracking-wide">
+                              {evt.event_type}
+                            </span>
+                            <span className="text-[9px] text-slate-400">{new Date(evt.created_at).toLocaleString()}</span>
+                          </div>
+                          <p className="text-slate-600 font-normal leading-relaxed">{evt.description}</p>
+                          <p className="text-[9px] text-slate-400 font-semibold">Verified by: {evt.actor_name}</p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <p className="text-xs text-slate-400 italic">No provenance logs recorded.</p>
+                )}
+              </div>
+            )}
 
             <div className="flex justify-end space-x-3 pt-2">
               <button

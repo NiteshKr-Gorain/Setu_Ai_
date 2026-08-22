@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.config import settings
 from app.database import connect_to_mongo, close_mongo_connection, get_database
-from app.routers import auth, users, knowledge, search, mentors, verification, learning_paths, communities, ai, avatar
+from app.routers import auth, users, knowledge, search, mentors, verification, learning_paths, communities, ai, avatar, admin, passport, presence
 from app.services.rag_service import rag_service
 
 # Configure basic logging
@@ -105,6 +105,31 @@ async def lifespan(app: FastAPI):
             logger.info("Community indexes verified/created.")
         except Exception as idx_err:
             logger.warning(f"Non-critical: communities index creation encountered an issue: {idx_err}")
+
+        # Create Passport, Versions & Audit indexes
+        try:
+            await db["knowledge_entries"].create_index(
+                "passport_id",
+                unique=True,
+                partialFilterExpression={"passport_id": {"$exists": True}},
+                name="unique_passport_id"
+            )
+            await db["knowledge_versions"].create_index(
+                [("entry_id", 1), ("version_number", 1)],
+                unique=True,
+                name="unique_entry_version"
+            )
+            await db["knowledge_versions"].create_index(
+                [("entry_id", 1), ("content_hash", 1)],
+                name="entry_hash_index"
+            )
+            await db["knowledge_audit_trail"].create_index(
+                [("entry_id", 1), ("created_at", 1)],
+                name="entry_timeline_index"
+            )
+            logger.info("Passport and Version ledger indexes verified/created.")
+        except Exception as idx_err:
+            logger.warning(f"Non-critical: passport indexes creation encountered an issue: {idx_err}")
         
         # Atlas Vector Search index reminder
         if settings.USE_ATLAS_VECTOR_SEARCH:
@@ -166,6 +191,9 @@ app.include_router(learning_paths.router)
 app.include_router(communities.router)
 app.include_router(ai.router)
 app.include_router(avatar.router)
+app.include_router(passport.router)
+app.include_router(admin.router)
+app.include_router(presence.router)
 
 
 

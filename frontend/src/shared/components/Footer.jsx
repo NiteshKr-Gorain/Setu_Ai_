@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export default function Footer({ currentView, onViewChange }) {
+function Footer({ currentView, onViewChange }) {
   const [subscribed, setSubscribed] = useState(false);
   const [emailInput, setEmailInput] = useState('');
 
@@ -149,3 +149,5 @@ export default function Footer({ currentView, onViewChange }) {
     </footer>
   );
 }
+
+export default React.memo(Footer);

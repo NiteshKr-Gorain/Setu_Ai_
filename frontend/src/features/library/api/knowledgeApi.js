@@ -48,6 +48,9 @@ export function normalizeEntry(entry) {
     readTime,
     likes: entry.likes_count || 0,
     created_at: entry.created_at,
+    passport_id: entry.passport_id,
+    content_hash: entry.content_hash,
+    version_number: entry.version_number
   };
 }
 
@@ -56,6 +59,8 @@ export async function fetchKnowledgeEntries(params = {}) {
   if (params.category && params.category !== 'All') queryParams.append('category', params.category);
   if (params.contentType && params.contentType !== 'All') queryParams.append('content_type', params.contentType.toLowerCase());
   if (params.q) queryParams.append('q', params.q);
+  if (params.skip !== undefined) queryParams.append('skip', params.skip);
+  if (params.limit !== undefined) queryParams.append('limit', params.limit);
 
   const queryString = queryParams.toString();
   const endpoint = `/knowledge${queryString ? `?${queryString}` : ''}`;
@@ -102,3 +107,35 @@ export async function pollKnowledgeStatus(entryId, { onTick, intervalMs = 2000, 
   }
   throw new Error('Processing timed out. Please check back later.');
 }
+
+export async function fetchPassportSummary(id) {
+  return apiClient(`/knowledge/${id}/passport`);
+}
+
+export async function fetchVersionHistory(id) {
+  return apiClient(`/knowledge/${id}/versions`);
+}
+
+export async function fetchVersionDetails(id, version) {
+  return apiClient(`/knowledge/${id}/versions/${version}`);
+}
+
+export async function fetchProvenanceTimeline(id) {
+  return apiClient(`/knowledge/${id}/timeline`);
+}
+
+export async function verifyPassportIntegrity(id) {
+  return apiClient(`/knowledge/${id}/verify-integrity`);
+}
+
+export async function verifyVersionIntegrity(id, version) {
+  return apiClient(`/knowledge/${id}/versions/${version}/verify`);
+}
+
+export async function verifyArticleVersion(id, version) {
+  return apiClient(`/knowledge/${id}/verify?version=${version}`, {
+    method: 'POST'
+  });
+}
+
+

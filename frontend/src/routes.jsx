@@ -1,15 +1,17 @@
 import React from 'react';
-import HomePage from './features/home/HomePage';
-import CommunityPage from './features/community/CommunityPage';
-import LibraryPage from './features/library/LibraryPage';
-import LegacyPage from './features/legacy/LegacyPage';
-import GovernmentSchemesPage from './features/schemes/GovernmentSchemesPage';
-import AboutUsPage from './features/about/AboutUsPage';
-import ContributePage from './features/contribute/ContributePage';
-import SignInPage from './features/auth/SignInPage';
-import SignUpPage from './features/auth/SignUpPage';
-import ProfilePage from './features/profile/ProfilePage';
-import AiAssistantPage from './features/ai/AiAssistantPage';
+
+const HomePage = React.lazy(() => import('./features/home/HomePage'));
+const CommunityPage = React.lazy(() => import('./features/community/CommunityPage'));
+const LibraryPage = React.lazy(() => import('./features/library/LibraryPage'));
+const LegacyPage = React.lazy(() => import('./features/legacy/LegacyPage'));
+const GovernmentSchemesPage = React.lazy(() => import('./features/schemes/GovernmentSchemesPage'));
+const AboutUsPage = React.lazy(() => import('./features/about/AboutUsPage'));
+const ContributePage = React.lazy(() => import('./features/contribute/ContributePage'));
+const SignInPage = React.lazy(() => import('./features/auth/SignInPage'));
+const SignUpPage = React.lazy(() => import('./features/auth/SignUpPage'));
+const ProfilePage = React.lazy(() => import('./features/profile/ProfilePage'));
+const AiAssistantPage = React.lazy(() => import('./features/ai/AiAssistantPage'));
+const AdminCostControlPage = React.lazy(() => import('./features/admin/AdminCostControlPage'));
 
 export default function AppRoutes({ currentView, setCurrentView, _requireAuthView, currentUser, handleLogout }) {
   // Normalize string for robust route matching
@@ -72,6 +74,13 @@ export default function AppRoutes({ currentView, setCurrentView, _requireAuthVie
     case 'ai-assistant':
     case 'chat':
       return <AiAssistantPage userProfile={currentUser} onClose={() => setCurrentView('home')} />;
+
+    case 'admin':
+    case 'admin-costs':
+    case 'cost-control':
+    case 'ai-usage':
+    case 'ai-costs':
+      return <AdminCostControlPage currentUser={currentUser} onViewChange={setCurrentView} />;
 
     default:
       return <HomePage onViewChange={setCurrentView} currentUser={currentUser} />;

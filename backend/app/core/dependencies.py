@@ -40,3 +40,17 @@ async def get_current_user(
         raise credentials_exception
         
     return user
+
+async def get_current_admin_user(
+    current_user: dict = Depends(get_current_user)
+) -> dict:
+    """
+    FastAPI Dependency to ensure the current authenticated user has admin privileges.
+    """
+    if current_user.get("role") != "admin":
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Administrative privileges required."
+        )
+    return current_user
+

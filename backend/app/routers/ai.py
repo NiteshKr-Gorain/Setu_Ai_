@@ -2,7 +2,7 @@ import asyncio
 import logging
 from fastapi import APIRouter, HTTPException, Depends
 from fastapi.responses import StreamingResponse
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from typing import Optional, Dict, Any, List
 from motor.motor_asyncio import AsyncIOMotorDatabase
 
@@ -11,10 +11,22 @@ from app.services.keras_model import keras_classifier
 from app.services.search_engine import dual_check_search_pipeline
 from app.services.faiss_rag_service import faiss_rag_service
 from app.services.old_man_persona import ELDER_NAME, ELDER_ROLE
+from app.services.cost_control_service import (
+    answer_query,
+    get_orchestrator_metrics,
+    clear_query_cache,
+    classify_query_complexity
+)
 
 logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="", tags=["ai"])
+
+class OrchestratedQueryRequest(BaseModel):
+    query: str = Field(..., description="User query / question")
+    user_id: Optional[str] = Field("anonymous_user", description="Identifier of the requesting user")
+    rag_threshold: Optional[float] = Field(0.55, description="Similarity threshold for RAG match")
+    cache_ttl_seconds: Optional[int] = Field(3600, description="In-memory cache TTL in seconds")
 
 class ChatRequest(BaseModel):
     prompt: str
@@ -173,4 +185,36 @@ async def process_chat_stream(
             await asyncio.sleep(0.02)
 
     return StreamingResponse(stream_generator(), media_type="text/plain")
+
+@router.post("/api/ai/query")
+async def execute_orchestrated_query(req: OrchestratedQueryRequest):
+    """
+    Cost-Controlled 3-Tier AI Orchestrator Endpoint:
+    Decision Tree: Cache -> FAISS MiniLM RAG -> Escalated OpenRouter AI.
+    """
+    result = await answer_query(
+        user_id=req.user_id or "anonymous_user",
+        query=req.query,
+        rag_threshold=req.rag_threshold if req.rag_threshold is not None else 0.55,
+        cache_ttl_seconds=req.cache_ttl_seconds if req.cache_ttl_seconds is not None else 3600
+    )
+    return result
+
+@router.get("/api/ai/metrics")
+def get_ai_cost_and_traffic_metrics():
+    """
+    Returns AI cost control metrics:
+    - Cache hit percentage
+    - RAG hit percentage
+    - AI escalation percentage
+    - Total token consumption and estimated cost in INR
+    """
+    return get_orchestrator_metrics()
+
+@router.post("/api/ai/cache/clear")
+def clear_ai_query_cache():
+    """Clears the AI query in-memory TTL cache."""
+    clear_query_cache()
+    return {"status": "success", "message": "In-memory AI query cache cleared."}
+
 

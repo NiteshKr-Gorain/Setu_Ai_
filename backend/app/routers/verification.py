@@ -89,6 +89,33 @@ async def verify_knowledge_entry(
     doc["entry_id"] = str(doc["entry_id"])
     doc["reviewer_id"] = str(doc["reviewer_id"])
     doc["reviewer_name"] = current_user["name"]
+
+    # Write audit log to Knowledge Passport timeline
+    try:
+        from app.services import passport_service
+        # Map trust_level to audit trail event flags
+        event_map = {
+            "verified": "VERIFIED",
+            "needs_review": "PEER_REVIEWED",
+            "disputed": "REJECTED"
+        }
+        event_type = event_map.get(verification_data.trust_level, "PEER_REVIEWED")
+        
+        trust_desc = f"Reviewed item as: {verification_data.trust_level.upper()}"
+        if verification_data.comment:
+            trust_desc += f" - '{verification_data.comment}'"
+            
+        await passport_service.create_audit_event(
+            db=db,
+            entry_id=entry_obj_id,
+            event_type=event_type,
+            actor_id=current_user["_id"],
+            actor_name=current_user["name"],
+            description=trust_desc,
+            metadata={"comment": verification_data.comment, "trust_level": verification_data.trust_level}
+        )
+    except Exception as audit_err:
+        logger.warning(f"Failed to record audit event for verification review: {audit_err}")
     
     return doc
 

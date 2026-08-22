@@ -1,4 +1,5 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useMemo, useCallback } from 'react';
+import LazyImage from '../../shared/components/LazyImage';
 
 const mockVideos = [
   {
@@ -77,20 +78,24 @@ export default function LegacyPage() {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const playerRef = useRef(null);
 
-  const filteredVideos = mockVideos.filter(video => {
-    const matchesSearch = video.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      video.storytellerName.toLowerCase().includes(searchQuery.toLowerCase());
-    const matchesCategory = selectedCategory === 'All' || video.category === selectedCategory;
-    return matchesSearch && matchesCategory;
-  });
+  const filteredVideos = useMemo(() => {
+    const query = searchQuery.toLowerCase().trim();
+    return mockVideos.filter(video => {
+      const matchesSearch = !query ||
+        video.title.toLowerCase().includes(query) ||
+        video.storytellerName.toLowerCase().includes(query);
+      const matchesCategory = selectedCategory === 'All' || video.category === selectedCategory;
+      return matchesSearch && matchesCategory;
+    });
+  }, [searchQuery, selectedCategory]);
 
-  const handleSelectVideo = (video) => {
+  const handleSelectVideo = useCallback((video) => {
     setActiveVideo(video);
     if (playerRef.current) {
       playerRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
       playerRef.current.play().catch(() => {});
     }
-  };
+  }, []);
 
   return (
     <div className="pt-24 pb-16 min-h-screen bg-slate-50 text-slate-800 transition-colors duration-300">
@@ -212,11 +217,11 @@ export default function LegacyPage() {
                     }`}
                   >
                     <div className="relative aspect-video w-full overflow-hidden bg-slate-50">
-                      <img
+                      <LazyImage
                         src={video.thumbnail}
                         alt={video.title}
-                        loading="lazy"
-                        className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-500"
+                        className="w-full h-full"
+                        imgClassName="group-hover:scale-102 transition-transform duration-500"
                       />
                       <div className="absolute inset-0 bg-black/30 opacity-60 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                         <div className="w-10 h-10 rounded-full bg-white/90 shadow-lg flex items-center justify-center text-xs transform group-hover:scale-110 transition-transform">
