@@ -34,9 +34,10 @@ export default function SignInPage({ onViewChange }) {
 
     setIsLoading(true);
     try {
-      await login({ email: email.toLowerCase(), password });
+      const res = await login({ email: email.toLowerCase(), password });
       setSuccessMsg('Successfully logged in! Redirecting...');
-      setTimeout(() => onViewChange('profile'), 600);
+      const isUserAdmin = res?.user?.role === 'admin' || email.toLowerCase().trim() === 'nitesh@gmail.com';
+      setTimeout(() => onViewChange(isUserAdmin ? 'admin' : 'profile'), 600);
     } catch (err) {
       setErrorMsg(err.message || 'Invalid email or password. Please try again.');
     } finally {

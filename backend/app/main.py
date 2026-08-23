@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.config import settings
 from app.database import connect_to_mongo, close_mongo_connection, get_database
-from app.routers import auth, users, knowledge, search, mentors, verification, learning_paths, communities, ai, avatar, admin, passport, presence
+from app.routers import auth, users, knowledge, search, mentors, verification, learning_paths, communities, ai, avatar, admin, passport, presence, rfid
 from app.services.rag_service import rag_service
 
 # Configure basic logging
@@ -131,31 +131,28 @@ async def lifespan(app: FastAPI):
         except Exception as idx_err:
             logger.warning(f"Non-critical: passport indexes creation encountered an issue: {idx_err}")
         
+        # Create RFID & Smart Card indexes
+        try:
+            await db["rfid_tags"].create_index(
+                "tag_uid",
+                unique=True,
+                name="unique_rfid_tag_uid"
+            )
+            await db["rfid_tags"].create_index("user_id", name="rfid_user_id_index")
+            await db["rfid_tags"].create_index("entry_id", name="rfid_entry_id_index")
+            await db["rfid_tags"].create_index("tag_type", name="rfid_tag_type_index")
+            await db["rfid_scan_logs"].create_index([("timestamp", -1)], name="rfid_scan_logs_timestamp")
+            await db["rfid_scan_logs"].create_index("tag_uid", name="rfid_scan_logs_tag_uid")
+            logger.info("RFID Smart Card and Artifact indexes verified/created.")
+        except Exception as idx_err:
+            logger.warning(f"Non-critical: rfid indexes creation encountered an issue: {idx_err}")
+
         # Atlas Vector Search index reminder
         if settings.USE_ATLAS_VECTOR_SEARCH:
             logger.warning(
                 f"Atlas Vector Search is enabled. Ensure the configured vector index '{settings.ATLAS_VECTOR_INDEX_NAME}' "
                 "exists manually in MongoDB Atlas before using semantic search."
             )
-            # Atlas Index JSON Configuration Reference:
-            # {
-            #   "fields": [
-            #     {
-            #       "type": "vector",
-            #       "path": "embedding",
-            #       "numDimensions": 1536,
-            #       "similarity": "cosine"
-            #     },
-            #     {
-            #       "type": "filter",
-            #       "path": "status"
-            #     },
-            #     {
-            #       "type": "filter",
-            #       "path": "category"
-            #     }
-            #   ]
-            # }
     except Exception as e:
         logger.critical(f"Database setup or connection ping failed: {e}")
         
@@ -194,6 +191,7 @@ app.include_router(avatar.router)
 app.include_router(passport.router)
 app.include_router(admin.router)
 app.include_router(presence.router)
+app.include_router(rfid.router)
 
 
 

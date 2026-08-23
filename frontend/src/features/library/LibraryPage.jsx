@@ -5,7 +5,6 @@ import {
   fetchKnowledgeEntries,
   fetchPassportSummary,
   fetchVersionHistory,
-  fetchVersionDetails,
   fetchProvenanceTimeline,
   verifyPassportIntegrity
 } from './api/knowledgeApi';
@@ -220,7 +219,6 @@ export default function LibraryPage({ onContribute }) {
   const [passportSummary, setPassportSummary] = useState(null);
   const [versionHistory, setVersionHistory] = useState([]);
   const [timelineEvents, setTimelineEvents] = useState([]);
-  const [selectedHistoryVersion, setSelectedHistoryVersion] = useState(null);
   const [verificationResult, setVerificationResult] = useState(null);
   const [verifyingIntegrity, setVerifyingIntegrity] = useState(false);
   const [loadingPassportData, setLoadingPassportData] = useState(false);

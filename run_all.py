@@ -36,14 +36,14 @@ def print_banner():
 [OK] Unified Frontend (React + Vite + 60FPS Avatar):    http://localhost:5173{RESET}
 {YELLOW}Press Ctrl+C at any time to gracefully stop all services.{RESET}
 ---------------------------------------------------------------
-""")
+""", flush=True)
 
 def stream_output(process, prefix, color):
     try:
         for line in iter(process.stdout.readline, ''):
             if not line:
                 break
-            print(f"{color}{prefix}{RESET} {line.rstrip()}")
+            print(f"{color}{prefix}{RESET} {line.rstrip()}", flush=True)
     except Exception:
         pass
 
@@ -62,8 +62,11 @@ def main():
     # Check npm on Windows
     npm_cmd = "npm.cmd" if os.name == "nt" else "npm"
 
+    sub_env = os.environ.copy()
+    sub_env["PYTHONUNBUFFERED"] = "1"
+
     # 1. Start Unified Backend Process
-    print(f"{CYAN}[SYSTEM]{RESET} Launching Unified FastAPI Backend on port 8000...")
+    print(f"{CYAN}[SYSTEM]{RESET} Launching Unified FastAPI Backend on port 8000...", flush=True)
     backend_proc = subprocess.Popen(
         backend_cmd,
         cwd=BACKEND_DIR,
@@ -72,11 +75,12 @@ def main():
         text=True,
         bufsize=1,
         encoding="utf-8",
-        errors="replace"
+        errors="replace",
+        env=sub_env
     )
 
     # 2. Start Frontend Dev Server Process
-    print(f"{CYAN}[SYSTEM]{RESET} Launching React Vite Frontend on port 5173...")
+    print(f"{CYAN}[SYSTEM]{RESET} Launching React Vite Frontend on port 5173...", flush=True)
     frontend_proc = subprocess.Popen(
         [npm_cmd, "run", "dev"],
         cwd=FRONTEND_DIR,

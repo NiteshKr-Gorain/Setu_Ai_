@@ -62,7 +62,9 @@ class TestBackendComprehensive(unittest.TestCase):
                 "/search/semantic",
                 "/mentors",
                 "/learning-paths",
-                "/communities"
+                "/communities",
+                "/api/rfid/scan",
+                "/api/rfid/seed"
             ]
 
             for route in expected_routes:

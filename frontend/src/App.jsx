@@ -6,6 +6,7 @@ import BridgeLoader from './shared/components/BridgeLoader';
 import AppRoutes from './routes';
 import { useAuth } from './features/auth/AuthContext';
 import { useHeartbeat } from './features/presence/hooks/useHeartbeat';
+import RfidScannerModal from './features/rfid/components/RfidScannerModal';
 import './App.css';
 
 // Helper to extract view ID from URL hash or path
@@ -35,8 +36,9 @@ const ROUTE_TITLES = {
 
 export default function App() {
   const [currentView, setCurrentViewState] = useState(() => getViewFromLocation());
-  const { currentUser, isLoading, logout } = useAuth();
+  const { currentUser, isLoading, logout, patchLocalProfile } = useAuth();
   const [showLoader, setShowLoader] = useState(true);
+  const [isRfidModalOpen, setIsRfidModalOpen] = useState(false);
 
   // Live user state backend-confirmed heartbeat with 20s interval & activity tracking
   useHeartbeat({
@@ -122,6 +124,7 @@ export default function App() {
         onViewChange={handleViewChange}
         currentUser={currentUser}
         onLogout={handleLogout}
+        onOpenRfid={() => setIsRfidModalOpen(true)}
       />
 
       {/* Main Content Area via AppRoutes */}
@@ -137,6 +140,7 @@ export default function App() {
             setCurrentView={handleViewChange}
             currentUser={currentUser}
             handleLogout={handleLogout}
+            onOpenRfid={() => setIsRfidModalOpen(true)}
           />
         </React.Suspense>
       </main>
@@ -146,6 +150,17 @@ export default function App() {
 
       {/* Floating AI Assistant Button */}
       <AiButton onViewChange={handleViewChange} currentView={currentView} />
+
+      {/* Global RFID / NFC Smart Card Kiosk Modal */}
+      <RfidScannerModal
+        isOpen={isRfidModalOpen}
+        onClose={() => setIsRfidModalOpen(false)}
+        currentUser={currentUser}
+        onLoginSuccess={(user) => {
+          patchLocalProfile(user);
+        }}
+        onViewChange={handleViewChange}
+      />
     </div>
   );
 }

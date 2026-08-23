@@ -17,7 +17,7 @@ class UserCreate(BaseModel):
     name: str = Field(..., min_length=1, max_length=100)
     email: EmailStr
     password: str = Field(..., min_length=6)
-    role: Literal["contributor", "learner", "both"]
+    role: Literal["contributor", "learner", "both", "admin"]
     preferred_language: str = "en"
 
     @field_validator("preferred_language")
@@ -33,7 +33,7 @@ class UserOut(BaseModel):
     id: PyObjectId = Field(..., alias="_id")
     name: str
     email: EmailStr
-    role: Literal["contributor", "learner", "both"]
+    role: Literal["contributor", "learner", "both", "admin"]
     preferred_language: str = "en"
     created_at: datetime
 
@@ -46,7 +46,7 @@ class UserInDB(BaseModel):
     id: PyObjectId = Field(..., alias="_id")
     name: str
     email: EmailStr
-    role: Literal["contributor", "learner", "both"]
+    role: Literal["contributor", "learner", "both", "admin"]
     hashed_password: str
     preferred_language: str = "en"
     created_at: datetime

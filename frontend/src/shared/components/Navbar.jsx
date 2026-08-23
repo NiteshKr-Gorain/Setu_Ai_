@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-function Navbar({ currentView, onViewChange, currentUser, onLogout }) {
+function Navbar({ currentView, onViewChange, currentUser, onLogout, onOpenRfid }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
@@ -48,7 +48,7 @@ function Navbar({ currentView, onViewChange, currentUser, onLogout }) {
     setIsMobileMenuOpen(false);
   };
 
-  const isAdmin = currentUser && (currentUser.role === 'admin' || currentUser.email?.includes('admin'));
+  const isAdmin = currentUser && (currentUser.role === 'admin' || currentUser.email?.toLowerCase().trim() === 'nitesh@gmail.com' || currentUser.email?.includes('admin'));
 
   const navLinks = [
     { label: 'Home', viewId: 'home', id: 'nav-link-home' },
@@ -57,7 +57,7 @@ function Navbar({ currentView, onViewChange, currentUser, onLogout }) {
     { label: 'Schemes', viewId: 'govt schemes', id: 'nav-link-schemes' },
     { label: 'Legacy Archives', viewId: 'legacy', id: 'nav-link-legacy' },
     { label: 'About Us', viewId: 'about us', id: 'nav-link-about' },
-    ...(isAdmin ? [{ label: '⚡ Cost Control', viewId: 'admin', id: 'nav-link-admin' }] : []),
+    ...(isAdmin ? [{ label: '⚡ Admin Dashboard', viewId: 'admin', id: 'nav-link-admin' }] : []),
   ];
 
   return (
@@ -114,7 +114,19 @@ function Navbar({ currentView, onViewChange, currentUser, onLogout }) {
           </nav>
 
           {/* 3. Action Control Area */}
-          <div id="desktop-auth-actions" className="hidden lg:flex items-center space-x-3.5">
+          <div id="desktop-auth-actions" className="hidden lg:flex items-center space-x-3">
+            {onOpenRfid && (
+              <button
+                id="nav-action-rfid"
+                onClick={onOpenRfid}
+                title="RFID / NFC Kiosk Tap Reader"
+                className="px-3.5 py-2 bg-gradient-to-r from-amber-500/15 to-orange-500/15 hover:from-amber-500/25 hover:to-orange-500/25 text-amber-900 border border-amber-300/80 rounded-full text-xs md:text-[13px] font-extrabold transition-all cursor-pointer flex items-center space-x-1.5 shadow-3xs hover:scale-105 active:scale-95"
+              >
+                <span className="animate-pulse">📡</span>
+                <span>RFID Tap</span>
+              </button>
+            )}
+
             {currentUser ? (
               <div className="flex items-center space-x-3">
                 <button
@@ -213,6 +225,20 @@ function Navbar({ currentView, onViewChange, currentUser, onLogout }) {
             ))}
 
             <div className="pt-4 border-t border-slate-100 flex flex-col space-y-2">
+              {onOpenRfid && (
+                <button
+                  id="mobile-action-rfid"
+                  onClick={() => {
+                    onOpenRfid();
+                    setIsMobileMenuOpen(false);
+                  }}
+                  className="w-full py-3 bg-gradient-to-r from-amber-500 to-orange-500 text-slate-950 text-xs font-black rounded-2xl text-center cursor-pointer shadow-md flex items-center justify-center space-x-2"
+                >
+                  <span className="animate-pulse">📡</span>
+                  <span>Setu RFID / NFC Kiosk Tap</span>
+                </button>
+              )}
+
               {currentUser ? (
                 <>
                   <button
@@ -222,6 +248,15 @@ function Navbar({ currentView, onViewChange, currentUser, onLogout }) {
                   >
                     ✍️ Share Knowledge
                   </button>
+                  {isAdmin && (
+                    <button
+                      id="mobile-action-admin"
+                      onClick={() => handleNavClick('admin')}
+                      className="w-full py-3 bg-amber-500 hover:bg-amber-600 text-slate-950 text-xs font-bold rounded-2xl text-center cursor-pointer shadow-xs"
+                    >
+                      ⚡ Admin Dashboard
+                    </button>
+                  )}
                   <button
                     id="mobile-action-profile"
                     onClick={() => handleNavClick('profile')}

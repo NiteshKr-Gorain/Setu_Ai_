@@ -13,7 +13,7 @@ const ProfilePage = React.lazy(() => import('./features/profile/ProfilePage'));
 const AiAssistantPage = React.lazy(() => import('./features/ai/AiAssistantPage'));
 const AdminCostControlPage = React.lazy(() => import('./features/admin/AdminCostControlPage'));
 
-export default function AppRoutes({ currentView, setCurrentView, _requireAuthView, currentUser, handleLogout }) {
+export default function AppRoutes({ currentView, setCurrentView, _requireAuthView, currentUser, handleLogout, onOpenRfid }) {
   // Normalize string for robust route matching
   const normalizedView = (currentView || 'home').toString().toLowerCase().trim();
 
@@ -40,6 +40,7 @@ export default function AppRoutes({ currentView, setCurrentView, _requireAuthVie
       return <LegacyPage />;
 
     case 'schemes':
+    case 'government-schemes':
     case 'govt schemes':
     case 'government schemes':
     case 'govt-schemes':
@@ -63,7 +64,7 @@ export default function AppRoutes({ currentView, setCurrentView, _requireAuthVie
     case 'profile':
     case 'user-profile':
     case 'account':
-      return <ProfilePage userProfile={currentUser} onLogout={handleLogout} />;
+      return <ProfilePage userProfile={currentUser} onLogout={handleLogout} onViewChange={setCurrentView} onOpenRfid={onOpenRfid} />;
 
     case 'contribute':
     case 'share':

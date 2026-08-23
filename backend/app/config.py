@@ -53,7 +53,10 @@ class Settings(BaseSettings):
     DATA_DIR: Path = Path(__file__).parent.parent / "data"
 
     model_config = SettingsConfigDict(
-        env_file=".env",
+        env_file=[
+            str(Path(__file__).resolve().parent.parent / ".env"),
+            ".env"
+        ],
         env_file_encoding="utf-8",
         extra="ignore"
     )
