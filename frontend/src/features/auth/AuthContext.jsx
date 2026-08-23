@@ -75,6 +75,17 @@ export function AuthProvider({ children }) {
     setCurrentUser(null);
   };
 
+  // Direct session login (used by RFID tap, hardware kiosks, and token sessions)
+  const loginWithSession = (tokens, user) => {
+    if (tokens) {
+      authApi.setTokens(tokens);
+    }
+    if (user) {
+      setCurrentUser(user);
+      authApi.setStoredUser(user);
+    }
+  };
+
   // Session-only local profile update
   const patchLocalProfile = (patch) => {
     setCurrentUser((prev) => {
@@ -90,6 +101,7 @@ export function AuthProvider({ children }) {
     login,
     register,
     logout,
+    loginWithSession,
     patchLocalProfile,
     isAuthenticated: !!currentUser,
   };

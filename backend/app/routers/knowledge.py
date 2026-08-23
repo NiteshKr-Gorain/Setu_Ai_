@@ -26,6 +26,12 @@ async def create_entry(
     
     Associates the entry's contributor_id with the ID of the currently logged-in user.
     """
+    if current_user.get("can_post") is False or current_user.get("is_active") is False:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Your account posting privileges have been restricted by the Administrator."
+        )
+
     if entry_in.community_id:
         try:
             comm_obj_id = ObjectId(entry_in.community_id)

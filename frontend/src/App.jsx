@@ -36,7 +36,7 @@ const ROUTE_TITLES = {
 
 export default function App() {
   const [currentView, setCurrentViewState] = useState(() => getViewFromLocation());
-  const { currentUser, isLoading, logout, patchLocalProfile } = useAuth();
+  const { currentUser, isLoading, logout, loginWithSession, patchLocalProfile } = useAuth();
   const [showLoader, setShowLoader] = useState(true);
   const [isRfidModalOpen, setIsRfidModalOpen] = useState(false);
 
@@ -156,8 +156,8 @@ export default function App() {
         isOpen={isRfidModalOpen}
         onClose={() => setIsRfidModalOpen(false)}
         currentUser={currentUser}
-        onLoginSuccess={(user) => {
-          patchLocalProfile(user);
+        onLoginSuccess={(tokens, user) => {
+          loginWithSession(tokens, user);
         }}
         onViewChange={handleViewChange}
       />

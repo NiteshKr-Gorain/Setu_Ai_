@@ -113,25 +113,33 @@ export default function RfidScannerModal({
     setIsTapping(false);
 
     if (result.status === 'authenticated' && result.auth_data) {
-      // Store session
-      setTokens({
+      const tokens = {
         access_token: result.auth_data.access_token,
         refresh_token: result.auth_data.refresh_token,
-      });
+      };
+
+      // Store tokens and user profile
+      setTokens(tokens);
       setStoredUser(result.auth_data.user);
 
       if (onLoginSuccess) {
-        onLoginSuccess(result.auth_data.user);
+        onLoginSuccess(tokens, result.auth_data.user);
       }
 
-      setFeedbackMsg(`🎉 Successfully logged in as ${result.auth_data.user.name}!`);
+      setFeedbackMsg(`🎉 Successfully Logged In as ${result.auth_data.user.name}! Your session is active across Setu.`);
 
-      setTimeout(() => {
-        if (onViewChange) {
-          onViewChange(result.auth_data.user.role === 'admin' ? 'admin' : 'profile');
-        }
-        onClose();
-      }, 1400);
+      // If user was on signin or signup screen, redirect them to home/admin
+      const currentHash = window.location.hash.toLowerCase();
+      const isAuthPage = currentHash.includes('signin') || currentHash.includes('signup') || currentHash.includes('login');
+      
+      if (isAuthPage) {
+        setTimeout(() => {
+          if (onViewChange) {
+            onViewChange(result.auth_data.user.role === 'admin' ? 'admin' : 'home');
+          }
+          onClose();
+        }, 1500);
+      }
     } else if (result.status === 'knowledge_retrieved' && result.knowledge_data) {
       setFeedbackMsg(`📜 Knowledge Passport loaded: ${result.knowledge_data.title}`);
       if (onSelectKnowledge) {
@@ -556,20 +564,71 @@ export default function RfidScannerModal({
 
               {/* Authenticated User View */}
               {scanResult.auth_data && (
-                <div className="flex items-center justify-between">
-                  <div>
-                    <h4 className="text-sm font-black text-white">{scanResult.auth_data.user.name}</h4>
-                    <p className="text-xs text-slate-400">{scanResult.auth_data.user.email} • Role: {scanResult.auth_data.user.role}</p>
+                <div className="space-y-3">
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center space-x-3">
+                      <div className="w-10 h-10 rounded-full bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-lg">
+                        👤
+                      </div>
+                      <div>
+                        <h4 className="text-sm font-black text-white">{scanResult.auth_data.user.name}</h4>
+                        <p className="text-xs text-slate-400">{scanResult.auth_data.user.email} • Role: <span className="text-amber-400 font-bold uppercase">{scanResult.auth_data.user.role}</span></p>
+                      </div>
+                    </div>
+                    <span className="text-xs font-bold text-emerald-400 bg-emerald-950/60 border border-emerald-700/60 px-3 py-1 rounded-xl shadow-xs">
+                      ✅ Authenticated
+                    </span>
                   </div>
-                  <span className="text-xs font-bold text-emerald-400 bg-emerald-950/40 border border-emerald-700/50 px-3 py-1 rounded-xl">
-                    JWT Session Active
-                  </span>
+
+                  <div className="flex flex-wrap items-center gap-2 pt-2 border-t border-slate-800/80">
+                    <button
+                      onClick={() => {
+                        if (onViewChange) onViewChange('profile');
+                        onClose();
+                      }}
+                      className="px-3.5 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold rounded-xl transition-all cursor-pointer flex items-center space-x-1.5"
+                    >
+                      <span>👤</span>
+                      <span>Go to Profile</span>
+                    </button>
+
+                    <button
+                      onClick={() => {
+                        if (onViewChange) onViewChange('contribute');
+                        onClose();
+                      }}
+                      className="px-3.5 py-1.5 bg-emerald-600/80 hover:bg-emerald-600 text-white text-xs font-bold rounded-xl transition-all cursor-pointer flex items-center space-x-1.5 shadow-xs"
+                    >
+                      <span>✍️</span>
+                      <span>Share Knowledge</span>
+                    </button>
+
+                    {scanResult.auth_data.user.role === 'admin' && (
+                      <button
+                        onClick={() => {
+                          if (onViewChange) onViewChange('admin');
+                          onClose();
+                        }}
+                        className="px-3.5 py-1.5 bg-amber-500 hover:bg-amber-600 text-slate-950 text-xs font-bold rounded-xl transition-all cursor-pointer flex items-center space-x-1.5 shadow-xs"
+                      >
+                        <span>⚡</span>
+                        <span>Admin Dashboard</span>
+                      </button>
+                    )}
+
+                    <button
+                      onClick={onClose}
+                      className="px-3.5 py-1.5 bg-slate-900 border border-slate-700 text-slate-300 hover:text-white text-xs font-semibold rounded-xl transition-all cursor-pointer ml-auto"
+                    >
+                      Continue Browsing →
+                    </button>
+                  </div>
                 </div>
               )}
 
               {/* Knowledge Passport View */}
               {scanResult.knowledge_data && (
-                <div className="space-y-2">
+                <div className="space-y-3">
                   <div className="flex items-center justify-between">
                     <h4 className="text-sm font-black text-white">{scanResult.knowledge_data.title}</h4>
                     <span className="text-[10px] font-mono text-amber-400 bg-amber-950/40 border border-amber-700/50 px-2 py-0.5 rounded-md">
@@ -577,9 +636,22 @@ export default function RfidScannerModal({
                     </span>
                   </div>
                   <p className="text-xs text-slate-400 line-clamp-2">{scanResult.knowledge_data.description}</p>
-                  <div className="flex items-center space-x-3 pt-1 text-[11px] text-slate-400">
+                  <div className="flex items-center space-x-3 text-[11px] text-slate-400">
                     <span>Category: <strong className="text-slate-200">{scanResult.knowledge_data.category}</strong></span>
                     <span>Trust Score: <strong className="text-emerald-400">100% Verified</strong></span>
+                  </div>
+
+                  <div className="pt-2 border-t border-slate-800 flex items-center justify-end">
+                    <button
+                      onClick={() => {
+                        if (onViewChange) onViewChange('library');
+                        onClose();
+                      }}
+                      className="px-4 py-2 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white text-xs font-bold rounded-xl transition-all cursor-pointer shadow-md flex items-center space-x-1.5"
+                    >
+                      <span>📖</span>
+                      <span>Open in Knowledge Library & AI Audio</span>
+                    </button>
                   </div>
                 </div>
               )}

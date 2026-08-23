@@ -1,5 +1,7 @@
 import { apiClient, setTokens, clearTokens, getAccessToken } from '../../../shared/api/client';
 
+export { setTokens, clearTokens, getAccessToken };
+
 const USER_KEY = 'setu_user_profile';
 
 export function getStoredUser() {
